@@ -2,7 +2,15 @@ import { useState } from 'react'
 import ScholarshipCard from './ScholarshipCard'
 import { allScholarships } from '../data/scholarships'
 
+const currentMonth = new Date().getMonth() + 1
+
+const isAsap = (s) => {
+  const m = s.month
+  return m === 0 || m >= currentMonth
+}
+
 const filters = [
+  { key: 'asap', label: '🚀 ASAP (Open Now)' },
   { key: 'all', label: 'All' },
   { key: 'phd', label: 'PhD' },
   { key: 'masters', label: 'Master\'s' },
@@ -20,6 +28,7 @@ export default function AllScholarships() {
 
   const filtered = allScholarships.filter(s => {
     if (activeFilter === 'all') return true
+    if (activeFilter === 'asap') return isAsap(s)
     return s.degree === activeFilter || s.country.toLowerCase().includes(activeFilter)
   })
 
@@ -64,7 +73,7 @@ export default function AllScholarships() {
           <div className="no-results">No scholarships match this filter</div>
         ) : (
           displayed.map(s => (
-            <ScholarshipCard key={s.id} scholarship={s} />
+            <ScholarshipCard key={s.id} scholarship={s} asap={isAsap(s)} />
           ))
         )}
       </div>

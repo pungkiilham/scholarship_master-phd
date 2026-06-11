@@ -1,15 +1,19 @@
 import { useState } from 'react'
 
-export default function ScholarshipCard({ scholarship, urgent }) {
+const monthNames = ['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+
+export default function ScholarshipCard({ scholarship, urgent, asap }) {
   const [expanded, setExpanded] = useState(false)
-  const { title, country, tags, description, deadline, link, linkLabel, urgencyBadge, details } = scholarship
+  const { title, country, tags, description, deadline, link, linkLabel, urgencyBadge, details, month, openingLabel } = scholarship
+  const showAsap = asap && month !== 0 && !urgencyBadge
 
   return (
-    <div className={`scholarship-card ${urgent ? 'urgent' : ''}`}>
+    <div className={`scholarship-card ${urgent ? 'urgent' : ''} ${showAsap ? 'asap' : ''}`}>
       <div className="card-header">
         <div className="card-title">
           {title}
           {urgencyBadge && <span className="urgency-badge">{urgencyBadge}</span>}
+          {showAsap && <span className="asap-badge">ASAP ({monthNames[month]})</span>}
         </div>
         <span className="card-country">{country}</span>
       </div>

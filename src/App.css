@@ -370,6 +370,31 @@ h1 {
   margin-left: 0.5rem;
 }
 
+.asap-badge {
+  background: linear-gradient(135deg, #10b981, #34d399);
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-left: 0.5rem;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+.scholarship-card.asap {
+  border-color: #10b981;
+  box-shadow: 0 0 0 1px rgba(16, 185, 129, 0.3);
+}
+
+.scholarship-card.asap:hover {
+  box-shadow: 0 10px 40px rgba(16, 185, 129, 0.25);
+}
+
 .no-results {
   text-align: center;
   padding: 3rem;
