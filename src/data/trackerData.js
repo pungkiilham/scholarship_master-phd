@@ -8,6 +8,13 @@ export const initialTracker = [
   { scholarship: 'holland', name: 'Holland Scholarship', country: 'Netherlands', deadline: 'May 1, 2026', deadlineClass: '', status: 'pending', docsReady: false, applied: false },
   { scholarship: 'orange-knowledge', name: 'Orange Knowledge Programme', country: 'Netherlands', deadline: 'Rolling', deadlineClass: '', status: 'pending', docsReady: false, applied: false },
   { scholarship: 'unimelb-grs', name: 'UniMelb Graduate Research Scholarship', country: 'Australia', deadline: 'Rolling (varies)', deadlineClass: '', status: 'pending', docsReady: false, applied: false },
+  { scholarship: 'stipendium-hungaricum', name: 'Stipendium Hungaricum', country: 'Hungary', deadline: 'Nov-Jan (varies)', deadlineClass: '', status: 'pending', docsReady: false, applied: false },
+  { scholarship: 'stefan-banach', name: 'Stefan Banach Scholarship', country: 'Poland', deadline: 'Mar-Apr', deadlineClass: '', status: 'pending', docsReady: false, applied: false },
+  { scholarship: 'open-doors', name: 'Open Doors Scholarship', country: 'Russia', deadline: 'Sep-Dec', deadlineClass: '', status: 'pending', docsReady: false, applied: false },
+  { scholarship: 'csc-gov', name: 'CSC Government Scholarship', country: 'China', deadline: 'Nov-Feb', deadlineClass: '', status: 'pending', docsReady: false, applied: false },
+  { scholarship: 'bdgs', name: 'BDGS (Brunei)', country: 'Brunei', deadline: 'Jan-Mar', deadlineClass: '', status: 'pending', docsReady: false, applied: false },
+  { scholarship: 'cgi-thailand', name: 'CGI Scholarship (Thailand)', country: 'Thailand', deadline: 'Nov-Jan', deadlineClass: '', status: 'pending', docsReady: false, applied: false },
+  { scholarship: 'invest-your-talent', name: 'Invest Your Talent Italy', country: 'Italy', deadline: 'Oct-Jan', deadlineClass: '', status: 'pending', docsReady: false, applied: false },
 ]
 
 export const statusOptions = [

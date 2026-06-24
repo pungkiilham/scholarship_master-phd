@@ -20,6 +20,9 @@ const filters = [
   { key: 'australia', label: 'Australia' },
   { key: 'canada', label: 'Canada' },
   { key: 'scandinavia', label: 'Scandinavia' },
+  { key: 'hungary', label: 'Hungary' },
+  { key: 'china', label: 'China' },
+  { key: 'italy', label: 'Italy' },
 ]
 
 export default function AllScholarships() {

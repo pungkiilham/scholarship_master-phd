@@ -1117,5 +1117,253 @@ export const allScholarships = [
       fit: 'Your GPA 3.24 meets the minimum. Korea has strong IT/Engineering programs. Your mechatronic background is relevant.',
       deadlineNote: 'Applications typically open March-April. Check Korean Embassy in Jakarta.'
     }
+  },
+
+  // NEW SCHOLARSHIPS FROM USER'S LIST
+  {
+    id: 'stipendium-hungaricum',
+    title: 'Stipendium Hungaricum',
+    country: 'Hungary',
+    degree: 'masters',
+    month: 11,
+    openingLabel: 'Opens: November',
+    tags: ['Bachelor/Master/PhD', 'Fully Funded'],
+    description: 'Kedokteran, Teknik, Ilmu Alam, Pertanian, Seni. Free tuition, dormitory, monthly stipend Rp1.8-2.2 million.',
+    deadline: 'Usually Nov-Jan (varies by program)',
+    link: 'https://stipendiumhungaricum.hu/',
+    linkLabel: 'Learn More',
+    details: {
+      benefits: [
+        'Full tuition coverage for entire program duration',
+        'Free dormitory accommodation',
+        'Monthly stipend of HUF 43,700 (~Rp1.8-2.2 million)',
+        'Health insurance coverage',
+        'Contribution to accommodation costs',
+        'Hungarian language and culture courses',
+        'Travel and visa support'
+      ],
+      requirements: [
+        'Bachelor\'s degree (for master\'s programs)',
+        'English proficiency: IELTS 6.0+ / TOEFL 80+',
+        'Strong academic record',
+        'Must be citizen of eligible country (INDONESIA IS ELIGIBLE)',
+        'Age limit varies by program',
+        'Motivation letter and recommendation letters',
+        'Open to all fields (your engineering/IT background fits many programs)'
+      ],
+      fit: 'Indonesia is eligible. Your engineering/IT background fits many of their priority fields including Engineering and Natural Sciences. Good chance with strong application.',
+      deadlineNote: 'Applications typically open November-January. Check Tempus Public Foundation website for exact dates.'
+    }
+  },
+  {
+    id: 'stefan-banach',
+    title: 'Stefan Banach Scholarship',
+    country: 'Poland',
+    degree: 'masters',
+    month: 3,
+    openingLabel: 'Opens: March',
+    tags: ['Master\'s', 'Fully Funded'],
+    description: 'Teknik, Pertanian, Ilmu Eksakta. Free tuition + monthly stipend Rp9.5 million.',
+    deadline: 'Usually March-April',
+    link: 'https://nawa.gov.pl/en/students/foreign-students/ste-banach-scholarship-programme',
+    linkLabel: 'Learn More',
+    details: {
+      benefits: [
+        'Full tuition fee coverage at Polish universities',
+        'Monthly stipend of PLN 2,500 (~Rp9.5 million)',
+        'Health insurance coverage',
+        'Visa and residence permit support',
+        'Polish language course (optional)',
+        'Access to Polish academic community',
+        'Integration programs and cultural activities'
+      ],
+      requirements: [
+        'Bachelor\'s degree (for master\'s programs)',
+        'English proficiency: IELTS 6.0+ / TOEFL 80+',
+        'Work experience valued',
+        'Must be citizen of eligible country (INDONESIA IS ELIGIBLE)',
+        'Age under 35 typically',
+        'Strong academic record',
+        'Commitment to return to home country after studies'
+      ],
+      fit: 'Indonesia eligible. Your engineering background fits their priority fields (Teknik, Ilmu Eksakta). The generous stipend makes Poland affordable.',
+      deadlineNote: 'Applications typically open March-April. Check NAWA website for current call.'
+    }
+  },
+  {
+    id: 'open-doors',
+    title: 'Open Doors Scholarship',
+    country: 'Russia',
+    degree: 'masters',
+    month: 9,
+    openingLabel: 'Opens: September',
+    tags: ['Master\'s/PhD', 'Fully Funded'],
+    description: 'Matematika, AI, Teknik, Kedokteran, Bioteknologi. Free tuition + 1-year language course + dormitory.',
+    deadline: 'Usually Sep-Dec',
+    link: 'https://od.globaluni.ru/',
+    linkLabel: 'Learn More',
+    details: {
+      benefits: [
+        'Full tuition fee coverage',
+        'Free Russian language course for 1 year',
+        'Free dormitory accommodation',
+        'Monthly stipend (varies by program)',
+        'Olympiad-style selection process',
+        'Access to top Russian universities',
+        'International student support services'
+      ],
+      requirements: [
+        'Bachelor\'s degree (for master\'s) or Master\'s (for PhD)',
+        'English or Russian proficiency',
+        'Strong academic record in relevant field',
+        'Open to all nationalities (INDONESIA ELIGIBLE)',
+        'Age under 35 typically',
+        'Pass the Olympiad selection process',
+        'Fields: Math, AI, Engineering, Medicine, Biotechnology'
+      ],
+      fit: 'Your engineering/IT background is a perfect fit for their priority fields (Matematika, AI, Teknik). No IELTS required - English proficiency can be demonstrated through Olympiad.',
+      deadlineNote: 'Olympiad registration opens September. Competition runs Oct-Dec. Results announced in January. Apply early.'
+    }
+  },
+  {
+    id: 'csc-gov',
+    title: 'CSC Government Scholarship',
+    country: 'China',
+    degree: 'masters',
+    month: 11,
+    openingLabel: 'Opens: November',
+    tags: ['Bachelor/Master/PhD', 'Fully Funded'],
+    description: 'AI, Big Data, Teknik Antariksa, Bisnis. Free tuition, dormitory, monthly stipend Rp5.8-7 million.',
+    deadline: 'Usually Nov-Feb',
+    link: 'https://www.csc.edu.cn/',
+    linkLabel: 'Learn More',
+    details: {
+      benefits: [
+        'Full tuition fee waiver',
+        'Free dormitory accommodation on campus',
+        'Monthly stipend: CNY 3,500-5,000 (~Rp5.8-7 million)',
+        'Comprehensive health insurance',
+        'Chinese language training (up to 1 year)',
+        'International travel support (varies)',
+        'Access to Chinese university facilities and resources'
+      ],
+      requirements: [
+        'Bachelor\'s degree (for master\'s) or Master\'s (for PhD)',
+        'English or Chinese proficiency',
+        'Age under 35 (master\'s) or 40 (PhD)',
+        'Strong academic record',
+        'Open to all nationalities (INDONESIA ELIGIBLE)',
+        'Strong motivation and study plan',
+        'Fields: AI, Big Data, Aerospace Engineering, Business'
+      ],
+      fit: 'Your IT/Engineering background and PM experience are excellent for AI, Big Data, and Business programs. China offers world-class universities in these fields.',
+      deadlineNote: 'Applications typically open November-February. Different Chinese universities have different deadlines. Apply through Chinese Embassy or directly to universities.'
+    }
+  },
+  {
+    id: 'bdgs',
+    title: 'BDGS (Brunei Darussalam Government Scholarship)',
+    country: 'Brunei',
+    degree: 'masters',
+    month: 1,
+    openingLabel: 'Opens: January',
+    tags: ['Bachelor/Master', 'Fully Funded'],
+    description: 'Berbagai bidang. Free tuition, dormitory, round-trip flight, monthly allowance.',
+    deadline: 'Usually Jan-Mar',
+    link: 'https://www.moe.gov.bn/Pages/BDGS.aspx',
+    linkLabel: 'Learn More',
+    details: {
+      benefits: [
+        'Full tuition fee coverage',
+        'Free dormitory accommodation',
+        'Round-trip airfare to Brunei',
+        'Monthly personal allowance',
+        'Health insurance and medical services',
+        'Book and study materials allowance',
+        'Settlement allowance on arrival'
+      ],
+      requirements: [
+        'Bachelor\'s degree (for master\'s)',
+        'English proficiency: IELTS 6.0+ / TOEFL 80+',
+        'Strong academic record (GPA 3.0+/4.0)',
+        'Open to all nationalities (INDONESIA ELIGIBLE)',
+        'Age under 35',
+        'Not currently employed by Brunei government',
+        'Commitment to abide by Brunei laws and regulations'
+      ],
+      fit: 'Indonesia eligible and close to home. Your GPA 3.24 meets their minimum. Brunei offers a safe, modern environment with English-taught programs.',
+      deadlineNote: 'Applications typically open January-March. Check Brunei Ministry of Education website for current call.'
+    }
+  },
+  {
+    id: 'cgi-thailand',
+    title: 'CGI Scholarship (Thailand)',
+    country: 'Thailand',
+    degree: 'masters',
+    month: 11,
+    openingLabel: 'Opens: November',
+    tags: ['Master\'s/PhD', 'Fully Funded'],
+    description: 'Toksikologi Lingkungan, Ilmu Kimia, Kesehatan Lingkungan. Free tuition, dormitory, round-trip flight, allowance.',
+    deadline: 'Usually Nov-Jan',
+    link: 'https://www.tgs.or.th/',
+    linkLabel: 'Learn More',
+    details: {
+      benefits: [
+        'Full tuition fee coverage',
+        'Free dormitory accommodation',
+        'Round-trip airfare to Thailand',
+        'Monthly living allowance',
+        'Health insurance coverage',
+        'Research and thesis support',
+        'Language and cultural preparation'
+      ],
+      requirements: [
+        'Bachelor\'s degree (for master\'s) or Master\'s (for PhD)',
+        'English proficiency: IELTS 6.0+ / TOEFL 80+',
+        'Strong academic record in relevant field',
+        'Must be from ASEAN or developing country (INDONESIA ELIGIBLE)',
+        'Age under 40',
+        'Research interest in environmental science, chemistry, or public health',
+        'Commitment to contribute to home country development'
+      ],
+      fit: 'Indonesia eligible as ASEAN member. While fields are environmental/health focused, your engineering background with sustainability interests can align.',
+      deadlineNote: 'Applications typically open November-January. Check Thailand Graduate Institute of Science and Technology (TGIST) website.'
+    }
+  },
+  {
+    id: 'invest-your-talent',
+    title: 'Invest Your Talent Italy',
+    country: 'Italy',
+    degree: 'masters',
+    month: 10,
+    openingLabel: 'Opens: October',
+    tags: ['Master\'s', 'Study + Internship'],
+    description: 'Teknik, Desain, Arsitektur, Seni, Ekonomi. 1 year study + 1 year paid internship at Italian company.',
+    deadline: 'Usually Oct-Jan',
+    link: 'https://investyourtalent.cimea.it/',
+    linkLabel: 'Learn More',
+    details: {
+      benefits: [
+        'Full tuition fee coverage for 2 years',
+        'Paid internship in Italian company for 1 year',
+        'Monthly stipend during study period',
+        'Italian language and culture courses',
+        'Mentorship program with Italian companies',
+        'Networking opportunities with Italian industry',
+        'Career placement support after program',
+        'Accommodation support'
+      ],
+      requirements: [
+        'Bachelor\'s degree in relevant field (Engineering, Design, Architecture, Arts, Economics)',
+        'English proficiency: IELTS 6.5+ / TOEFL 90+',
+        'Strong academic record',
+        'Age under 30',
+        'Non-Italian nationality',
+        'Strong motivation for Italian business culture',
+        'Open to all eligible countries (INDONESIA ELIGIBLE)'
+      ],
+      fit: 'EXCELLENT FIT. Your engineering background + IT PM experience makes you ideal for Engineering track. The 1-year internship in Italian company is unique - perfect for career growth.',
+      deadlineNote: 'Applications typically open October-January. Program starts in September. Check Italian Ministry of Foreign Affairs and CIMEA website.'
+    }
   }
 ]
