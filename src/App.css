@@ -579,7 +579,73 @@ h1 {
   font-size: 0.9rem;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1e293b;
+  border-radius: 12px;
+  padding: 0.75rem 1.5rem;
+  margin-bottom: 2rem;
+  border: 1px solid #334155;
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav-logo {
+  font-size: 1.5rem;
+}
+
+.nav-title {
+  color: #f1f5f9;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.nav-link {
+  color: #94a3b8;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  transition: all 0.3s;
+}
+
+.nav-link:hover {
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+.nav-link.active {
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  color: white;
+}
+
 @media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 1rem;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-link {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.75rem;
+  }
   h1 {
     font-size: 1.8rem;
   }

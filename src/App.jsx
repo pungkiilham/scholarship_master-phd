@@ -1,4 +1,5 @@
 import { useMemo } from 'react'
+import { Routes, Route } from 'react-router-dom'
 import StatsCard from './components/StatsCard'
 import ProfileCard from './components/ProfileCard'
 import PrioritySection from './components/PrioritySection'
@@ -6,7 +7,8 @@ import AllScholarships from './components/AllScholarships'
 import ApplicationTracker from './components/ApplicationTracker'
 import ActionTimeline from './components/ActionTimeline'
 import NotesSection from './components/NotesSection'
-import { priorityScholarships, allScholarships } from './data/scholarships'
+import NavBar from './components/NavBar'
+import { allScholarships } from './data/scholarships'
 
 export default function App() {
   const countries = useMemo(() => {
@@ -21,19 +23,27 @@ export default function App() {
         <p className="subtitle">Pungki Ilham Rizky Soni | IT Project Manager | Master's Research - ASAP 2026/27</p>
       </header>
 
+      <NavBar />
+
       <div className="stats">
         <StatsCard number={allScholarships.length} label="Total Scholarships" />
-        <StatsCard number={priorityScholarships.length} label="Priority Masters" />
-        <StatsCard number={priorityScholarships.length} label="Fully Funded" />
+        <StatsCard number={allScholarships.filter(s => s.degree === 'masters').length} label="Master's" />
+        <StatsCard number={allScholarships.filter(s => s.degree === 'phd').length} label="PhD / Doctoral" />
         <StatsCard number={countries} label="Countries" />
       </div>
 
-      <ProfileCard />
-      <PrioritySection />
-      <AllScholarships />
-      <ApplicationTracker />
-      <ActionTimeline />
-      <NotesSection />
+      <Routes>
+        <Route path="/" element={
+          <>
+            <ProfileCard />
+            <PrioritySection />
+            <NotesSection />
+          </>
+        } />
+        <Route path="/scholarships" element={<AllScholarships />} />
+        <Route path="/tracker" element={<ApplicationTracker />} />
+        <Route path="/timeline" element={<ActionTimeline />} />
+      </Routes>
     </div>
   )
 }
