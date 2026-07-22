@@ -6,7 +6,7 @@ const initialScores = [
   { skill: 'Listening', band: 6.5, target: 7.0, color: '#60a5fa', note: 'Good understanding' },
   { skill: 'Writing T1', band: 5.0, target: 6.5, color: '#f87171', note: 'Priority: word count 150+' },
   { skill: 'Writing T2', band: 6.0, target: 6.5, color: '#fb923c', note: 'Word count good' },
-  { skill: 'Speaking', band: 5.5, target: 6.5, color: '#a78bfa', note: 'Extend to 2+ min' },
+  { skill: 'Speaking', band: 6.5, target: 7.0, color: '#a78bfa', note: 'Solid B2 - grammar needs work' },
 ]
 
 const initialPracticeLog = {
@@ -28,7 +28,9 @@ const initialPracticeLog = {
   listening: [
     { date: '2026-04-26', activity: 'Hotel conversation', score: '-', notes: 'Basic practice' },
   ],
-  speaking: [],
+  speaking: [
+    { date: '2026-07-22', activity: 'Speaking Mock - Technology, Urban Data & Privacy', score: '6.5', notes: 'Fluency 6.5, Lexical 6.5, Grammar 5.5, Pronunciation 6.5' },
+  ],
 }
 
 const skillLabels = {
