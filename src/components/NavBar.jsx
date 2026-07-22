@@ -20,6 +20,9 @@ export default function NavBar() {
         <NavLink to="/timeline" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
           Timeline
         </NavLink>
+        <NavLink to="/ielts" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
+          IELTS
+        </NavLink>
       </div>
     </nav>
   )

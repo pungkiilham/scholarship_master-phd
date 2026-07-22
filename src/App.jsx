@@ -8,6 +8,7 @@ import ApplicationTracker from './components/ApplicationTracker'
 import ActionTimeline from './components/ActionTimeline'
 import NotesSection from './components/NotesSection'
 import NavBar from './components/NavBar'
+import IeltsPrep from './components/IeltsPrep'
 import { allScholarships } from './data/scholarships'
 
 export default function App() {
@@ -43,6 +44,7 @@ export default function App() {
         <Route path="/scholarships" element={<AllScholarships />} />
         <Route path="/tracker" element={<ApplicationTracker />} />
         <Route path="/timeline" element={<ActionTimeline />} />
+        <Route path="/ielts" element={<IeltsPrep />} />
       </Routes>
     </div>
   )
