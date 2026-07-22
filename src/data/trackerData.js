@@ -15,6 +15,18 @@ export const initialTracker = [
   { scholarship: 'bdgs', name: 'BDGS (Brunei)', country: 'Brunei', deadline: 'Jan-Mar', deadlineClass: '', status: 'pending', docsReady: false, applied: false },
   { scholarship: 'cgi-thailand', name: 'CGI Scholarship (Thailand)', country: 'Thailand', deadline: 'Nov-Jan', deadlineClass: '', status: 'pending', docsReady: false, applied: false },
   { scholarship: 'invest-your-talent', name: 'Invest Your Talent Italy', country: 'Italy', deadline: 'Oct-Jan', deadlineClass: '', status: 'pending', docsReady: false, applied: false },
+  { scholarship: 'romanian-government', name: 'Romania Gov Scholarship', country: 'Romania', deadline: 'Feb-Mar 31', deadlineClass: '', status: 'pending', docsReady: false, applied: false },
+  { scholarship: 'france-excellence', name: 'France Excellence', country: 'France', deadline: 'Jan-Mar', deadlineClass: '', status: 'pending', docsReady: false, applied: false },
+  { scholarship: 'master-mind', name: 'Master Mind Scholarship', country: 'Belgium', deadline: 'Jan-Apr (varies)', deadlineClass: '', status: 'pending', docsReady: false, applied: false },
+  { scholarship: 'unimi-excellence', name: 'UniMi Excellence', country: 'Italy', deadline: 'May-Jun', deadlineClass: '', status: 'pending', docsReady: false, applied: false },
+  { scholarship: 'cafoscari-venice', name: "Ca' Foscari Venice", country: 'Italy', deadline: 'Varies', deadlineClass: '', status: 'pending', docsReady: false, applied: false },
+  { scholarship: 'leiden-lexs', name: 'Leiden LExS', country: 'Netherlands', deadline: 'Feb 1', deadlineClass: '', status: 'pending', docsReady: false, applied: false },
+  { scholarship: 'maastricht-holland-high', name: 'Maastricht Holland-High Potential', country: 'Netherlands', deadline: 'Feb 1', deadlineClass: '', status: 'pending', docsReady: false, applied: false },
+  { scholarship: 'utrecht-ues', name: 'Utrecht Excellence', country: 'Netherlands', deadline: 'Feb 1', deadlineClass: '', status: 'pending', docsReady: false, applied: false },
+  { scholarship: 'ucl-research-excellence', name: 'UCL Research Excellence', country: 'UK', deadline: 'Dec-Jan', deadlineClass: '', status: 'pending', docsReady: false, applied: false },
+  { scholarship: 'gates-cambridge', name: 'Gates Cambridge', country: 'UK', deadline: 'Oct-Dec', deadlineClass: '', status: 'pending', docsReady: false, applied: false },
+  { scholarship: 'ucd-global-excellence', name: 'UCD Global Excellence', country: 'Ireland', deadline: 'Nov-Jan', deadlineClass: '', status: 'pending', docsReady: false, applied: false },
+  { scholarship: 'agrtp', name: 'AUS Gov RTP', country: 'Australia', deadline: 'Rolling (varies)', deadlineClass: '', status: 'pending', docsReady: false, applied: false },
 ]
 
 export const statusOptions = [

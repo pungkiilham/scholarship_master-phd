@@ -1364,6 +1364,670 @@ export const allScholarships = [
       ],
       fit: 'EXCELLENT FIT. Your engineering background + IT PM experience makes you ideal for Engineering track. The 1-year internship in Italian company is unique - perfect for career growth.',
       deadlineNote: 'Applications typically open October-January. Program starts in September. Check Italian Ministry of Foreign Affairs and CIMEA website.'
+    },
+  },
+  {
+    id: 'romanian-government',
+    title: 'Romanian Government Scholarship',
+    country: 'Romania',
+    degree: 'masters',
+    month: 2,
+    openingLabel: 'Opens: February',
+    tags: ['Master\'s/PhD', 'Fully Funded'],
+    description: 'Non-EU students. Free tuition, monthly stipend €75-85, free dormitory, 1-year Romanian prep course. All fields except Medicine/Dentistry/Pharmacy.',
+    deadline: 'Usually Feb-Mar 31',
+    link: 'https://www.studyinromania.gov.ro/',
+    linkLabel: 'Learn More',
+    details: {
+      benefits: [
+        'Full tuition fee waiver',
+        'Free dormitory accommodation',
+        'Monthly stipend €75 (Master\'s)/€85 (PhD)',
+        'Free Romanian language preparatory year',
+        'Medical assistance',
+        'No IELTS required'
+      ],
+      requirements: [
+        'Non-EU citizen',
+        'Bachelor\'s degree (min 7/10 or "Good")',
+        'Under 35 for Master\'s (under 45 for PhD)',
+        'All fields except Medicine/Dentistry/Pharmacy',
+        'Indonesian citizenship accepted'
+      ],
+      fit: 'Your engineering background is eligible. No IELTS required - free Romanian prep year provided. Age under 35 - you qualify at 33. Your GPA ~3.24 meets the "Good" equivalent. Excellent fully-funded option for Europe.',
+      deadlineNote: 'Applications open Feb-Mar annually. Apply through studyinromania.gov.ro. Must commit to 1-year Romanian language preparation before starting degree.'
+    }
+  },
+  {
+    id: 'france-excellence',
+    title: 'Beasiswa France Excellence',
+    country: 'France',
+    degree: 'masters',
+    month: 1,
+    openingLabel: 'Opens: January',
+    tags: ['Master\'s/PhD', '€860/mo'],
+    description: 'French Embassy scholarship for Indonesian students. Monthly allowance €860, tuition fee waiver, health insurance, visa support.',
+    deadline: 'Usually January-March (varies by program)',
+    link: 'https://www.campusfrance.org/fr/bourse-france-excellence',
+    linkLabel: 'Learn More',
+    details: {
+      benefits: [
+        'Monthly allowance €860',
+        'Tuition fee waiver at French public universities',
+        'Health insurance',
+        'Visa fee exemption',
+        'Support from Campus France for housing',
+        'French language course access'
+      ],
+      requirements: [
+        'Indonesian citizen',
+        'Bachelor\'s degree',
+        'English/French proficiency (B2 minimum)',
+        'Strong academic record',
+        'Motivation for study in France',
+        'Must apply to a French university program'
+      ],
+      fit: 'Specifically for Indonesian students. Your engineering/IT background fits French engineering schools and universities. France has strong IT and management programs in English.',
+      deadlineNote: 'Check French Embassy in Jakarta website for exact dates. Apply to French universities through Campus France Etudes en France platform first.'
+    }
+  },
+  {
+    id: 'master-mind',
+    title: 'Master Mind Scholarship',
+    country: 'Belgium',
+    degree: 'masters',
+    month: 1,
+    openingLabel: 'Opens: January',
+    tags: ['Master\'s', '€10,225/yr'],
+    description: 'Flemish government scholarship for outstanding international students. €10,225/year grant + full tuition fee waiver. KU Leuven, UGent, VUB, UAntwerp.',
+    deadline: 'Varies by university (Jan-Apr)',
+    link: 'https://www.studyinflanders.be/scholarships/master-mind-scholarships',
+    linkLabel: 'Learn More',
+    details: {
+      benefits: [
+        'Annual grant of €10,225',
+        'Full tuition fee waiver (only pay administrative fee ~€140)',
+        'Up to 2 years for 120 ECTS program',
+        'Access to top Flemish universities'
+      ],
+      requirements: [
+        'Excellent academic record (GPA 3.5/4.0 preferred)',
+        'English proficiency IELTS 7.0+/TOEFL 94+',
+        'Accepted into a Flemish Master\'s program first',
+        'Not already enrolled in Flanders',
+        'All nationalities except Russian'
+      ],
+      fit: 'Highly competitive (GPA 3.5 preferred - your 3.24 may be a challenge). However, your 8+ years PM experience can strengthen your motivation letter. Apply to KU Leuven or UGent for strong IT/Engineering programs.',
+      deadlineNote: 'Must first apply and be accepted by a Flemish university. Then the university nominates you. Internal deadlines vary - check each university website.'
+    }
+  },
+  {
+    id: 'dsu-politecnico',
+    title: 'DSU Scholarship - Politecnico di Milano',
+    country: 'Italy',
+    degree: 'masters',
+    month: 6,
+    openingLabel: 'Opens: June',
+    tags: ['Master\'s', 'Need-Based', '€8k-€16k/yr'],
+    description: 'Need-based scholarship for international students at Politecnico di Milano. Tuition fee waiver + up to €16,000 based on ISEE income.',
+    deadline: 'Usually June-July',
+    link: 'https://www.polimi.it/en/current-students/fee-and-scholarships/',
+    linkLabel: 'Learn More',
+    details: {
+      benefits: [
+        'Full tuition fee waiver',
+        'Cash grant up to €16,000 based on family income',
+        'Access to university housing/restaurant services'
+      ],
+      requirements: [
+        'Non-EU student',
+        'Admitted to Politecnico di Milano',
+        'Demonstrate financial need through ISEE equivalent',
+        'Strong academic record'
+      ],
+      fit: 'Your engineering/mechatronic background is perfect for Polimi\'s engineering programs. Need-based, so your financial situation matters. Polimi is top-ranked in Italy for engineering.',
+      deadlineNote: 'Apply for admission to Polimi first (deadlines in Mar/May). Then apply for DSU separately. Check Polimi website for exact dates.'
+    }
+  },
+  {
+    id: 'unimi-excellence',
+    title: 'Università degli Studi di Milano - Excellence Scholarship',
+    country: 'Italy',
+    degree: 'masters',
+    month: 5,
+    openingLabel: 'Opens: May',
+    tags: ['Master\'s', 'Full Tuition', '€8,000'],
+    description: 'Merit-based scholarships for international students at University of Milan. Full tuition waiver + €8,000 stipend.',
+    deadline: 'Usually May-June',
+    link: 'https://www.unimi.it/en/international/scholarships-and-funding',
+    linkLabel: 'Learn More',
+    details: {
+      benefits: [
+        'Full tuition fee waiver',
+        '€8,000 gross yearly stipend',
+        'Access to university services and facilities'
+      ],
+      requirements: [
+        'Non-EU student',
+        'Admitted to a Laurea Magistrale (Master\'s) program at UniMi',
+        'Strong academic record with high GPA',
+        'GMAT/GRE valued'
+      ],
+      fit: 'Your engineering/PM background fits their Computer Science, Data Science, and Management programs. Strong merit-based option in a top Italian university.',
+      deadlineNote: 'Check UniMi international scholarships page for current call. Apply for university admission first (deadlines vary by program, typically Mar-Apr).'
+    }
+  },
+  {
+    id: 'cafoscari-venice',
+    title: 'Ca\' Foscari University of Venice',
+    country: 'Italy',
+    degree: 'masters',
+    month: 3,
+    openingLabel: 'Opens: March',
+    tags: ['Master\'s', 'Fully Funded'],
+    description: 'Merit and need-based scholarships for international students at Ca\' Foscari University of Venice. Tuition waiver + living support.',
+    deadline: 'Varies by program',
+    link: 'https://www.unive.it/web/en/1901/home',
+    linkLabel: 'Learn More',
+    details: {
+      benefits: [
+        'Full or partial tuition fee waiver',
+        'Regional accommodation support',
+        'Merit-based cash grants',
+        'Access to DSU benefits for low-income students'
+      ],
+      requirements: [
+        'Non-EU student with valid study visa',
+        'Bachelor\'s degree',
+        'English proficiency IELTS 6.0+/TOEFL 80+',
+        'Admitted to a Ca\' Foscari Master\'s program'
+      ],
+      fit: 'Ca\' Foscari offers strong programs in Economics, Computer Science, and Digital Management. Your IT PM experience is valuable for their Management/IT programs.',
+      deadlineNote: 'Apply for admission first. Check international scholarships page for specific scholarship deadlines. Regional DSU scholarships have separate applications.'
+    }
+  },
+  {
+    id: 'unipd-padova',
+    title: 'Università Degli Studi Di Padova',
+    country: 'Italy',
+    degree: 'masters',
+    month: 2,
+    openingLabel: 'Opens: February',
+    tags: ['Master\'s', 'Partial to Full'],
+    description: 'Scholarships for international students at University of Padova. Tuition fee waivers, full scholarships, and regional DSU benefits.',
+    deadline: 'Usually Feb-May (varies)',
+    link: 'https://www.unipd.it/en/international-students',
+    linkLabel: 'Learn More',
+    details: {
+      benefits: [
+        'Full tuition fee waiver (top scorers)',
+        'Partial tuition reduction',
+        'DSU regional benefits (housing, meals, cash stipend)',
+        'Merit-based grants'
+      ],
+      requirements: [
+        'Non-EU student',
+        'Admitted to UniPD Master\'s program',
+        'Strong academic record',
+        'English proficiency IELTS 6.0+/TOEFL 80+',
+        'Financial documentation for DSU'
+      ],
+      fit: 'UniPD is one of Italy\'s oldest and most prestigious universities. Strong engineering and IT programs. Your mechatronic engineering background is a natural fit.',
+      deadlineNote: 'Apply for admission through the online portal (deadlines vary by program Feb-Jun). Scholarship consideration may be automatic with admission application. Check DSU scholarship separately.'
+    }
+  },
+  {
+    id: 'latvian-state',
+    title: 'Latvian State Scholarships',
+    country: 'Latvia',
+    degree: 'masters',
+    month: 3,
+    openingLabel: 'Opens: March',
+    tags: ['Master\'s/PhD', 'Partial Funding'],
+    description: 'Latvian government scholarships for international students. Monthly stipend + study allowance. For studies at Latvian HEIs.',
+    deadline: 'Usually March-April',
+    link: 'https://www.viaa.gov.lv/en',
+    linkLabel: 'Learn More',
+    details: {
+      benefits: [
+        'Monthly stipend (€500 for Master\'s)',
+        'Study allowance',
+        'Accommodation support',
+        'Access to Latvian higher education institutions',
+        'Cultural integration programs'
+      ],
+      requirements: [
+        'Non-EU student',
+        'Bachelor\'s degree',
+        'English proficiency IELTS 6.0+/TOEFL 75+',
+        'Strong academic record',
+        'Motivation for studies in Latvia'
+      ],
+      fit: 'Latvia offers affordable European education. Your IT/Engineering background fits programs at Riga Technical University and University of Latvia. Good budget-friendly option.',
+      deadlineNote: 'Applications usually open March-April. Check State Education Development Agency (VIAA) website for current call.'
+    }
+  },
+  {
+    id: 'leiden-lexs',
+    title: 'Leiden University Excellence (LExS)',
+    country: 'Netherlands',
+    degree: 'masters',
+    month: 10,
+    openingLabel: 'Opens: October',
+    tags: ['Master\'s', '€10k-€15k'],
+    description: 'Merit-based scholarship for excellent non-EEA students at Leiden University. €10,000-€15,000 tuition reduction.',
+    deadline: 'February 1 (for Sept intake)',
+    link: 'https://www.universiteitleiden.nl/en/scholarships/lexs',
+    linkLabel: 'Learn More',
+    details: {
+      benefits: [
+        '€10,000 or €15,000 tuition fee reduction for 1 year',
+        'Renewable for 2nd year',
+        'Access to Leiden University excellence network'
+      ],
+      requirements: [
+        'Non-EEA student',
+        'Admitted to a Leiden Master\'s program (full-time)',
+        'Excellent academic record (top 10% of graduating class)',
+        'English proficiency IELTS 7.0+/TOEFL 100+'
+      ],
+      fit: 'Highly competitive - requires top 10% academic ranking. Your GPA 3.24 may be below threshold. However, your professional experience can strengthen the motivation letter. Apply to ICT or Data Science programs.',
+      deadlineNote: 'Apply for admission to Leiden by Feb 1. Scholarship consideration is part of the admission process - no separate application needed.'
+    }
+  },
+  {
+    id: 'maastricht-holland-high',
+    title: 'Maastricht University Holland-High Potential',
+    country: 'Netherlands',
+    degree: 'masters',
+    month: 10,
+    openingLabel: 'Opens: October',
+    tags: ['Master\'s', 'Fully Funded'],
+    description: 'Joint scholarship for talented non-EU students. Full tuition waiver + €12k-€14k living allowance + visa/insurance coverage.',
+    deadline: 'February 1',
+    link: 'https://www.maastrichtuniversity.nl/education/scholarships/holland-high-potential-scholarship',
+    linkLabel: 'Learn More',
+    details: {
+      benefits: [
+        'Full tuition fee waiver',
+        'Monthly living allowance (€900-€1,000)',
+        'Health & liability insurance',
+        'Visa application costs',
+        'Pre-academic training',
+        'Housing support'
+      ],
+      requirements: [
+        'Non-EEA student',
+        'Admitted to a Maastricht Master\'s program',
+        'Excellent academic record (GPA 3.5+/4.0 or equivalent)',
+        'Motivation letter',
+        'Strong recommendation'
+      ],
+      fit: 'UM has strong programs in Data Science, Artificial Intelligence, and Management of IT. Your PM experience aligns with their problem-based teaching method. GPA requirement is challenging but worth trying.',
+      deadlineNote: 'Apply for admission and scholarship by Feb 1. Only students who have applied for admission can be considered. Start early - prepare strong motivation letter.'
+    }
+  },
+  {
+    id: 'utrecht-ues',
+    title: 'Utrecht Excellence (UES-LEGITS)',
+    country: 'Netherlands',
+    degree: 'masters',
+    month: 11,
+    openingLabel: 'Opens: November',
+    tags: ['Master\'s', '€5k-€17k'],
+    description: 'Merit-based scholarship for international students at Utrecht University. Tuition fee reduction of €5,000-€17,000.',
+    deadline: 'February 1',
+    link: 'https://www.uu.nl/en/education/scholarships/utrecht-excellence-scholarship',
+    linkLabel: 'Learn More',
+    details: {
+      benefits: [
+        '€5,000-€17,000 tuition fee reduction (varies by program)',
+        'Access to Utrecht University excellence programs',
+        'Academic network'
+      ],
+      requirements: [
+        'Non-EEA student',
+        'Admitted to a Utrecht Master\'s program (full-time, English-taught)',
+        'Excellent academic record',
+        'Motivation letter',
+        'Strong recommendation from academic referee'
+      ],
+      fit: 'Utrecht has strong programs in IT, Business Informatics, and Artificial Intelligence. Your engineering background and PM experience are relevant. Competitive but worth applying.',
+      deadlineNote: 'Scholarship application is part of the admission process. Apply by Feb 1. Some programs may have earlier deadlines. Check specific program page.'
+    }
+  },
+  {
+    id: 'aurel-vlaicu',
+    title: 'Aurel Vlaicu University of Arad',
+    country: 'Romania',
+    degree: 'masters',
+    month: 0,
+    openingLabel: 'Rolling',
+    tags: ['Master\'s', 'Partial Scholarship'],
+    description: 'Scholarships for international students at Aurel Vlaicu University of Arad, Romania. Tuition reduction and living support.',
+    deadline: 'Rolling (check website)',
+    link: 'https://www.uav.ro/en/',
+    linkLabel: 'Learn More',
+    details: {
+      benefits: [
+        'Partial to full tuition fee waiver depending on program',
+        'Access to university accommodation',
+        'Romanian language course support',
+        'Student services'
+      ],
+      requirements: [
+        'Bachelor\'s degree',
+        'English or French proficiency',
+        'Non-EU nationality',
+        'Strong academic motivation'
+      ],
+      fit: 'Smaller Romanian university with personalized attention. Your engineering background fits their technical programs. Good option if you want a less competitive entry point to European education.',
+      deadlineNote: 'Contact the international office directly for current scholarship offerings. Rolling admissions - apply early.'
+    }
+  },
+  {
+    id: 'world-in-serbia',
+    title: 'The World in Serbia Scholarship',
+    country: 'Serbia',
+    degree: 'masters',
+    month: 0,
+    openingLabel: 'Rolling',
+    tags: ['Master\'s/PhD', 'Fully Funded'],
+    description: 'Government of Serbia scholarship for international students. Full tuition, monthly stipend, accommodation, and health insurance.',
+    deadline: 'Check website',
+    link: 'https://www.mpn.gov.rs/en/',
+    linkLabel: 'Learn More',
+    details: {
+      benefits: [
+        'Full tuition fee waiver',
+        'Monthly stipend (approx. RSD 40,000-60,000)',
+        'Free accommodation in student dormitories',
+        'Health insurance',
+        'Visa support'
+      ],
+      requirements: [
+        'Non-Serbian citizen',
+        'Bachelor\'s degree',
+        'English proficiency',
+        'Strong academic record',
+        'Motivation letter'
+      ],
+      fit: 'Serbia offers affordable quality education in Europe. Your engineering background fits their technical universities. Good option for experiencing Balkan culture and European education system.',
+      deadlineNote: 'Scholarship calls published by Ministry of Education. Check official website or contact Serbian Embassy in Jakarta.'
+    }
+  },
+  {
+    id: 'ucl-research-excellence',
+    title: 'UCL Research Excellence Scholarship',
+    country: 'UK',
+    degree: 'masters',
+    month: 10,
+    openingLabel: 'Opens: October',
+    tags: ['Master\'s', 'Full Tuition'],
+    description: 'Full tuition scholarship for outstanding international students at UCL. Covers full fees + £15,000 living costs for research-focused Master\'s.',
+    deadline: 'Usually December-January',
+    link: 'https://www.ucl.ac.uk/scholarships/',
+    linkLabel: 'Learn More',
+    details: {
+      benefits: [
+        'Full tuition fee coverage',
+        '£15,000 living allowance per year',
+        'Research training support grant',
+        'Access to UCL\'s world-class research facilities'
+      ],
+      requirements: [
+        'Bachelor\'s degree (2:1 or equivalent)',
+        'English proficiency IELTS 7.0+/TOEFL 100+',
+        'Strong research proposal',
+        'Excellent academic record',
+        'Supervisor nomination required'
+      ],
+      fit: 'UCL is a world top-10 university. Your engineering/IT background and PM experience is relevant for research in Computer Science or Engineering Management. Extremely competitive.',
+      deadlineNote: 'Must have agreement from a UCL supervisor before applying. Check specific department deadlines. Prepare strong research proposal.'
+    }
+  },
+  {
+    id: 'gates-cambridge',
+    title: 'Gates Cambridge',
+    country: 'UK',
+    degree: 'masters',
+    month: 10,
+    openingLabel: 'Opens: October',
+    tags: ['Master\'s/PhD', 'Fully Funded'],
+    description: 'Full-cost scholarship for outstanding international students at University of Cambridge. Covers tuition, living costs, airfare + discretionary funding.',
+    deadline: 'October-December (varies by course)',
+    link: 'https://www.gatescambridge.org/',
+    linkLabel: 'Learn More',
+    details: {
+      benefits: [
+        'Full tuition fee at Cambridge',
+        'Maintenance allowance (£18,000+)',
+        'One economy airfare',
+        'Visa costs',
+        'NHS surcharge',
+        'Academic conference funding (£500)',
+        'Family allowance for dependents'
+      ],
+      requirements: [
+        'Offer of admission from Cambridge',
+        'Outstanding academic record (GPA 3.7+/4.0 strongly preferred)',
+        'Leadership potential',
+        'Commitment to improving lives',
+        'Strong recommendation letters'
+      ],
+      fit: 'EXTREMELY COMPETITIVE - Cambridge\'s most prestigious scholarship. Your GPA 3.24 is below typical threshold. However, your 8+ years PM leadership experience is a rare asset. Focus your application on leadership impact.',
+      deadlineNote: 'Apply for Cambridge admission first (Oct-Dec deadline for most courses). Gates Cambridge application is separate. Prepare exceptional leadership-focused essays.'
+    }
+  },
+  {
+    id: 'ucd-global-excellence',
+    title: 'UCD Global Excellence',
+    country: 'Ireland',
+    degree: 'masters',
+    month: 11,
+    openingLabel: 'Opens: November',
+    tags: ['Master\'s', '€10k-€20k'],
+    description: 'Merit-based scholarship for international students at University College Dublin. €10,000-€20,000 tuition reduction.',
+    deadline: 'Usually November-January',
+    link: 'https://www.ucd.ie/global/scholarships/',
+    linkLabel: 'Learn More',
+    details: {
+      benefits: [
+        '€10,000-€20,000 tuition fee reduction',
+        'Access to UCD\'s global alumni network',
+        'Career development support'
+      ],
+      requirements: [
+        'Non-EU student paying international fees',
+        'Admitted to eligible UCD Master\'s program',
+        'Excellent academic record',
+        'English proficiency IELTS 6.5+/TOEFL 90+',
+        'Motivation letter'
+      ],
+      fit: 'UCD is Ireland\'s largest university with strong IT and Engineering programs. Ireland has a thriving tech sector (Google, Facebook, LinkedIn based in Dublin). Good post-study work opportunities.',
+      deadlineNote: 'Scholarship consideration is part of the admission process. Apply early for admission to maximize chances. Check eligible programs list on UCD website.'
+    }
+  },
+  {
+    id: 'adelaide-global-citizens',
+    title: 'University of Adelaide - Global Citizens',
+    country: 'Australia',
+    degree: 'masters',
+    month: 2,
+    openingLabel: 'Opens: February',
+    tags: ['Master\'s', 'AUD $5k-10k'],
+    description: 'Merit-based tuition reduction for international students at University of Adelaide. AUD $5,000-$10,000 scholarship.',
+    deadline: 'Rolling - apply early',
+    link: 'https://www.adelaide.edu.au/scholarships/',
+    linkLabel: 'Learn More',
+    details: {
+      benefits: [
+        'AUD $5,000-$10,000 tuition fee reduction per year (up to 2 years)',
+        'Automatic consideration upon admission application',
+        'Renewable based on academic progress'
+      ],
+      requirements: [
+        'Non-Australian student',
+        'Offer of admission from University of Adelaide',
+        'Strong academic record (meet minimum GPA for scholarship)',
+        'English proficiency IELTS 6.5+/TOEFL 79+'
+      ],
+      fit: 'Adelaide has strong engineering and computer science programs. Renewable scholarship helps reduce tuition cost. Australia offers 2-3 year post-study work visa.',
+      deadlineNote: 'Scholarships are competitive and limited. Apply for admission early as scholarships are awarded on rolling basis with early applications prioritized.'
+    }
+  },
+  {
+    id: 'uq-international-excellence',
+    title: 'UQ International Excellence',
+    country: 'Australia',
+    degree: 'masters',
+    month: 3,
+    openingLabel: 'Opens: March',
+    tags: ['Master\'s', 'AUD $10k/yr'],
+    description: 'Merit-based tuition reduction for international students at University of Queensland. AUD $10,000 per year for 2 years.',
+    deadline: 'Varies by intake (Feb/Jul)',
+    link: 'https://scholarships.uq.edu.au/',
+    linkLabel: 'Learn More',
+    details: {
+      benefits: [
+        'AUD $10,000 tuition fee reduction per year for up to 2 years',
+        'Access to UQ\'s networking events and career services',
+        'Renewable based on academic performance'
+      ],
+      requirements: [
+        'Non-Australian student',
+        'Offer of admission to UQ Master\'s program',
+        'Strong academic record (minimum GPA varies)',
+        'English proficiency IELTS 6.5+/TOEFL 87+',
+        'International student'
+      ],
+      fit: 'UQ is a top-50 world university (ranked #40). Strong programs in Engineering, IT, and Data Science. Your background is a good fit. Australia offers excellent post-study work options (3 years for Master\'s).',
+      deadlineNote: 'Scholarships awarded on competitive basis. Apply for admission early. Check UQ Scholarships website for specific deadlines per intake.'
+    }
+  },
+  {
+    id: 'agrtp',
+    title: 'Australian Government Research Training Program (AGRTP)',
+    country: 'Australia',
+    degree: 'masters',
+    month: 0,
+    openingLabel: 'Rolling',
+    tags: ['MRes/PhD', 'Full Tuition', 'AUD $40k/yr'],
+    description: 'Australian government-funded research training scholarship. Full tuition fee offset + AUD $40,109/yr living allowance + OSHC for research Master\'s and PhD.',
+    deadline: 'Rolling (varies by university)',
+    link: 'https://www.education.gov.au/research-training-program',
+    linkLabel: 'Learn More',
+    details: {
+      benefits: [
+        'Full tuition fee offset (value AUD $30k-45k/yr)',
+        'AUD $40,109 annual living allowance (tax-free)',
+        'Overseas Student Health Cover (OSHC)',
+        'Paid leave',
+        'Relocation allowance up to AUD $3,000',
+        'Thesis allowance'
+      ],
+      requirements: [
+        'Bachelor\'s/Master\'s degree with research component',
+        'Strong academic record (H1/2A equivalent)',
+        'Research proposal aligned with supervisor',
+        'Supervisor agreement required',
+        'English proficiency IELTS 6.5-7.0+/TOEFL 90+'
+      ],
+      fit: 'Your mechatronic engineering background and PM experience can be framed into a research project in engineering management or renewable energy IT systems. Must identify supervisor first.',
+      deadlineNote: 'No central deadline - apply directly to Australian universities. Each university has its own RTP nomination rounds. Identify potential supervisor and prepare research proposal months in advance.'
+    }
+  },
+  {
+    id: 'kozminski-phd',
+    title: 'Kozminski University (PhD in Management/Economics)',
+    country: 'Poland',
+    degree: 'phd',
+    month: 0,
+    openingLabel: 'Rolling',
+    tags: ['PhD', 'Partial-Full'],
+    description: 'PhD scholarships in Management and Economics at Kozminski University, Warsaw. Tuition waiver + monthly stipend for doctoral research.',
+    deadline: 'Rolling (check website)',
+    link: 'https://www.kozminski.edu.pl/en/',
+    linkLabel: 'Learn More',
+    details: {
+      benefits: [
+        'Full or partial tuition fee waiver',
+        'Monthly doctoral stipend (approx. PLN 2,000-3,000)',
+        'Research funding support',
+        'Conference travel grants',
+        'Access to Kozminski business network'
+      ],
+      requirements: [
+        'Master\'s degree in Management, Economics, or related field',
+        'Strong research proposal',
+        'English proficiency IELTS 6.5+/TOEFL 90+',
+        'Interview with doctoral committee',
+        'Publications valued'
+      ],
+      fit: 'Your 8+ years IT PM experience is a strong foundation for PhD research in IT/Project Management or Digital Transformation. Kozminski is Poland\'s top private business school with AACSB accreditation.',
+      deadlineNote: 'PhD in Management/Economics. Contact the doctoral school directly. Prepare a research proposal aligned with current faculty research interests.'
+    }
+  },
+  {
+    id: 'ellison-grad',
+    title: 'Graduate Ellison Scholars and EIT Research',
+    country: 'UK',
+    degree: 'phd',
+    month: 11,
+    openingLabel: 'Opens: November',
+    tags: ['PhD', 'Fully Funded'],
+    description: 'Ellison Scholars programme for graduate research at Oxford University. Full funding for PhD/EIT research in technology for social impact.',
+    deadline: 'Check website',
+    link: 'https://www.ellison.scholar.org/',
+    linkLabel: 'Learn More',
+    details: {
+      benefits: [
+        'Full tuition fee coverage',
+        'Generous living stipend',
+        'Research funding',
+        'Access to Oxford facilities',
+        'Mentorship from Ellison Institute',
+        'Networking with tech leaders'
+      ],
+      requirements: [
+        'Master\'s degree',
+        'Outstanding academic record',
+        'Research proposal in technology/engineering',
+        'Commitment to solving global challenges',
+        'Leadership potential'
+      ],
+      fit: 'Focus on technology for social impact - your renewable energy IT PM experience aligns well with their mission. Extremely competitive. Plan for PhD after completing Master\'s.',
+      deadlineNote: 'Ellison Scholars program is highly competitive. Apply after completing Master\'s degree. Prepare strong research proposal on tech for social good.'
+    }
+  },
+  {
+    id: 'clarendon-oxford',
+    title: 'Oxford University - Clarendon Scholarship',
+    country: 'UK',
+    degree: 'phd',
+    month: 9,
+    openingLabel: 'Opens: September',
+    tags: ['PhD', 'Full Tuition + Stipend'],
+    description: 'Prestigious graduate scholarship at Oxford University. Full tuition + annual stipend for PhD study. Open to all nationalities, all fields.',
+    deadline: 'January (for Oct intake)',
+    link: 'https://www.ox.ac.uk/clarendon',
+    linkLabel: 'Learn More',
+    details: {
+      benefits: [
+        'Full tuition fee coverage at Oxford',
+        'Generous annual living stipend (sufficient for single person in Oxford)',
+        'Access to Clarendon community and networking events',
+        'Research conference funding'
+      ],
+      requirements: [
+        'Offer of admission to Oxford DPhil (PhD) program',
+        'Outstanding academic record',
+        'Strong research proposal',
+        'Supervisor agreement',
+        'English proficiency IELTS 7.5+/TOEFL 110+'
+      ],
+      fit: 'Oxford\'s most generous graduate scholarship. Your IT PM experience + engineering background for DPhil in Computer Science or Engineering. Extremely competitive - need exceptional research proposal and academic record.',
+      deadlineNote: 'Apply for Oxford graduate admission by January deadline. Clarendon consideration is automatic upon admission application. Prepare strong research proposal and secure supervisor support.'
     }
   }
 ]
