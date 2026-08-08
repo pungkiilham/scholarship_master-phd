@@ -1,5 +1,40 @@
 export const priorityScholarships = [
   {
+    id: 'chevening',
+    title: 'Chevening Scholarship',
+    country: 'UK',
+    degree: 'masters',
+    urgency: 'critical',
+    urgencyBadge: 'OPEN NOW',
+    tags: ['Master\'s', 'Fully Funded', 'Closes 6 Oct'],
+    description: 'UK government scholarship for emerging leaders. Fully funded 1-year taught master\'s at any UK university. Choose 3 courses. OPEN NOW — deadline 6 Oct 2026.',
+    deadline: '6 Oct 2026 (11:00 UTC)',
+    link: 'https://www.chevening.org/scholarship/indonesia/',
+    linkLabel: 'Apply Now',
+    details: {
+      benefits: [
+        'Full tuition fee coverage at any UK university',
+        'Monthly living stipend (sufficient for single person)',
+        'Return economy airfare to UK',
+        'Arrival allowance, visa costs covered',
+        'Travel grant for academic/social activities',
+        'Access to exclusive Chevening events and networks',
+        'Membership in 60,000+ global alumni network'
+      ],
+      requirements: [
+        'Bachelor\'s degree that qualifies for a UK master\'s (finished ≥2 yrs before deadline)',
+        'Work experience: MINIMUM 2 YEARS / 2,800 hrs (YOU HAVE 8+!)',
+        'Citizen AND resident of eligible country (Indonesia IS eligible)',
+        'Commit to return to Indonesia for 2 years after the scholarship',
+        'Never studied in the UK on a UK-government-funded scholarship',
+        'Choose 3 eligible UK master\'s courses (full-time, taught MSc, autumn start)',
+        'Unconditional offer from ≥1 course by ~July 2027'
+      ],
+      fit: 'EXCELLENT FIT. Recommended majors: MSc Engineering Business Management (Warwick), MSc Engineering Management (Loughborough), MSc Advanced Manufacturing Technologies (Sheffield). Supports dual career: professional + dosen.',
+      deadlineNote: 'APPLICATIONS OPEN: 4 Aug 2026. CLOSE: 6 Oct 2026 at 11:00 UTC. Apply to 3 courses at 3 universities (Birmingham/Loughborough/Warwick = no fees). Need IELTS Academic 6.5+ for unconditional offer.'
+    }
+  },
+  {
     id: 'erasmus-mundus',
     title: 'Erasmus Mundus Joint Masters',
     country: 'EU Multi',
@@ -371,13 +406,13 @@ export const allScholarships = [
     title: 'Chevening Scholarship',
     country: 'UK',
     degree: 'masters',
-    month: 11,
-    openingLabel: 'Opens: November',
-    tags: ['Master\'s', 'Fully Funded'],
-    description: 'UK government\'s global scholarship for emerging leaders. Covers tuition, living expenses, travel, and networking opportunities.',
-    deadline: 'Usually November (check website)',
-    link: 'https://www.chevening.org/',
-    linkLabel: 'Learn More',
+    month: 8,
+    openingLabel: 'Opens: August',
+    tags: ['Master\'s', 'Fully Funded', 'OPEN NOW'],
+    description: 'UK government\'s global scholarship for emerging leaders. Fully funded 1-year taught master\'s at any UK university. Pick 3 courses. Applications OPEN — closes 6 Oct 2026.',
+    deadline: '6 October 2026 (11:00 UTC)',
+    link: 'https://www.chevening.org/scholarship/indonesia/',
+    linkLabel: 'Apply Now',
     details: {
       benefits: [
         'Full tuition fee coverage at any UK university',
@@ -386,19 +421,19 @@ export const allScholarships = [
         'Arrival allowance, visa costs covered',
         'Travel grant for academic/social activities',
         'Access to exclusive Chevening events and networks',
-        'Membership in 50,000+ global alumni network'
+        'Membership in 60,000+ global alumni network'
       ],
       requirements: [
-        'Bachelor\'s degree (minimum 2:1 or equivalent)',
-        'Work experience: MINIMUM 2 YEARS (YOU HAVE 8+!)',
-        'English proficiency: IELTS 6.5+ / TOEFL 90+',
-        'Leadership qualities demonstrated through career',
-        'Strong networking and interpersonal skills',
-        'Return to home country for minimum 2 years after program',
-        'Apply to 3 different UK university courses'
+        'Bachelor\'s degree that qualifies for a UK master\'s (finished ≥2 yrs before deadline)',
+        'Work experience: MINIMUM 2 YEARS / 2,800 hrs (YOU HAVE 8+!)',
+        'Citizen AND resident of eligible country (Indonesia IS eligible)',
+        'Commit to return to Indonesia for 2 years after the scholarship',
+        'Never studied in the UK on a UK-government-funded scholarship',
+        'Choose 3 eligible UK master\'s courses (full-time, taught MSc, autumn start)',
+        'Unconditional offer from ≥1 course by ~July 2027'
       ],
-      fit: 'EXCELLENT FIT. Your 8+ years IT PM experience demonstrates leadership. Your career progression shows management capability. Chevening values leadership potential above all.',
-      deadlineNote: 'Applications open in August/September for the following year. Prepare strong leadership-focused essays.'
+      fit: 'EXCELLENT FIT. Your 8+ years IT PM experience demonstrates leadership and career progression. Recommended majors: MSc Engineering Business Management (Warwick), MSc Engineering Management (Loughborough), MSc Advanced Manufacturing Technologies (Sheffield). Supports dual career: professional + dosen.',
+      deadlineNote: 'APPLICATIONS OPEN: 4 Aug 2026. CLOSE: 6 Oct 2026 at 11:00 UTC. Apply to 3 courses at 3 universities (Birmingham/Loughborough/Warwick = no fees). Need IELTS Academic 6.5+ for unconditional offer. Verify courses on the official course finder.'
     }
   },
   {

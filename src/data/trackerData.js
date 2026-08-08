@@ -1,4 +1,5 @@
 export const initialTracker = [
+  { scholarship: 'chevening', name: 'Chevening Scholarship', country: 'UK', deadline: 'Oct 6, 2026', deadlineClass: 'critical', status: 'pending', docsReady: false, applied: false },
   { scholarship: 'vliruos-icp', name: 'VLIRUOS ICP Connect', country: 'Belgium', deadline: 'Feb 1, 2026', deadlineClass: 'critical', status: 'pending', docsReady: false, applied: false },
   { scholarship: 'swedish-institute', name: 'Swedish Institute', country: 'Sweden', deadline: 'Feb 25, 2026', deadlineClass: 'critical', status: 'pending', docsReady: false, applied: false },
   { scholarship: 'erasmus-mundus', name: 'Erasmus Mundus (Multiple Programs)', country: 'EU', deadline: 'Feb 2026', deadlineClass: 'warning', status: 'pending', docsReady: false, applied: false },
