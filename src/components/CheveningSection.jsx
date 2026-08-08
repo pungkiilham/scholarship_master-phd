@@ -6,6 +6,8 @@ import {
   cheveningCombos,
   cheveningSecondOptions,
   cheveningEntryRequirements,
+  cheveningGpaNote,
+  cheveningPortalCourses,
 } from '../data/cheveningData'
 
 export default function CheveningSection() {
@@ -73,14 +75,28 @@ export default function CheveningSection() {
         ))}
       </div>
 
+      <h3 className="section-subtitle">GPA Reality-Check (3.24/4.00)</h3>
+      <div className="tracker-table-wrap">
+        <table className="tracker-table">
+          <thead>
+            <tr><th>Point</th><th>Detail</th></tr>
+          </thead>
+          <tbody>
+            {cheveningGpaNote.map((g, i) => (
+              <tr key={i}><td><strong>{g.item}</strong></td><td>{g.value}</td></tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
       <h3 className="section-subtitle">University & Major Shortlist</h3>
       <p style={{ color: '#94a3b8', marginBottom: '1rem' }}>
-        Verified against each university's official course page (full-time, taught MSc, autumn start). Confirm on the Chevening course finder before applying.
+        Verified against each university's official course page (full-time, taught MSc, autumn start) and the Chevening course finder. Full portal capture: {cheveningPortalCourses.length} Engineering Management listings across 4 pages. Confirm on the Chevening course finder before applying.
       </p>
       <div className="tracker-table-wrap">
         <table className="tracker-table">
           <thead>
-            <tr><th>University</th><th>Course</th><th>Cluster</th><th>Entry</th><th>IELTS</th><th>App Fee</th></tr>
+            <tr><th>University</th><th>Course</th><th>Cluster</th><th>Entry</th><th>IELTS</th><th>App Fee</th><th>Chev. Partner</th></tr>
           </thead>
           <tbody>
             {cheveningUniversities.map((u, i) => (
@@ -91,6 +107,7 @@ export default function CheveningSection() {
                 <td>{u.entry}</td>
                 <td>{u.ielts}</td>
                 <td>{u.fee}</td>
+                <td>{u.partner ? '✓' : '—'}</td>
               </tr>
             ))}
           </tbody>
