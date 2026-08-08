@@ -164,6 +164,46 @@ export const cheveningUniversities = [
     fee: 'No app fee',
     verified: true,
   },
+  {
+    uni: 'Queen Mary University of London (QMUL)',
+    course: 'MSc Robotics and Artificial Intelligence',
+    cluster: 'Robotics/Mechatronics',
+    start: 'September',
+    entry: '2:2 accepted',
+    ielts: '6.5',
+    fee: 'Check',
+    verified: true,
+  },
+  {
+    uni: 'University of Strathclyde',
+    course: 'MSc Mechatronics and Automation',
+    cluster: 'Robotics/Mechatronics',
+    start: 'September',
+    entry: '2:2 accepted (Science/Engineering)',
+    ielts: '6.5',
+    fee: 'Check',
+    verified: true,
+  },
+  {
+    uni: 'University of Glasgow',
+    course: 'MSc Mechatronics',
+    cluster: 'Robotics/Mechatronics',
+    start: 'September',
+    entry: '2:1 (2:2 + strong modules; C# accepted)',
+    ielts: '6.5',
+    fee: 'Check',
+    verified: true,
+  },
+  {
+    uni: 'University of Derby',
+    course: 'MSc Mechatronics',
+    cluster: 'Robotics/Mechatronics',
+    start: 'September',
+    entry: '2:2 accepted',
+    ielts: '6.5',
+    fee: 'Check',
+    verified: true,
+  },
 ]
 
 export const cheveningExcluded = [
@@ -196,6 +236,14 @@ export const cheveningCombos = [
       'MSc Advanced Manufacturing Technologies — Sheffield',
       'MSc Engineering with Management (Intelligent Manufacturing) — Bristol',
       'MSc Advanced Manufacturing Systems and Technology — Liverpool',
+    ],
+  },
+  {
+    name: 'Combo 4 — Technical trio (Robotics/Mechatronics, linear to S1) — PRIMARY TBD',
+    courses: [
+      'MSc Robotics and Artificial Intelligence — Queen Mary (QMUL)',
+      'MSc Mechatronics and Automation — Strathclyde',
+      'MSc Mechatronics — University of Glasgow',
     ],
   },
 ]
