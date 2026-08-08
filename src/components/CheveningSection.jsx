@@ -66,6 +66,9 @@ export default function CheveningSection() {
             <ul className="notes-list">
               {combo.courses.map((c, j) => <li key={j}>{c}</li>)}
             </ul>
+            {combo.desc && (
+              <p style={{ color: '#94a3b8', fontSize: '0.85rem', marginTop: '0.5rem' }}>{combo.desc}</p>
+            )}
           </div>
         ))}
       </div>

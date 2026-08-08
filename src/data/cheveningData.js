@@ -216,6 +216,7 @@ export const cheveningExcluded = [
 export const cheveningCombos = [
   {
     name: 'Combo 1 — Management-leaning (safest, GPA-friendly)',
+    desc: 'Most GPA-forgiving (all accept 2:2/2:2+exp), near-zero app fees, strongest Engineering Management/PM story. Dosen home: Teknik Industri/Manajemen (not core STEM).',
     courses: [
       'MSc Engineering Business Management — Warwick (WMG)',
       'MSc Advanced Engineering Management — Birmingham',
@@ -224,6 +225,7 @@ export const cheveningCombos = [
   },
   {
     name: 'Combo 2 — Mix (current plan)',
+    desc: 'Adds technical depth via Sheffield Advanced Manufacturing while keeping a management core — balanced, keeps both teaching doors partially open.',
     courses: [
       'MSc Engineering Business Management — Warwick (WMG)',
       'MSc Engineering Management — Loughborough',
@@ -232,6 +234,7 @@ export const cheveningCombos = [
   },
   {
     name: 'Combo 3 — Technical-leaning',
+    desc: 'Heaviest manufacturing/Industry 4.0 focus; keeps Teknik Mesin/Manufaktur dosen path. Risk: Bristol entry (strong 55%+).',
     courses: [
       'MSc Advanced Manufacturing Technologies — Sheffield',
       'MSc Engineering with Management (Intelligent Manufacturing) — Bristol',
@@ -239,7 +242,8 @@ export const cheveningCombos = [
     ],
   },
   {
-    name: 'Combo 4 — Technical trio (Robotics/Mechatronics, linear to S1) — PRIMARY TBD',
+    name: 'Combo 4 — Technical trio (Robotics/Mechatronics, linear to S1)',
+    desc: 'Fully linear to your mechatronics S1 → safest dosen bet for core Teknik Elektro/Mesin teaching. Risk: Glasgow 2:1 entry (2:2 + strong modules).',
     courses: [
       'MSc Robotics and Artificial Intelligence — Queen Mary (QMUL)',
       'MSc Mechatronics and Automation — Strathclyde',
