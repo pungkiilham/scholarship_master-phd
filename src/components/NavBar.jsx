@@ -14,6 +14,9 @@ export default function NavBar() {
         <NavLink to="/scholarships" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
           All Scholarships
         </NavLink>
+        <NavLink to="/chevening" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
+          Chevening
+        </NavLink>
         <NavLink to="/tracker" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
           Tracker
         </NavLink>
