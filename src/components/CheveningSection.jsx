@@ -8,6 +8,7 @@ import {
   cheveningEntryRequirements,
   cheveningGpaNote,
   cheveningPortalCourses,
+  cheveningMajorGroups,
 } from '../data/cheveningData'
 
 export default function CheveningSection() {
@@ -133,6 +134,39 @@ export default function CheveningSection() {
                     <td>{c.course}</td>
                     <td>{c.entry}</td>
                     <td>{c.ielts}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      ))}
+
+      <h3 className="section-subtitle">Major Groups — Linier Engineering vs Management</h3>
+      <p style={{ color: '#94a3b8', marginBottom: '1rem' }}>
+        {cheveningMajorGroups.intro}
+      </p>
+      {cheveningMajorGroups.groups.map((group, g) => (
+        <div key={g} style={{ marginBottom: '1.5rem' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.5rem' }}>
+            <h4 style={{ color: group.highlight ? '#4ade80' : '#cbd5e1', margin: 0 }}>{group.name}</h4>
+            {group.tag && (
+              <span style={{ fontSize: '0.7rem', padding: '0.15rem 0.5rem', borderRadius: '999px', background: group.highlight ? 'rgba(74,222,128,0.15)' : '#1e293b', color: group.highlight ? '#4ade80' : '#94a3b8' }}>{group.tag}</span>
+            )}
+          </div>
+          <p style={{ color: '#94a3b8', fontSize: '0.85rem', margin: '0 0 0.5rem' }}>{group.description}</p>
+          <div className="tracker-table-wrap">
+            <table className="tracker-table">
+              <thead>
+                <tr><th>Fit</th><th>University</th><th>Major(s)</th><th>Note</th></tr>
+              </thead>
+              <tbody>
+                {group.schools.map((s, i) => (
+                  <tr key={i}>
+                    <td>{s.fit ? `#${s.fit}` : '—'}</td>
+                    <td><strong>{s.uni}</strong></td>
+                    <td>{s.majors.join(' • ')}</td>
+                    <td>{s.note}</td>
                   </tr>
                 ))}
               </tbody>

@@ -381,6 +381,38 @@ export const cheveningGpaNote = [
   { item: 'Bottom line', value: 'You sit at the borderline 2:1 / strong 2:2 boundary → strict-2:1 courses are discretionary, not guaranteed. Pick courses that explicitly accept 2:2 or "2:2 + work experience" (your 8+ yrs is the compensator).' },
 ]
 
+export const cheveningMajorGroups = {
+  intro: "Wife-suggested universities grouped by major type. Linier Engineering keeps the lecturer subject-expert lane open; Management/non-linier blends engineering with business.",
+  groups: [
+    {
+      name: 'Linier Engineering Major (technical, non-management)',
+      tag: 'Best fit for lecturer',
+      highlight: true,
+      description: 'MSc programs centered on core engineering — mechatronics, robotics, electrical/electronic — leverage your S1 Mechatronics + 8+ yrs IT PM.',
+      schools: [
+        { uni: 'University of Glasgow', majors: ['MSc Mechatronics', 'MSc Robotics and AI', 'MSc Electronics & Electrical Engineering'], fit: 1, note: 'Direct S1 match; 2:2 + 8+ yrs exp; IELTS 6.5' },
+        { uni: 'University of Strathclyde', majors: ['MSc Mechatronics and Automation'], fit: 2, note: '2:2-friendly mechatronics option' },
+        { uni: 'Queen Mary University of London', majors: ['MSc Robotics and Artificial Intelligence'], fit: 3, note: '2:2 accepted; London prestige' },
+        { uni: 'University of Leeds', majors: ['MSc Electronic and Electrical Engineering'], fit: 4, note: 'Strong EE research; connects to renewable-energy PM work' },
+        { uni: 'University of Southampton', majors: ['MSc Electrical and Electronic Engineering'], fit: 5, note: 'Russell Group EE; verify per-course 2:2 policy' },
+      ],
+    },
+    {
+      name: 'Management / Non-linier Major (includes business or project management)',
+      tag: 'Wider career path',
+      highlight: false,
+      description: 'Blend engineering with management — broader roles, but less "linear" for a pure technical lecturer position.',
+      schools: [
+        { uni: 'University of Leeds', majors: ['MSc Engineering Project Management', 'MSc Engineering Management', 'MSc Infrastructure Engineering and Management'], fit: null, note: '' },
+        { uni: 'University of Sheffield', majors: ['MSc Advanced Manufacturing Technologies', 'MSc Energy Engineering with Industrial Management', 'MSc Mechanical Engineering with Industrial Management'], fit: null, note: '' },
+        { uni: 'University of Bristol', majors: ['MSc Engineering with Management (Intelligent Manufacturing)'], fit: null, note: '' },
+        { uni: 'University of Southampton', majors: ['MSc Engineering Management'], fit: null, note: '' },
+        { uni: 'Cranfield University', majors: ['Most courses excluded (part-time 24 mo / discontinued)'], fit: null, note: 'Exclude as primary option' },
+      ],
+    },
+  ],
+}
+
 // Full list captured from the Chevening Course Finder (search: "Engineering Management", 4 pages, Aug 2026).
 // partner = the listing carried the "Chevening Partner" tag on the portal.
 export const cheveningPortalCourses = [
