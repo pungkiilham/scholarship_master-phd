@@ -35,6 +35,7 @@ export const cheveningUniversities = [
     fee: 'No app fee (verify)',
     verified: true,
     partner: true,
+    recommended: true,
   },
   {
     uni: 'University of Warwick (WMG)',
@@ -46,6 +47,7 @@ export const cheveningUniversities = [
     fee: '£75 app fee',
     verified: true,
     partner: true,
+    recommended: true,
   },
   {
     uni: 'University of Birmingham',
@@ -68,6 +70,7 @@ export const cheveningUniversities = [
     fee: 'No app fee',
     verified: true,
     partner: true,
+    recommended: true,
   },
   {
     uni: 'Royal Holloway, University of London',
@@ -290,6 +293,32 @@ export const cheveningUniversities = [
     partner: false,
   },
 ]
+
+const linierClusters = ['Technical', 'Technical/Electro', 'Robotics/Mechatronics']
+const managementClusters = ['Management', 'Operations']
+
+export const cheveningUniversityGroups = [
+  {
+    name: 'Linier Engineering Major (Technical)',
+    tag: 'Best fit for lecturer',
+    highlight: true,
+    description: 'Core engineering MScs (mechatronics, robotics, electrical/electronic) — leverage your S1 Mechatronics + 8+ yrs IT PM for a technical dosen lane.',
+    cluster: linierClusters,
+    schools: [],
+  },
+  {
+    name: 'Management / Non-linier Major',
+    tag: 'Wider career path',
+    highlight: false,
+    description: 'Engineering blended with management/project/operations — broader roles, less "linear" for a pure technical lecturer position.',
+    cluster: managementClusters,
+    schools: [],
+  },
+]
+
+cheveningUniversityGroups.forEach(g => {
+  g.schools = cheveningUniversities.filter(u => g.cluster.includes(u.cluster))
+})
 
 export const cheveningExcluded = [
   { uni: 'Cranfield', course: 'MSc Digital and Technology Solutions', reason: 'Part-time, 24 months (not 9-12 mo)' },
