@@ -328,6 +328,32 @@ export const cheveningExcluded = [
   { uni: 'QMUL / KCL / Bath / Bristol / Leeds / Nottingham', course: 'Strict 2:1-gated courses', reason: 'GPA 3.24 = borderline 2:1 / high 2:2 — converter-dependent + competitive. Prefer courses that EXPLICITLY accept 2:2 or 2:2 + experience.' },
 ]
 
+export const qsRanks = {
+  'University of York': 162,
+  'University of Warwick (WMG)': 67,
+  'University of Birmingham': 80,
+  'Loughborough University': 130,
+  'Royal Holloway, University of London': 154,
+  'Brunel University of London': 350,
+  'University of Surrey': 54,
+  'Queen Mary University of London': 162,
+  'University of Leicester': 160,
+  'University of Sheffield': 105,
+  'University of Bristol': 54,
+  'University of Liverpool': 185,
+  'UCL': 10,
+  'University of Manchester': 32,
+  'University of Leeds': 75,
+  'University of Sussex': 160,
+  'University of Nottingham': 100,
+  'Warwick (WMG)': 67,
+  'Loughborough University': 130,
+  'Queen Mary University of London (QMUL)': 162,
+  'University of Strathclyde': 300,
+  'University of Glasgow': 78,
+  'University of Derby': 300,
+}
+
 export const cheveningCombos = [
   {
     name: 'Combo A — Rank-first, Industri/Electro/IT-flexible (RECOMMENDED)',
