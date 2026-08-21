@@ -11,6 +11,7 @@ import {
   cheveningPortalCourses,
   cheveningMajorGroups,
   cheveningUniversityGroups,
+  qsRanks,
 } from '../data/cheveningData'
 
 function Collapsible({ title, badge, defaultOpen = false, children }) {
@@ -109,6 +110,7 @@ export default function CheveningSection() {
     { key: 'ielts', label: 'IELTS' },
     { key: 'fee', label: 'App Fee' },
     { key: 'partner', label: 'Chev. Partner' },
+    { key: 'qsRank', label: 'QS Rank' },
   ]
 
   return (
