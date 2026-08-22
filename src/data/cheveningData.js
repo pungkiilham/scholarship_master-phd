@@ -354,6 +354,12 @@ export const qsRanks = {
   'University of Derby': 300,
 }
 
+export const recommendedUnivs = new Set([
+  'University of York',
+  'University of Warwick (WMG)',
+  'Loughborough University',
+])
+
 export const cheveningCombos = [
   {
     name: 'Combo A — Rank-first, Industri/Electro/IT-flexible (RECOMMENDED)',
