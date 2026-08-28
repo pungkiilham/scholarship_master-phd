@@ -89,7 +89,11 @@ function SortableTable({ rows, columns, defaultKey = 'uni' }) {
             <tr key={i}>
               {columns.map((c, j) => (
                 <td key={j}>
-                  {c.key === 'uni' ? <strong>{u[c.key]}</strong> : c.key === 'recommended' ? (u[c.key] ? '⭐' : '—') : u[c.key]}
+                  {c.key === 'uni' ? <strong>{u[c.key]}</strong> 
+                    : c.key === 'recommended' ? (u[c.key] ? '⭐' : '—') 
+                    : c.key === 'qsRank' ? (qsRanks[u.uni] ?? '—')
+                    : c.key === 'partner' ? (u[c.key] ? '✓' : '—')
+                    : u[c.key] ?? '—'}
                 </td>
               ))}
             </tr>
@@ -111,6 +115,8 @@ export default function CheveningSection() {
     { key: 'fee', label: 'App Fee' },
     { key: 'partner', label: 'Chev. Partner' },
     { key: 'qsRank', label: 'QS Rank' },
+    { key: 'appOpens', label: 'App Opens' },
+    { key: 'deadlineIntl', label: 'Deadline (Intl)' },
   ]
 
   return (
@@ -231,7 +237,7 @@ export default function CheveningSection() {
             <div className="tracker-table-wrap">
               <table className="tracker-table">
                 <thead>
-                  <tr><th>Fit</th><th>University</th><th>Major(s)</th><th>Note</th></tr>
+                  <tr><th>Fit</th><th>University</th><th>Major(s)</th><th>App Opens</th><th>Deadline (Intl)</th><th>Note</th></tr>
                 </thead>
                 <tbody>
                   {group.schools.map((s, i) => (
@@ -239,6 +245,8 @@ export default function CheveningSection() {
                       <td>{s.fit ? `#${s.fit}` : '—'}</td>
                       <td><strong>{s.uni}</strong></td>
                       <td>{s.majors.join(' • ')}</td>
+                      <td>{s.appOpens ?? '—'}</td>
+                      <td>{s.deadlineIntl ?? '—'}</td>
                       <td>{s.note}</td>
                     </tr>
                   ))}
