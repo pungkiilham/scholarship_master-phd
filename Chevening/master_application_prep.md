@@ -126,6 +126,8 @@
 
 ## 📧 REFEREE REQUEST EMAIL TEMPLATE
 
+> 💡 **Tip:** You can use the same 2 referees for ALL applications (Chevening + 5 universities). The same reference letters are often accepted across multiple applications. Just make sure your referees know they'll receive multiple requests (potentially 6-7 emails total).
+
 **Subject:** Reference Letter Request – Chevening/Master's Scholarship Application
 
 **Dear [Referee Name],**
@@ -154,14 +156,32 @@ LinkedIn: [your profile URL]
 
 ## 📅 TIMELINE & DEADLINES
 
+### 🚨 International Application Deadlines (Sep 2027 Intake)
+
+| University | Programme | Application Opens | Deadline (International) | Deadline (UK) | Programme Start |
+|------------|-----------|-------------------|--------------------------|---------------|-----------------|
+| **University of Glasgow** | MSc Mechatronics | Oct 2025 | **24 Aug 2026** | 24 Aug 2026 | 14 Sep 2026 |
+| **University of Strathclyde** | MSc Mechatronics & Automation | Oct 2025 | **14 Aug 2026** | 31 Jul 2026 | 21 Sep 2026 |
+| **Queen Mary (QMUL)** | MSc Robotics & AI | **15 Sep 2025** | **1 Sep 2026** | 1 Sep 2026 | 21 Sep 2026 |
+| **University of Leeds** | MSc Electronic & Electrical Eng | Oct 2025 | **31 Jul 2026** | 11 Sep 2026 | Sep 2026 |
+| **University of Southampton** | MSc Electronic Engineering | Oct 2025 | **19 Aug 2026** | 2 Sep 2026 | Sep 2026 |
+
+> ⚠️ **Note:** Applications may close early if places are filled. Apply as soon as applications open (Oct 2025 / Sep 2025 for QMUL).
+
+### Key Milestones
+
 | Milestone | Target Date | Notes |
 |-----------|-------------|-------|
-| Finalize SOP drafts for all 5 universities | Early Aug 2026 | Use the 4-section structure; tailor last paragraph per uni |
-| Submit applications (without IELTS) | Early Sept 2026 | Submit all docs except IELTS; receive conditional offers |
-| Receive conditional offers | Oct 2026 | Will state IELTS deadline |
-| Submit IELTS score (if required) | By offer deadline | Typically 1-2 months after offer |
-| Visa application (if needed) | After IELTS | Use CAS/conditional offer letter |
-| Depart for UK | Sept/Oct 2027 | Align with academic term |
+| QMUL applications open | 15 Sep 2025 | Earliest to apply — consider applying first |
+| Glasgow/Strathclyde/Leeds/Southampton open | Oct 2025 | Submit applications early |
+| Chevening applications open | 4 Aug 2026 | Apply for Chevening + regular apps simultaneously |
+| Leeds deadline (earliest) | 31 Jul 2026 | ⚠️ First deadline among the 5 |
+| Strathclyde deadline | 14 Aug 2026 | |
+| Glasgow deadline | 24 Aug 2026 | |
+| Southampton deadline | 19 Aug 2026 | |
+| QMUL deadline | 1 Sep 2026 | |
+| Chevening deadline | 6 Oct 2026 | If Chevening offer received, can withdraw direct apps |
+| Programme start (all unis) | Sep 2026 | |
 
 ---
 
@@ -175,5 +195,5 @@ LinkedIn: [your profile URL]
 
 ---
 
-*Last Updated: August 2026*
+*Last Updated: 28 August 2026*
 *Status: Draft ready — tailor SOP per university and submit applications*
