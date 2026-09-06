@@ -7,6 +7,16 @@ const essays = [
     subtitle: 'Bryan/Odoo/Robin — Shock Absorber Story',
     wordLimit: '100–300 words',
     wordCount: '~270',
+    target: {
+      question: 'Describe a time when you demonstrated leadership.',
+      whatTheyTest: 'Situations where you changed the direction of something beyond your formal authority.',
+      mustInclude: [
+        'What was the context or challenge you faced?',
+        'What specific actions did you take as a leader?',
+        'What was the outcome, and what did you learn?',
+      ],
+      scoring: 'Evidence of influence, not just management. One strong specific example > three vague claims.',
+    },
     content: `When Robin, our senior manager, assigned Bryan — a developer who had just started learning Odoo — to handle a complex customisation for Posity and deliver within two weeks, I knew the expectation was unrealistic. As the project manager with hands-on development experience, I understood something Robin did not: Odoo is a large, interconnected ERP where each module depends on the others. A new developer needs months to grasp its core architecture before delivering even simple tasks, let alone the customisation Posity demanded.
 
 Rather than simply rejecting Robin's directive, I chose to educate. I walked him through Odoo's technical structure — how modules interconnect, why the learning curve is steep, and what a realistic delivery timeline looked like. Simultaneously, I worked with Bryan to break down the task into achievable components, helping him focus on what he could deliver while building his understanding of the system.
@@ -42,6 +52,17 @@ The deeper lesson was about my role as a mid-level manager. I learned that my du
     subtitle: 'Estro Hutama Client Network + Diginergy Knowledge Log',
     wordLimit: '100–300 words',
     wordCount: '~240',
+    target: {
+      question: 'Tell us about a professional relationship/network you have built and maintained.',
+      whatTheyTest: 'Evidence of building, maintaining, and benefiting from professional relationships — not just "being collaborative."',
+      mustInclude: [
+        'How was the relationship formed, and what made it important?',
+        'What did you contribute, and what did you gain?',
+        'How have you sustained or developed this relationship over time?',
+        'How will these skills help you build connections within Chevening?',
+      ],
+      scoring: 'Name specific people/organizations you connected. Describe what the network produced. Reference Chevening alumni initiatives.',
+    },
     content: `[DRAFT — based on framework]
 
 At Estro Hutama Indonesia, I maintained a client network of twelve industrial manufacturers across East Java — not through formal CRM tools, but through deliberate reciprocity. Every quarter I shared one piece of unsolicited value: a market report on automation trends, a connection to a relevant supplier, or a candid assessment of a competitor's product. These were not sales gestures; they were investments in trust.
@@ -76,6 +97,17 @@ I will activate this same principle within the Chevening community. During my ye
     subtitle: 'Glasgow MSc Mechatronics — UK Priority: Growth & Prosperity',
     wordLimit: '100–300 words',
     wordCount: '~230',
+    target: {
+      question: 'Explain your first choice of course and university only.',
+      whatTheyTest: 'How your chosen course connects to UK priority areas and your career goals.',
+      mustInclude: [
+        'What is the specific priority area you wish to address?',
+        'How will your chosen course equip you to address this theme in your home country?',
+        'Why have you selected your particular university in the UK?',
+        'How do you plan to immediately apply the knowledge after studies?',
+      ],
+      scoring: 'Name specific professors, modules, research. Explain why you cannot get this training at home. UK priority areas: Growth & Prosperity, Climate Resilience, Security & Stability, Inclusive Societies.',
+    },
     content: `[DRAFT — based on framework]
 
 UK Priority Area: Promoting Growth and Prosperity
@@ -109,6 +141,17 @@ On returning to Surabaya, I will integrate Glasgow's modules on control systems 
     subtitle: 'Short/Mid/Long-term — Dosen + Industry-Academia Hub',
     wordLimit: '100–300 words',
     wordCount: '~270',
+    target: {
+      question: 'Outline your medium and long-term career plans. Please relate your answer to a key challenge or priority facing your country.',
+      whatTheyTest: 'A clear, realistic, and achievable post-study career plan with genuine commitment to addressing pressing challenges.',
+      mustInclude: [
+        'What impact do you intend to make in your home country?',
+        'How does your career plan connect with your course of study?',
+        'What barriers or obstacles might you face, and how will you overcome them?',
+        'How will being a Chevening Scholar help you achieve your ambitions?',
+      ],
+      scoring: 'Short/mid/long-term with measurable goals. Tie to UK strategic priorities (FCDO country profile). Credible gap between current position and stated ambition.',
+    },
     content: `[DRAFT — based on framework]
 
 Short-term (1–3 years): Upon returning from Glasgow, I will secure a lecturer position at an engineering faculty in East Java — ideally at Politeknik Elektronika Negeri Surabaya (PENS), my alma mater, or a comparable institution. My immediate objective is to redesign the mechatronics and automation curriculum, replacing outdated PLC-centric modules with current IoT/Industry 4.0 content drawn directly from Glasgow's teaching. I will also launch a part-time consulting practice, offering automation audits to local manufacturers — creating a feedback loop between classroom theory and factory-floor reality.
@@ -203,6 +246,32 @@ export default function CheveningEssays() {
             <p style={{ color: '#94a3b8', fontSize: '0.85rem', margin: '0.25rem 0 0.5rem' }}>
               {essay.subtitle}
             </p>
+
+            <Collapsible title="Chevening Target — What They're Testing" defaultOpen={true}>
+              <div style={{
+                background: '#0f172a',
+                border: '1px solid #1e293b',
+                borderRadius: '8px',
+                padding: '0.75rem 1rem',
+                fontSize: '0.85rem',
+              }}>
+                <p style={{ color: '#e2e8f0', margin: '0 0 0.5rem', fontWeight: 600 }}>
+                  Q: {essay.target.question}
+                </p>
+                <p style={{ color: '#94a3b8', margin: '0 0 0.5rem' }}>
+                  <strong style={{ color: '#fbbf24' }}>What they test:</strong> {essay.target.whatTheyTest}
+                </p>
+                <p style={{ color: '#94a3b8', margin: '0 0 0.25rem', fontWeight: 600 }}>Must include:</p>
+                <ul style={{ color: '#94a3b8', margin: '0 0 0.5rem', paddingLeft: '1.25rem' }}>
+                  {essay.target.mustInclude.map((item, i) => (
+                    <li key={i} style={{ marginBottom: '0.15rem' }}>{item}</li>
+                  ))}
+                </ul>
+                <p style={{ color: '#4ade80', margin: 0, fontStyle: 'italic' }}>
+                  Scoring: {essay.target.scoring}
+                </p>
+              </div>
+            </Collapsible>
 
             <Collapsible title="Read Essay" badge={`${essay.wordCount} words`}>
               <div style={{
