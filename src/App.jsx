@@ -10,6 +10,7 @@ import NotesSection from './components/NotesSection'
 import NavBar from './components/NavBar'
 import IeltsPrep from './components/IeltsPrep'
 import CheveningSection from './components/CheveningSection'
+import CheveningEssays from './components/CheveningEssays'
 import { allScholarships } from './data/scholarships'
 
 export default function App() {
@@ -44,6 +45,7 @@ export default function App() {
         } />
         <Route path="/scholarships" element={<AllScholarships />} />
         <Route path="/chevening" element={<CheveningSection />} />
+        <Route path="/chevening/essays" element={<CheveningEssays />} />
         <Route path="/tracker" element={<ApplicationTracker />} />
         <Route path="/timeline" element={<ActionTimeline />} />
         <Route path="/ielts" element={<IeltsPrep />} />
