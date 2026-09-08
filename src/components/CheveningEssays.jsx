@@ -4,9 +4,9 @@ const essays = [
   {
     id: 1,
     title: 'Leadership',
-    subtitle: 'Bryan/Odoo/Robin — Shock Absorber Story',
+    subtitle: 'Dishub Tangerang — Semi-Robotic Vehicle Testing System',
     wordLimit: '100–300 words',
-    wordCount: '~270',
+    wordCount: '~260',
     target: {
       question: 'Describe a time when you demonstrated leadership.',
       whatTheyTest: 'Situations where you changed the direction of something beyond your formal authority.',
@@ -17,33 +17,33 @@ const essays = [
       ],
       scoring: 'Evidence of influence, not just management. One strong specific example > three vague claims.',
     },
-    content: `When Robin, our senior manager, assigned Bryan — a developer who had just started learning Odoo — to handle a complex customisation for Posity and deliver within two weeks, I knew the expectation was unrealistic. As the project manager with hands-on development experience, I understood something Robin did not: Odoo is a large, interconnected ERP where each module depends on the others. A new developer needs months to grasp its core architecture before delivering even simple tasks, let alone the customisation Posity demanded.
+    content: `"Leadership is not defined by how many people you lead, but how you lead your team to do the right things — the right way — and persist in doing so to maintain the dignity of your team."
 
-Rather than simply rejecting Robin's directive, I chose to educate. I walked him through Odoo's technical structure — how modules interconnect, why the learning curve is steep, and what a realistic delivery timeline looked like. Simultaneously, I worked with Bryan to break down the task into achievable components, helping him focus on what he could deliver while building his understanding of the system.
+Since 2014, I have run a custom automation and software development business. In 2017, I received a commission from Dishub (Department of Transportation) Tangerang City to upgrade an outdated vehicle testing machine at their Vehicle Testing Unit (UPT PKB). The system, originally built in 2012, relied on four separate machines — brake tester, sideslip, axle load, and speedometer — each operated manually by a different technician.
 
-The result was a recalibrated timeline. Bryan delivered the customisation successfully — not in two weeks, but after just over one month. Robin began to appreciate the complexity: at our next alignment meeting, he voluntarily brought a senior Odoo developer to support Bryan in answering Posity's technical questions. Within a month, Robin hired a mid-level developer to share Bryan's workload, allowing Bryan to focus on learning. After two months, Bryan was delivering simple customisations independently.
+I proposed to the KAUBT (Head of Integrated Service Unit) a semi-robotic system that would consolidate all four machines into a single, unified control device. The objective was twofold: reduce operator count from four to one, and cut testing time from three to five minutes per vehicle to under two minutes. After designing and implementing the automation system, the results exceeded expectations: across 150 vehicles processed daily, the single line saved approximately 1.5 hours per day. The following year, KAUBT requested a second line, bringing total daily savings to three hours and eliminating six operator positions. At Tangerang's minimum wage of approximately five million rupiah, this translates to nearly 300 million rupiah saved annually. The system remains operational today — nine years later — and has inspired other UPT units and vendors across Dishub to replicate the concept.
 
-The deeper lesson was about my role as a mid-level manager. I learned that my duty is to act as a shock absorber — filtering unrealistic external expectations so my team can focus on delivering high-quality work. By standing up for my team, I earned their trust and respect. In subsequent meetings, they reciprocated — standing by me when Robin directed blame my way. That mutual loyalty, built through one honest conversation, is the leadership I will carry into every team I build.`,
+Leading in Indonesia's government contracting environment often involves pressure to include unofficial payments in project pricing. I chose a different path: I refused. Including such costs would have meant reducing system quality to cover the margin. This decision slowed my expansion — I could not penetrate as quickly as competitors who complied. But when I did gain a client, they were partners who shared my vision: delivering the best solution within budget, without compromise. Being called "kolot" — stubborn — became a badge of integrity. That is the leadership I will carry into academia: doing the right things, the right way, even when it is slower.`,
     structure: [
-      { section: 'Situation', words: '~35', content: 'Robin assigns Bryan (Odoo newbie) to Posity customisation, 2-week deadline' },
-      { section: 'Challenge', words: '~50', content: 'Odoo complexity, interconnected modules, months-long learning curve' },
-      { section: 'Action', words: '~60', content: 'Counter Robin with technical explanation; help Bryan break down tasks; propose realistic timeline' },
-      { section: 'Result', words: '~80', content: 'Bryan delivered in >1 month; Robin adjusted expectations, brought senior dev, hired mid-level; Posity delivered' },
-      { section: 'Reflection', words: '~45', content: 'Shock absorber role; earned team trust; reciprocal loyalty when team defended Pungki' },
+      { section: 'Opening Quote', words: '~35', content: 'Personal leadership philosophy — "doing right things the right way"' },
+      { section: 'Situation', words: '~45', content: 'Since 2014 automation business; 2017 Dishub Tangerang; old 4-machine system' },
+      { section: 'Action', words: '~50', content: 'Propose to KAUBT: semi-robotic, 4 machines → 1 device, <2 min testing' },
+      { section: 'Result', words: '~70', content: '150 vehicles/day; 1.5 hrs/day saved; 2 lines; 300M rupiah/year; 9 years active; inspired others' },
+      { section: 'Ethical Stand', words: '~60', content: 'Refused unofficial payments; slower growth but right clients; "kolot" as integrity' },
     ],
     strengths: [
-      'Leadership beyond authority (pushing back on senior)',
-      'Technical credibility (Odoo structure knowledge)',
-      'People management (protecting Bryan + helping him grow)',
-      'Measurable outcomes (1 month vs 2 weeks, Robin hired support)',
-      'Reciprocity (team defended Pungki → proof of effective leadership)',
-      '"Shock absorber" — memorable, specific metaphor',
+      'Leadership beyond authority (proposed to government official)',
+      'Technical credibility (automation, semi-robotic, 4 machines → 1)',
+      'Measurable outcomes (4→1 operators, 3-5 min→<2 min, 300M rupiah/year)',
+      'Ethical stand (refused unofficial payments = integrity)',
+      'Long-term impact (system still active 9 years, inspired other UPT)',
+      '"Kolot" — memorable, culturally resonant metaphor',
     ],
     todos: [
-      'Verify Robin and Bryan are names you can mention (or use initials)',
-      'Clarify what Posity is (client? company?) — add 1 phrase',
+      'Verify KAUBT title is correct for interview',
+      'Prepare to explain "unofficial payments" context if asked',
+      'Ensure Dishub Tangerang is mentionable',
       'Check word count stays ≤ 300',
-      'Ensure no overlap with examples in other 3 essays',
     ],
   },
   {
@@ -329,6 +329,76 @@ export default function CheveningEssays() {
           </div>
         ))}
       </div>
+
+      <Collapsible title="Benang Merah — Alignment Across 4 Essays" defaultOpen={true}>
+        <div style={{
+          background: '#0f172a',
+          border: '1px solid #1e293b',
+          borderRadius: '8px',
+          padding: '1rem',
+          fontSize: '0.85rem',
+        }}>
+          <p style={{ color: '#e2e8f0', margin: '0 0 0.75rem', fontWeight: 600 }}>
+            Core Thread: Dishub automation → ethical stand → need advanced training → become dosen → scale impact
+          </p>
+
+          <div className="tracker-table-wrap">
+            <table className="tracker-table">
+              <thead>
+                <tr><th>Essay</th><th>Thread</th><th>Connection to Core</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>1. Leadership</strong></td>
+                  <td>Dishub automation project → proposed semi-robotic system → ethical stand (refused unofficial payments)</td>
+                  <td>Foundation — shows technical skill + integrity + government experience</td>
+                </tr>
+                <tr>
+                  <td><strong>2. Networking</strong></td>
+                  <td>Dishub KAUBT relationship → trust built without kickback → reciprocity through quality work</td>
+                  <td>Extends trust theme — relationships built on value, not compromise</td>
+                </tr>
+                <tr>
+                  <td><strong>3. Course Choice</strong></td>
+                  <td>Indonesia's automation gap (seen at Dishub) → need advanced mechatronics training → Glasgow</td>
+                  <td>Problem → Solution — why Glasgow Mechatronics is the answer</td>
+                </tr>
+                <tr>
+                  <td><strong>4. Career Plan</strong></td>
+                  <td>Return as dosen → teach automation → close government-industry gap → 200+ engineers in 10 years</td>
+                  <td>Long-term vision — scale the Dishub impact to national level</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div style={{ marginTop: '0.75rem', padding: '0.75rem', background: '#1e293b', borderRadius: '8px' }}>
+            <p style={{ color: '#4ade80', margin: '0 0 0.5rem', fontWeight: 600 }}>Narrative Arc</p>
+            <p style={{ color: '#94a3b8', margin: 0, lineHeight: '1.6' }}>
+              <strong>Dishub (2017)</strong> → automation works → ethical stand → trust built
+              <br />
+              → <strong>see bigger gap</strong> → Indonesia lacks automation expertise
+              <br />
+              → <strong>Glasgow Mechatronics</strong> → advanced training
+              <br />
+              → <strong>return as dosen</strong> → teach automation → scale impact
+              <br />
+              → <strong>200+ engineers</strong> in 10 years → national curriculum reform
+            </p>
+          </div>
+
+          <div style={{ marginTop: '0.75rem', padding: '0.75rem', background: '#1e293b', borderRadius: '8px' }}>
+            <p style={{ color: '#fbbf24', margin: '0 0 0.5rem', fontWeight: 600 }}>Key Consistency Checks</p>
+            <ul style={{ color: '#94a3b8', margin: 0, paddingLeft: '1.25rem' }}>
+              <li>All 4 essays mention <strong style={{ color: '#e2e8f0' }}>Dishub / automation</strong> as starting point</li>
+              <li>All 4 essays connect to <strong style={{ color: '#e2e8f0' }}>dosen (lecturer)</strong> as career goal</li>
+              <li>Essay 1 (Leadership) + Essay 2 (Networking) both use <strong style={{ color: '#e2e8f0' }}>Dishub relationships</strong></li>
+              <li>Essay 3 (Course) + Essay 4 (Career) both reference <strong style={{ color: '#e2e8f0' }}>automation gap in Indonesia</strong></li>
+              <li>No example is repeated — each essay has its own specific story</li>
+            </ul>
+          </div>
+        </div>
+      </Collapsible>
 
       <Collapsible title="Essay Framework & Grand Design" defaultOpen={false}>
         <div style={{
