@@ -113,6 +113,26 @@ This is exactly how I will approach the Chevening network. During my year in the
       'Add specific example of "technical update" shared',
       'Research Indonesian Chevening alumni initiatives → name one',
     ],
+    whySuperior: [
+      { aspect: 'Trust built on transparency', detail: 'Buka alasan teknis secara terbuka tanpa sales pitch' },
+      { aspect: 'Referral network', detail: '4 UPT lain hubungi karena rekomendasi KAUBT' },
+      { aspect: 'Reciprocity shown', detail: 'Technical update 6-bulan sekali, bukan sekadar保持 kontak' },
+      { aspect: 'Benang merah', detail: 'Lanjutan Essay 1 — Dishub story yang sama' },
+    ],
+    kerangka: [
+      { section: 'P1 — Formation', words: '~50', content: '2017 Dishub KAUBT; skeptis di awal; transparency membangun trust' },
+      { section: 'P2 — Contribution', words: '~45', content: 'Share technical reasoning; no inflated promises; exceeded expectations' },
+      { section: 'P3 — Results', words: '~40', content: 'Line kedua; 4 regional offices; referrals through trust' },
+      { section: 'P4 — Maintenance', words: '~35', content: 'Technical update 6-bulan sekali; reciprocity on value' },
+      { section: 'P5 — Chevening', words: '~50', content: 'Connect with alumni; teaching resources + workshops' },
+    ],
+    contentId: `"Hubungan profesional paling bermakna saya dimulai pada tahun 2017 ketika saya mengusulkan sistem pengujian kendaraan semi-robotik kepada KAUBT (Kepala Unit Pelayanan Terpadu) di Dishub Tangerang. Dia skeptis — saya adalah pengusaha muda yang mengusulkan untuk memodernisasi sistem yang telah berjalan manual selama lima tahun. Tetapi saya melakukan sesuatu yang tidak biasa: saya membagikan alasan teknis saya secara terbuka, menjelaskan bagaimana automasi akan bekerja, apa yang bisa salah, dan bagaimana kita akan mengujinya bersama. Tidak ada sales pitch, tidak ada janji berlebih — hanya transparansi.
+
+Kejujuran tersebut menjadi fondasi. Ketika jalur pertama melampaui ekspektasi — mengurangi operator dari empat menjadi satu dan memotong waktu pengujian lebih dari 60% — dia mempercayakan saya dengan jalur kedua tahun berikutnya. Lebih penting lagi, dia mulai merekomendasikan pendekatan saya kepada kolega di unit UPT lain di seluruh Dishub. Dalam tiga tahun, empat kantor Dishub regional telah menghubungi saya tentang proyek serupa, semuanya melalui rekomendasinya.
+
+Saya mempertahankan hubungan ini dengan disiplin sederhana: setiap enam bulan, saya mengirimkan pembaruan teknis singkat — bukan sales pitch, tetapi wawasan berguna tentang tren automasi atau studi kasus dari klien lain. Dia melakukan hal yang sama, membagikan perubahan regulasi yang mungkin memengaruhi pekerjaan saya. Ini adalah reciprocitas yang dibangun di atas nilai, bukan kewajiban.
+
+Inilah pendekatan yang akan saya ambil terhadap jaringan Chevening. Selama tahun di Inggris, saya berencana untuk terhubung dengan alumni Chevening Indonesia yang bekerja di pemerintahan dan manufaktur — hubungan yang dapat saya aktifkan ketika saya kembali sebagai dosen. Kembali ke Surabaya, saya akan mempertahankan hubungan ini dengan berbagi sumber daya mengajar dan mengorganisir workshop yang menjembatani industri dan akademik. KAUBT mengajarkan saya bahwa jaringan terkuat dibangun di atas kepercayaan, bukan transaksi — dan itulah prinsip yang akan saya bawa ke Chevening.`,
   },
   {
     id: 3,
@@ -158,6 +178,25 @@ On returning to Surabaya, I will integrate Glasgow's modules on control systems 
       'Name specific modules from the curriculum',
       'Add why you cannot get this training at Indonesian universities',
     ],
+    whySuperior: [
+      { aspect: 'Problem rooted in Essay 1', detail: 'Dishub project revealed Indonesia automation gap' },
+      { aspect: 'Direct connection', detail: 'Glasgow modules = what I运用 at Dishub (trial and error)' },
+      { aspect: 'UK priority area', detail: 'Growth & Prosperity — strengthen Indonesia industrial workforce' },
+      { aspect: 'Implementation plan', detail: 'Curriculum integration + automation lab for real challenges' },
+    ],
+    kerangka: [
+      { section: 'P1 — Priority Area', words: '~40', content: 'Growth & Prosperity; Dishub project revealed gap' },
+      { section: 'P2 — Why This Course', words: '~60', content: 'Control systems + robotics; trial and error vs formal training' },
+      { section: 'P3 — Why This University', words: '~50', content: 'Glasgow intelligent manufacturing; Industry 4.0; project-based' },
+      { section: 'P4 — Implementation', words: '~60', content: 'Curriculum integration; automation lab; real government challenges' },
+    ],
+    contentId: `Area Prioritas UK: Mendorong Pertumbuhan dan Kemakmuran
+
+Pada tahun 2017, saya mengotomasi sistem pengujian kendaraan di Dishub Tangerang — menggabungkan empat mesin manual menjadi satu perangkat semi-robotik. Proyek tersebut berhasil, tetapi mengungkap masalah yang lebih dalam: Indonesia kekurangan insinyur yang dapat merancang, memprogram, dan memelihara sistem seperti itu. Saya bisa membangunnya karena saya mengajari diri sendiri automasi selama satu dekade. Sebagian besar lulusan teknik tidak bisa. Tujuan karir saya adalah menjadi dosen (pengajar) yang menutup kesenjangan ini — dan MSc Mechatronics di University of Glasgow adalah katalis yang tepat.
+
+Program Glasgow menonjol karena alasan yang terhubung langsung dengan pengalaman Dishub saya. Pertama, kurikulumnya dalam sistem kontrol dan robotika membahas pengetahuan teknis yang saya gunakan saat merancang sistem semi-robotik — pengetahuan yang saat ini saya peroleh melalui coba dan gagal, bukan pelatihan formal. Kedua, riset School of Engineering dalam manufaktur cerdas sejalan dengan dorongan Industry 4.0 Indonesia, di mana unit pemerintah seperti Dishub sangat membutuhkan keahlian automasi. Ketiga, pembelajaran berbasis proyek Glasgow berarti saya akan lulus dengan portofolio masalah yang sudah diselesaikan yang dapat saya bawa langsung ke ruang kelas Indonesia.
+
+Kembali ke Surabaya, saya akan mengintegrasikan modul Glasgow tentang sistem kontrol dan komputasi tertanam dalam pengajaran saya di fakultas teknik, memperbarui kurikulum yang saat ini memperlakukan automasi sebagai mata kuliah pilihan, bukan kompetensi inti. Saya juga akan mendirikan laboratorium automasi kecil — dimodelkan pada pendekatan Glasgow — di mana mahasiswa bekerja pada tantangan nyata dari lembaga pemerintah dan manufaktur lokal.`,
   },
   {
     id: 4,
@@ -206,6 +245,28 @@ Chevening provides the three things I cannot acquire domestically: world-class t
       'Research existing Industry-Academia hubs in Indonesia',
       'Add specific Chevening alumni to contact',
     ],
+    whySuperior: [
+      { aspect: 'Short-term = Essay 1 practice', detail: 'Lanjutkan konsultasi Dishub, mulai mengajar' },
+      { aspect: 'Mid-term = scale Dishub model', detail: '3+ universitas, 200+ insinyur dalam 10 tahun' },
+      { aspect: 'Long-term = national impact', detail: 'Standardisasi kurikulum automasi nasional' },
+      { aspect: 'Barriers addressed', detail: 'Budaya akademik + procurement → publications + alumni' },
+    ],
+    kerangka: [
+      { section: 'P1 — Short-term', words: '~60', content: 'Dosen PENS; redesign kurikulum; lanjut konsultasi Dishub' },
+      { section: 'P2 — Mid-term', words: '~55', content: 'Industry-Academia Hub; 3+ universitas; 200+ insinyur' },
+      { section: 'P3 — Long-term', words: '~50', content: 'Standarisasi nasional; advokasi Kementerian Pendidikan' },
+      { section: 'P4 — Barriers', words: '~45', content: 'Budaya akademik + procurement → publications + alumni' },
+      { section: 'P5 — Chevening', words: '~30', content: 'Training + network + credibility' },
+    ],
+    contentId: `Jangka Pendek (1–3 tahun): Kembali dari Glasgow, saya akan mendapatkan posisi dosen di fakultas teknik di Jawa Timur — idealnya di Politeknik Elektronika Negeri Surabaya (PENS), almamater saya. Tujuan langsung saya adalah mendesain ulang kurikulum mekatronika dan automasi, menggantikan modul PLC usang dengan konten IoT/Industry 4.0 yang langsung dari pengajaran Glasgow. Saya juga akan melanjutkan praktik konsultasi Dishub, menawarkan audit automasi kepada lembaga pemerintah — menciptakan umpan balik antara teori kelas dan realitas sektor publik.
+
+Jangka Menengah (5–10 tahun): Saya akan menskalakan model yang saya buktikan di Dishub Tangerang. Saya akan mendirikan Hub Kolaborasi Industri-Akademik yang menghubungkan tiga atau lebih universitas dengan unit pemerintah daerah (Dishub, Disperindag, BPOM) dan produsen. Hub akan menjalankan proyek bersama, bimbingan tesis mahasiswa pada masalah nyata sektor publik, dan menyediakan kursus CPD untuk insinyur pemerintah. Target saya: 200+ insinyur terlatih dalam automasi dalam satu dekade — dampak yang sama dengan Dishub, dikalikan melalui institusi.
+
+Jangka Panjang (15+ tahun): Saya bertujuan untuk memimpin inisiatif nasional untuk menstandarisasi pendidikan automasi dan mekatronika di seluruh politeknik Indonesia — mengambil model pedagogis Inggris dan jaringan alumni Chevening untuk mengadvokasi reformasi kurikulum di Kementerian Pendidikan. Proyek Dishub menunjukkan kepada saya apa yang bisa dilakukan satu sistem yang terotomatisasi. Visi jangka panjang adalah membangun generasi insinyur yang dapat mereplikasi dampak itu di seluruh Indonesia.
+
+Hambatan: Budaya akademik Indonesia lebih menghargai publikasi penelitian daripada inovasi pengajaran; pengadaan pemerintah lebih menyukai vendor harga rendah daripada solusi berkualitas. Saya akan mengatasinya dengan mempublikasikan studi kasus reformasi kurikulum di jurnal internasional (mengubah inovasi menjadi output penelitian) dan memanfaatkan alumni Chevening untuk donasi peralatan dan kemitraan industri.
+
+Chevening menyediakan tiga hal yang tidak dapat saya peroleh secara domestik: pelatihan teknis kelas dunia di Glasgow, jaringan global para pemimpin yang menginginkan perubahan, dan kredibilitas untuk mempengaruhi perubahan institusional di Indonesia.`,
   },
 ]
 
