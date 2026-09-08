@@ -71,9 +71,9 @@ Memimpin di lingkungan kontrak pemerintah Indonesia sering melibatkan tekanan un
   {
     id: 2,
     title: 'Networking',
-    subtitle: 'Estro Hutama Client Network + Diginergy Knowledge Log',
+    subtitle: 'Dishub KAUBT Relationship — Trust Without Compromise',
     wordLimit: '100–300 words',
-    wordCount: '~240',
+    wordCount: '~250',
     target: {
       question: 'Tell us about a professional relationship/network you have built and maintained.',
       whatTheyTest: 'Evidence of building, maintaining, and benefiting from professional relationships — not just "being collaborative."',
@@ -85,40 +85,41 @@ Memimpin di lingkungan kontrak pemerintah Indonesia sering melibatkan tekanan un
       ],
       scoring: 'Name specific people/organizations you connected. Describe what the network produced. Reference Chevening alumni initiatives.',
     },
-    content: `[DRAFT — based on framework]
+    content: `[DRAFT — aligned with Dishub theme]
 
-At Estro Hutama Indonesia, I maintained a client network of twelve industrial manufacturers across East Java — not through formal CRM tools, but through deliberate reciprocity. Every quarter I shared one piece of unsolicited value: a market report on automation trends, a connection to a relevant supplier, or a candid assessment of a competitor's product. These were not sales gestures; they were investments in trust.
+My most meaningful professional relationship began in 2017 when I proposed a semi-robotic vehicle testing system to the KAUBT (Head of Integrated Service Unit) at Dishub Tangerang. He was skeptical — I was a young entrepreneur proposing to modernize a system that had worked manually for five years. But I did something unusual: I shared my technical reasoning openly, explaining exactly how the automation would work, what could go wrong, and how we would test it together. No sales pitch, no inflated promises — just transparency.
 
-The payoff was structural, not transactional. When I later proposed operational audits that required deep access to production data — sensitive information manufacturers rarely share — the same clients opened their doors without hesitation. One client, a food-processing plant in Sidoarjo, allowed me to map their entire workflow, which revealed a bottleneck saving them IDR 200 million annually. That audit became a case study I still use in teaching.
+That honesty became the foundation. When the first line exceeded expectations — reducing operators from four to one and cutting testing time by over 60% — he trusted me with a second line the following year. More importantly, he began referring my approach to colleagues at other UPT units across Dishub. Within three years, four different regional Dishub offices had contacted me about similar projects, all through his recommendations.
 
-At Diginergy, I replicate this model across borders. I maintain a personal "knowledge log" for each German client — tracking their technical preferences, business milestones, and communication style — and share relevant industry articles or introductions without being asked. The result: three clients have referred new business to Diginergy without a formal pitch.
+I maintain this relationship with a simple discipline: every six months, I send him a brief technical update — not a sales pitch, but a useful insight about automation trends or a case study from another client. He does the same, sharing regulatory changes that might affect my work. It is reciprocity built on value, not obligation.
 
-I will activate this same principle within the Chevening community. During my year in the UK, I plan to join the Indonesian Chevening Society and contribute by organising cross-sector knowledge-sharing sessions between Indonesian scholars and UK engineering firms. On returning to Surabaya, I will sustain these connections by co-delivering workshops with Chevening alumni that bridge industry and academia — closing the gap that currently limits Indonesian engineering graduates' employability.`,
+This is exactly how I will approach the Chevening network. During my year in the UK, I plan to connect with Indonesian Chevening alumni who work in government and manufacturing — relationships I can activate when I return as a dosen. On returning to Surabaya, I will sustain these connections by sharing teaching resources and co-organizing workshops that bridge industry and academia. The KAUBT taught me that the strongest networks are built on trust, not transactions — and that is the principle I will bring to Chevening.`,
     structure: [
-      { section: 'Philosophy', words: '~25', content: 'Reciprocity-driven networking: give before you get' },
-      { section: 'Building', words: '~50', content: 'Estro client network: 12 manufacturers, quarterly value-sharing' },
-      { section: 'Maintaining', words: '~45', content: 'Diginergy knowledge log for German clients; follow-up discipline' },
-      { section: 'Results', words: '~40', content: '3 clients referred business without formal pitch; IDR 200M bottleneck savings' },
-      { section: 'Chevening', words: '~50', content: 'Join Indonesian Chevening Society; organise cross-sector workshops; sustain alumni connections' },
+      { section: 'Formation', words: '~50', content: '2017 Dishub KAUBT; skeptical at first; transparency built trust' },
+      { section: 'Contribution', words: '~45', content: 'Shared technical reasoning openly; no inflated promises; exceeded expectations' },
+      { section: 'Results', words: '~40', content: 'Second line; 4 regional offices contacted; referrals through trust' },
+      { section: 'Maintenance', words: '~35', content: 'Bi-technical updates; reciprocity on value, not obligation' },
+      { section: 'Chevening', words: '~50', content: 'Connect with Indonesian alumni; sustain via teaching resources + workshops' },
     ],
     strengths: [
-      'Specific examples (12 manufacturers, IDR 200M, 3 referrals)',
-      'Give-before-get philosophy shown, not claimed',
-      'Cross-border angle (Indonesia↔Germany) is distinctive',
+      'Direct continuation of Essay 1 (same Dishub story)',
+      'Specific relationship (KAUBT) with clear formation',
+      'Give-before-get shown through transparency, not claims',
+      'Referral network as evidence of trust',
       'Concrete Chevening activation plan',
     ],
     todos: [
+      'Verify KAUBT name if possible (add personal touch)',
+      'Add specific example of "technical update" shared',
       'Research Indonesian Chevening alumni initiatives → name one',
-      'Verify IDR 200M claim with actual numbers',
-      'Add more detail on Diginergy knowledge log process',
     ],
   },
   {
     id: 3,
     title: 'Course Choice',
-    subtitle: 'Glasgow MSc Mechatronics — UK Priority: Growth & Prosperity',
+    subtitle: 'Glasgow MSc Mechatronics — Closing Indonesia\'s Automation Gap',
     wordLimit: '100–300 words',
-    wordCount: '~230',
+    wordCount: '~260',
     target: {
       question: 'Explain your first choice of course and university only.',
       whatTheyTest: 'How your chosen course connects to UK priority areas and your career goals.',
@@ -130,39 +131,40 @@ I will activate this same principle within the Chevening community. During my ye
       ],
       scoring: 'Name specific professors, modules, research. Explain why you cannot get this training at home. UK priority areas: Growth & Prosperity, Climate Resilience, Security & Stability, Inclusive Societies.',
     },
-    content: `[DRAFT — based on framework]
+    content: `[DRAFT — aligned with Dishub theme]
 
 UK Priority Area: Promoting Growth and Prosperity
 
-Indonesia's manufacturing sector — contributing 18% of GDP — faces a critical skills gap: engineers who can design, programme, and manage automated systems are scarce, while demand surges as factories adopt Industry 4.0 technologies. My career goal is to become a dosen (lecturer) in Engineering Management, training the next generation of engineers who can close this gap. The MSc Mechatronics at the University of Glasgow is the precise catalyst for that mission.
+In 2017, I automated a vehicle testing system at Dishub Tangerang — consolidating four manual machines into one semi-robotic device. The project succeeded, but it revealed a deeper problem: Indonesia lacks engineers who can design, programme, and maintain such systems. I could build it because I taught myself automation over a decade. Most engineering graduates cannot. My career goal is to become a dosen (lecturer) who closes this gap — and the MSc Mechatronics at the University of Glasgow is the precise catalyst.
 
-Glasgow's programme stands out for three reasons. First, its curriculum — spanning control systems, robotics, and embedded computing — directly mirrors the technical stack I运用 daily at Diginergy (IoT/PLC integration, Odoo ERP customisation, cross-platform software delivery). Second, the School of Engineering's research in intelligent manufacturing and sustainable automation aligns with Indonesia's push for green industrialisation — an area where I can immediately apply new knowledge upon returning. Third, Glasgow's emphasis on project-based learning means I will graduate not just with theory, but with a portfolio of solved engineering problems I can bring into the classroom.
+Glasgow's programme stands out for three reasons directly connected to my Dishub experience. First, its curriculum in control systems and robotics addresses the exact technical knowledge I运用 when designing the semi-robotic system — knowledge I currently acquired through trial and error, not formal training. Second, the School of Engineering's research in intelligent manufacturing aligns with Indonesia's Industry 4.0 push, where government units like Dishub desperately need automation expertise. Third, Glasgow's project-based learning means I will graduate with a portfolio of solved problems I can bring directly into Indonesian classrooms.
 
-On returning to Surabaya, I will integrate Glasgow's modules on control systems and robotics into my teaching at an Indonesian university, updating curricula that currently lag behind industry standards. I will also establish a small automation laboratory — modelled on Glasgow's project-based approach — where students work on real manufacturing challenges from local SMEs, directly contributing to the UK's growth-and-prosperity agenda by strengthening Indonesia's industrial workforce.`,
+On returning to Surabaya, I will integrate Glasgow's modules on control systems and embedded computing into my teaching at an engineering faculty, updating curricula that currently treat automation as an elective rather than a core competency. I will also establish a small automation laboratory — modelled on Glasgow's approach — where students work on real challenges from government agencies and local manufacturers. This directly contributes to the UK's growth-and-prosperity agenda by strengthening Indonesia's industrial workforce, one engineer at a time.`,
     structure: [
-      { section: 'Priority Area', words: '~40', content: 'Growth & Prosperity; Indonesia manufacturing skills gap' },
-      { section: 'Why This Course', words: '~60', content: 'Glasgow curriculum mirrors Diginergy technical stack; research alignment; project-based learning' },
-      { section: 'Why This University', words: '~50', content: 'School of Engineering research strength; industry links; unique methodology' },
-      { section: 'Implementation', words: '~60', content: 'Curriculum integration; automation lab for local SMEs; strengthen industrial workforce' },
+      { section: 'Priority Area', words: '~40', content: 'Growth & Prosperity; Dishub revealed Indonesia automation gap' },
+      { section: 'Why This Course', words: '~60', content: 'Control systems + robotics = what I运用 at Dishub; project-based learning' },
+      { section: 'Why This University', words: '~50', content: 'Glasgow research in intelligent manufacturing; Industry 4.0 alignment' },
+      { section: 'Implementation', words: '~60', content: 'Curriculum integration; automation lab; students work on real government challenges' },
     ],
     strengths: [
-      'UK priority area clearly identified',
-      'Specific modules and research areas mentioned',
-      'Immediate application plan upon returning',
-      'Connection to Indonesia\'s Industry 4.0 needs',
+      'Direct continuation of Essay 1 (Dishub → gap → Glasgow)',
+      'Specific modules referenced (control systems, robotics, embedded computing)',
+      'Why not available in Indonesia explained',
+      'Immediate application plan (curriculum + lab)',
+      'UK priority area clearly connected',
     ],
     todos: [
       'Research specific Glasgow professors and their research',
       'Name specific modules from the curriculum',
-      'Add why you cannot get this training in Indonesia',
+      'Add why you cannot get this training at Indonesian universities',
     ],
   },
   {
     id: 4,
     title: 'Career Plan',
-    subtitle: 'Short/Mid/Long-term — Dosen + Industry-Academia Hub',
+    subtitle: 'From Dishub Project to National Automation Curriculum Reform',
     wordLimit: '100–300 words',
-    wordCount: '~270',
+    wordCount: '~280',
     target: {
       question: 'Outline your medium and long-term career plans. Please relate your answer to a key challenge or priority facing your country.',
       whatTheyTest: 'A clear, realistic, and achievable post-study career plan with genuine commitment to addressing pressing challenges.',
@@ -174,29 +176,30 @@ On returning to Surabaya, I will integrate Glasgow's modules on control systems 
       ],
       scoring: 'Short/mid/long-term with measurable goals. Tie to UK strategic priorities (FCDO country profile). Credible gap between current position and stated ambition.',
     },
-    content: `[DRAFT — based on framework]
+    content: `[DRAFT — aligned with Dishub theme]
 
-Short-term (1–3 years): Upon returning from Glasgow, I will secure a lecturer position at an engineering faculty in East Java — ideally at Politeknik Elektronika Negeri Surabaya (PENS), my alma mater, or a comparable institution. My immediate objective is to redesign the mechatronics and automation curriculum, replacing outdated PLC-centric modules with current IoT/Industry 4.0 content drawn directly from Glasgow's teaching. I will also launch a part-time consulting practice, offering automation audits to local manufacturers — creating a feedback loop between classroom theory and factory-floor reality.
+Short-term (1–3 years): Upon returning from Glasgow, I will secure a lecturer position at an engineering faculty in East Java — ideally at Politeknik Elektronika Negeri Surabaya (PENS), my alma mater. My immediate objective is to redesign the mechatronics and automation curriculum, replacing outdated PLC-centric modules with IoT/Industry 4.0 content drawn directly from Glasgow's teaching. I will also continue my Dishub consulting practice, offering automation audits to government agencies — creating a feedback loop between classroom theory and public-sector reality.
 
-Mid-term (5–10 years): I will scale my impact by establishing an Industry-Academia Collaboration Hub connecting three or more universities with regional manufacturers. The hub will run joint projects, co-supervise student theses on real industrial problems, and provide CPD (Continuing Professional Development) courses for working engineers. My goal is to graduate 200+ engineers with hands-on automation skills within a decade.
+Mid-term (5–10 years): I will scale the model I proven at Dishub Tangerang. I will establish an Industry-Academia Collaboration Hub connecting three or more universities with regional government units (Dishub, Disperindag, BPOM) and manufacturers. The hub will run joint projects, co-supervise student theses on real public-sector problems, and provide CPD courses for government engineers. My goal: 200+ engineers trained in automation within a decade — the same impact I made at Dishub, multiplied across institutions.
 
-Long-term (15+ years): I aim to lead a national initiative to standardise engineering-management education across Indonesian polytechnics — drawing on UK pedagogical models and Chevening alumni networks to advocate for curriculum reform at the Ministry of Education level.
+Long-term (15+ years): I aim to lead a national initiative to standardise automation and mechatronics education across Indonesian polytechnics — drawing on UK pedagogical models and Chevening alumni networks to advocate for curriculum reform at the Ministry of Education level. The Dishub project showed me what one automated system can do. The long-term vision is to build a generation of engineers who can replicate that impact nationwide.
 
-Barriers: Indonesia's academic culture rewards research publications over teaching innovation; funding for laboratory equipment is limited. I will overcome these by publishing curriculum-reform case studies in international journals (turning innovation into research output) and by leveraging Chevening alumni in the UK for equipment donations and industry partnerships.
+Barriers: Indonesia's academic culture rewards research publications over teaching innovation; government procurement favors low-price vendors over quality solutions. I will overcome these by publishing curriculum-reform case studies in international journals (turning innovation into research output) and by leveraging Chevening alumni for equipment donations and industry partnerships.
 
 Chevening provides the three things I cannot acquire domestically: world-class technical training at Glasgow, a global network of reform-minded leaders, and the credibility to influence institutional change in Indonesia.`,
     structure: [
-      { section: 'Short-term', words: '~65', content: 'Lecturer at PENS; redesign curriculum; automation audits for manufacturers' },
-      { section: 'Mid-term', words: '~55', content: 'Industry-Academia Hub; 3+ universities; 200+ engineers in 10 years' },
-      { section: 'Long-term', words: '~45', content: 'National standardisation initiative; Ministry of Education advocacy' },
-      { section: 'Barriers', words: '~50', content: 'Academic culture; funding → overcome via publications + alumni partnerships' },
-      { section: 'Chevening', words: '~35', content: 'Training + network + credibility' },
+      { section: 'Short-term', words: '~60', content: 'Lecturer at PENS; redesign curriculum; continue Dishub consulting' },
+      { section: 'Mid-term', words: '~55', content: 'Industry-Academia Hub; government units + manufacturers; 200+ engineers' },
+      { section: 'Long-term', words: '~50', content: 'National standardisation; Ministry of Education advocacy' },
+      { section: 'Barriers', words: '~45', content: 'Academic culture + procurement → overcome via publications + alumni' },
+      { section: 'Chevening', words: '~30', content: 'Training + network + credibility' },
     ],
     strengths: [
-      'Realistic short-term goal (lecturer, not director)',
-      'Measurable mid-term target (200+ engineers)',
-      'Specific barriers identified with solutions',
-      'Connection to UK priority areas',
+      'Direct continuation of Dishub story (short-term = same practice)',
+      'Measurable mid-term target (200+ engineers, 3+ universities)',
+      'Long-term vision tied to national impact',
+      'Specific barriers with solutions',
+      'Chevening value clearly stated',
     ],
     todos: [
       'Verify PENS lecturer hiring requirements',
@@ -269,6 +272,47 @@ export default function CheveningEssays() {
               {essay.subtitle}
             </p>
 
+            {essay.whySuperior && (
+              <Collapsible title="Kenapa Topik Ini Superior" defaultOpen={true}>
+                <div className="tracker-table-wrap">
+                  <table className="tracker-table">
+                    <thead>
+                      <tr><th>Aspek</th><th>Mengapa Works</th></tr>
+                    </thead>
+                    <tbody>
+                      {essay.whySuperior.map((s, i) => (
+                        <tr key={i}>
+                          <td><strong>{s.aspect}</strong></td>
+                          <td>{s.detail}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </Collapsible>
+            )}
+
+            {essay.kerangka && (
+              <Collapsible title="Kerangka Essay (Revisi dari Draft)">
+                <div className="tracker-table-wrap">
+                  <table className="tracker-table">
+                    <thead>
+                      <tr><th>Section</th><th>Words</th><th>Content</th></tr>
+                    </thead>
+                    <tbody>
+                      {essay.kerangka.map((s, i) => (
+                        <tr key={i}>
+                          <td><strong>{s.section}</strong></td>
+                          <td>{s.words}</td>
+                          <td>{s.content}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </Collapsible>
+            )}
+
             <Collapsible title="Chevening Target — What They're Testing" defaultOpen={true}>
               <div style={{
                 background: '#0f172a',
@@ -310,6 +354,23 @@ export default function CheveningEssays() {
               </div>
             </Collapsible>
 
+            {essay.contentId && (
+              <Collapsible title="Versi Bahasa Indonesia" badge="ID">
+                <div style={{
+                  background: '#0f172a',
+                  border: '1px solid #1e293b',
+                  borderRadius: '8px',
+                  padding: '1rem',
+                  whiteSpace: 'pre-wrap',
+                  fontSize: '0.9rem',
+                  lineHeight: '1.6',
+                  color: '#e2e8f0',
+                }}>
+                  {essay.contentId}
+                </div>
+              </Collapsible>
+            )}
+
             <Collapsible title="Structure Breakdown">
               <div className="tracker-table-wrap">
                 <table className="tracker-table">
@@ -348,64 +409,6 @@ export default function CheveningEssays() {
                 ))}
               </ul>
             </Collapsible>
-
-            {essay.whySuperior && (
-              <Collapsible title="Kenapa Topik Dishub Superior" defaultOpen={true}>
-                <div className="tracker-table-wrap">
-                  <table className="tracker-table">
-                    <thead>
-                      <tr><th>Aspek</th><th>Mengapa Works</th></tr>
-                    </thead>
-                    <tbody>
-                      {essay.whySuperior.map((s, i) => (
-                        <tr key={i}>
-                          <td><strong>{s.aspect}</strong></td>
-                          <td>{s.detail}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              </Collapsible>
-            )}
-
-            {essay.kerangka && (
-              <Collapsible title="Kerangka Essay (Revisi dari Draft)">
-                <div className="tracker-table-wrap">
-                  <table className="tracker-table">
-                    <thead>
-                      <tr><th>Section</th><th>Words</th><th>Content</th></tr>
-                    </thead>
-                    <tbody>
-                      {essay.kerangka.map((s, i) => (
-                        <tr key={i}>
-                          <td><strong>{s.section}</strong></td>
-                          <td>{s.words}</td>
-                          <td>{s.content}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              </Collapsible>
-            )}
-
-            {essay.contentId && (
-              <Collapsible title="Versi Bahasa Indonesia" badge="ID">
-                <div style={{
-                  background: '#0f172a',
-                  border: '1px solid #1e293b',
-                  borderRadius: '8px',
-                  padding: '1rem',
-                  whiteSpace: 'pre-wrap',
-                  fontSize: '0.9rem',
-                  lineHeight: '1.6',
-                  color: '#e2e8f0',
-                }}>
-                  {essay.contentId}
-                </div>
-              </Collapsible>
-            )}
           </div>
         ))}
       </div>
