@@ -5,7 +5,7 @@
 
 ---
 
-## The Essay (~260 words)
+## Versi Bahasa Inggris (Final Essay) (~260 words)
 
 "Leadership is not defined by how many people you lead, but how you lead your team to do the right things — the right way — and persist in doing so to maintain the dignity of your team."
 
@@ -17,7 +17,44 @@ Leading in Indonesia's government contracting environment often involves pressur
 
 ---
 
-## Structure Breakdown
+## Versi Bahasa Indonesia
+
+"Kepemimpinan tidak didefinisikan oleh berapa banyak orang yang Anda pimpin, tetapi bagaimana Anda membimbing tim Anda untuk melakukan hal yang benar — dengan cara yang benar — dan bertekad untuk mempertahankan hal tersebut guna menjaga martabat seluruh tim."
+
+Sejak 2014, saya menjalankan bisnis automasi khusus dan pengembangan perangkat lunak. Pada 2017, saya menerima komisi dari Dishub (Dinas Perhubungan) Kota Tangerang untuk memperbarui mesin pengujian kendaraan yang sudah usang di Unit Pengujian Kendaraan Bermotor (UPT PKB) mereka. Sistem tersebut, yang dibuat pada tahun 2012, mengandalkan empat mesin terpisah — pengujian rem, sideslip, beban poros, dan speedometer — masing-masing dioperasikan secara manual oleh teknisi yang berbeda.
+
+Saya mengusulkan kepada KAUBT (Kepala Unit Pelayanan Terpadu) sebuah sistem semi-robotik yang menggabungkan keempat mesin tersebut menjadi satu perangkat kontrol terpadu. Tujuannya ganda: mengurangi jumlah operator dari empat menjadi satu, dan memotong waktu pengujian dari tiga hingga lima menit per kendaraan menjadi kurang dari dua menit. Setelah merancang dan mengimplementasikan sistem automasi tersebut, hasilnya melampaui ekspektasi: dari 150 kendaraan yang diproses setiap hari, satu jalur tersebut menghemat sekitar 1,5 jam per hari. Tahun berikutnya, KAUBT meminta jalur kedua, sehingga total penghematan harian menjadi tiga jam dan menghilangkan enam posisi operator. Dengan upah minimum Tangerang sekitar lima juta rupiah, ini berarti hampir 300 juta rupiah hemat per tahun. Sistem ini masih beroperasi hingga hari ini — sembilan tahun kemudian — dan telah menginspirasi unit UPT lain dan vendor di seluruh Dishub untuk menerapkan konsep yang sama.
+
+Memimpin di lingkungan kontrak pemerintah Indonesia sering melibatkan tekanan untuk menyertakan pembayaran tidak resmi dalam harga proyek. Saya memilih jalan yang berbeda: saya menolak. Memasukkan biaya tersebut berarti mengurangi kualitas sistem untuk menutupi margin. Keputusan ini memperlambat ekspansi saya — saya tidak dapat menembus pasar secepat kompetitor yang mematuhi. Tetapi ketika saya mendapatkan klien, mereka adalah mitra yang memiliki visi yang sama: memberikan solusi terbaik dalam anggaran, tanpa kompromi. Dipanggil "kolot" menjadi lencana integritas. Itulah kepemimpinan yang akan saya bawa ke dunia akademik: melakukan hal yang benar, dengan cara yang benar, meskipun lebih lambat.
+
+---
+
+## Kenapa Topik Dishub Ini Superior
+
+| Aspek | Mengapa Works |
+|-------|---------------|
+| **Leadership beyond authority** | Propose perubahan ke KAUBT (pejabat pemerintah) |
+| **Technical credibility** | Automate 4 mesin jadi 1 device, semi-robotic |
+| **Measurable outcomes** | 4→1 operator, 3-5 min→<2 min, 300 juta/tahun |
+| **Ethical stand** | Tolak kickback = integritas, bukan sekadar "deliver project" |
+| **Long-term impact** | Sistem masih aktif, menginspirasi UPT lain |
+| **Benang merah** | Dishub → automation → gap teknologi → jadi dosen → Glasgow Mechatronics |
+
+---
+
+## Kerangka Essay (Revisi dari Draft)
+
+| Section | Words | Content |
+|---------|-------|---------|
+| P1 — Opening Quote + Thesis | ~35 | Quote pribadi + context sejak 2014 menjalankan bisnis automasi |
+| P2 — Situation + Challenge | ~45 | 2017 Dishub Tangerang; 4 mesin terpisah manual; butuh modernisasi |
+| P3 — Action | ~50 | Propose ke KAUBT: semi-robotic, 4 mesin → 1 device, <2 menit |
+| P4 — Result | ~70 | 150 kendaraan/hari; 1.5 jam/hari hemat; 2 line; 300 juta/tahun; 9 tahun aktif |
+| P5 — Ethical Stand | ~60 | Tolak unofficial payments; lambat tapi benar; "kolot" = integritas |
+
+---
+
+## Structure Breakdown (English)
 
 | Section | Words | Content |
 |---------|-------|---------|
