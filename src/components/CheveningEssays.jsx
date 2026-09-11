@@ -4,9 +4,9 @@ const essays = [
   {
     id: 1,
     title: 'Leadership',
-    subtitle: 'Dishub Tangerang — Semi-Robotic Vehicle Testing System',
+    subtitle: 'Batu 2022/2023 — Conflict, Win-Win, and "Act Like It\'s Yours"',
     wordLimit: '100–300 words',
-    wordCount: '~260',
+    wordCount: '~280',
     target: {
       question: 'Describe a time when you demonstrated leadership.',
       whatTheyTest: 'Situations where you changed the direction of something beyond your formal authority.',
@@ -17,63 +17,68 @@ const essays = [
       ],
       scoring: 'Evidence of influence, not just management. One strong specific example > three vague claims.',
     },
-    content: `"Leadership is not defined by how many people you lead, but how you lead your team to do the right things — the right way — and persist in doing so to maintain the dignity of your team."
+    content: `In 2023, I was brought in as a sub-contractor to build a management application for a government vehicle testing unit in Batu, East Java. The main contractor — the firm that held the primary agreement with the client — was responsible for delivering the overall system. My scope was two specific features. Two months into the project, the main contractor told the client I had promised to deliver eight features. I was suddenly facing a client who believed I had broken my word, and a contractor who was shifting the blame onto me.
 
-Since 2014, I have run a custom automation and software development business. In 2017, I received a commission from Dishub (Department of Transportation) Tangerang City to upgrade an outdated vehicle testing machine at their Vehicle Testing Unit (UPT PKB). The system, originally built in 2012, relied on four separate machines — brake tester, sideslip, axle load, and speedometer — each operated manually by a different technician.
+I did not panic. I showed the client our original agreement — the exact scope, the exact features. Then I confronted the main contractor, not with anger, but with clarity: "We agreed on two. I will deliver two. If you want more, we renegotiate." I made it clear I would not accept being blamed for promises I never made.
 
-I proposed to the KAUBT (Head of Integrated Service Unit) a semi-robotic system that would consolidate all four machines into a single, unified control device. The objective was twofold: reduce operator count from four to one, and cut testing time from three to five minutes per vehicle to under two minutes. After designing and implementing the automation system, the results exceeded expectations: across 150 vehicles processed daily, the single line saved approximately 1.5 hours per day. The following year, KAUBT requested a second line, bringing total daily savings to three hours and eliminating six operator positions. At Tangerang's minimum wage of approximately five million rupiah, this translates to nearly 300 million rupiah saved annually. The system remains operational today — nine years later — and has inspired other UPT units and vendors across Dishub to replicate the concept.
+The outcome surprised everyone. The main contractor, recognizing I had held my ground professionally, offered me the main contractor role for the following year. I accepted — and delivered the project on time, within scope, and with zero critical bugs. More importantly, I never spoke negatively about the main contractor to the client. Today, we still collaborate regularly. He contacts me for advice on other projects, and I do the same. That relationship was built not on convenience, but on trust earned through conflict handled with integrity.
 
-Leading in Indonesia's government contracting environment often involves pressure to include unofficial payments in project pricing. I chose a different path: I refused. Including such costs would have meant reducing system quality to cover the margin. This decision slowed my expansion — I could not penetrate as quickly as competitors who complied. But when I did gain a client, they were partners who shared my vision: delivering the best solution within budget, without compromise. Being called "kolot" — stubborn — became a badge of integrity. That is the leadership I will carry into academia: doing the right things, the right way, even when it is slower.`,
+This is not an isolated incident. At Estro Hutama, my own company, I have delivered three to five custom projects every year since 2014 — each treated as if it were my own business. At Diginergy, where I serve as project manager for German clients, I have learned to shield my team from external pressure: "Blame me, not them." I also practice what I call "confrontasi cantik" — pushing back on unrealistic expectations from management or clients without making anyone feel defeated. My CEO now reaches out to me as a brainstorming partner before major pitches. One client from Diginergy has become a private supporter of my side project — an AI chatbot that mimics 80 percent of human responses — and has committed to implementing it across three of his businesses.
+
+My leadership principle is simple: act like every project is yours.`,
     structure: [
-      { section: 'Opening Quote', words: '~35', content: 'Personal leadership philosophy — "doing right things the right way"' },
-      { section: 'Situation', words: '~45', content: 'Since 2014 automation business; 2017 Dishub Tangerang; old 4-machine system' },
-      { section: 'Action', words: '~50', content: 'Propose to KAUBT: semi-robotic, 4 machines → 1 device, <2 min testing' },
-      { section: 'Result', words: '~70', content: '150 vehicles/day; 1.5 hrs/day saved; 2 lines; 300M rupiah/year; 9 years active; inspired others' },
-      { section: 'Ethical Stand', words: '~60', content: 'Refused unofficial payments; slower growth but right clients; "kolot" as integrity' },
+      { section: 'Hook', words: '~30', content: '2023 Batu: sub-contractor, main contractor blamed me for promises I never made' },
+      { section: 'Action', words: '~50', content: 'Showed original agreement; confronted with clarity, not anger; held ground professionally' },
+      { section: 'Result', words: '~40', content: 'Became main contractor next year; delivered on time; still collaborate today' },
+      { section: 'Pattern — Estro Hutama', words: '~30', content: '3-5 projects/year since 2014; each treated as own business' },
+      { section: 'Pattern — Diginergy', words: '~60', content: 'Shield team ("blame me"); confrontasi cantik; CEO brainstorming partner; client supports side project' },
+      { section: 'Principle', words: '~20', content: '"Act like every project is yours" — responsibility, not authority' },
     ],
     strengths: [
-      'Leadership beyond authority (proposed to government official)',
-      'Technical credibility (automation, semi-robotic, 4 machines → 1)',
-      'Measurable outcomes (4→1 operators, 3-5 min→<2 min, 300M rupiah/year)',
-      'Ethical stand (refused unofficial payments = integrity)',
-      'Long-term impact (system still active 9 years, inspired other UPT)',
-      '"Kolot" — memorable, culturally resonant metaphor',
+      'Recent example (2023, not 2017)',
+      'Conflict handled with integrity → win-win outcome',
+      'Ongoing relationship proves genuine trust',
+      'Multi-project pattern (Estro + Diginergy) shows consistency',
+      '"Confrontasi cantik" — memorable, culturally resonant phrase',
+      'CEO as brainstorming partner = trusted advisor status',
     ],
     todos: [
-      'Verify KAUBT title is correct for interview',
-      'Prepare to explain "unofficial payments" context if asked',
-      'Ensure Dishub Tangerang is mentionable',
+      'Decide whether to name main contractor or keep generic',
+      'Verify client names for Diginergy side project',
       'Check word count stays ≤ 300',
+      'Ensure no overlap with Essay 2 (Networking)',
     ],
     whySuperior: [
-      { aspect: 'Leadership beyond authority', detail: 'Propose perubahan ke KAUBT (pejabat pemerintah)' },
-      { aspect: 'Technical credibility', detail: 'Automate 4 mesin jadi 1 device, semi-robotic' },
-      { aspect: 'Measurable outcomes', detail: '4→1 operator, 3-5 min→<2 min, 300 juta/tahun' },
-      { aspect: 'Ethical stand', detail: 'Tolak kickback = integritas, bukan sekadar "deliver project"' },
-      { aspect: 'Long-term impact', detail: 'Sistem masih aktif, menginspirasi UPT lain' },
-      { aspect: 'Benang merah', detail: 'Dishub → automation → gap teknologi → jadi dosen → Glasgow Mechatronics' },
+      { aspect: 'Recency', detail: '2022/2023 — bukan 9 tahun lalu, tapi baru 1-2 tahun' },
+      { aspect: 'Conflict jelas', detail: 'Dikhianati → defend → win-win → still friends' },
+      { aspect: 'Pattern bukan insiden', detail: 'Estro Hutama (3-5/tahun) + Diginergy (CEO + client)' },
+      { aspect: '"Confrontasi cantik"', detail: 'Push back tanpa membuat pihak lain kalah — unique phrase' },
+      { aspect: 'Trusted advisor', detail: 'CEO brainstorming partner + client private support' },
+      { aspect: '"Act like it\'s yours"', detail: 'Prinsip yang applicable ke semua context' },
     ],
     kerangka: [
-      { section: 'P1 — Opening Quote + Thesis', words: '~35', content: 'Quote pribadi + context sejak 2014 menjalankan bisnis automasi' },
-      { section: 'P2 — Situation + Challenge', words: '~45', content: '2017 Dishub Tangerang; 4 mesin terpisah manual; butuh modernisasi' },
-      { section: 'P3 — Action', words: '~50', content: 'Propose ke KAUBT: semi-robotic, 4 mesin → 1 device, <2 menit' },
-      { section: 'P4 — Result', words: '~70', content: '150 kendaraan/hari; 1.5 jam/hari hemat; 2 line; 300 juta/tahun; 9 tahun aktif' },
-      { section: 'P5 — Ethical Stand', words: '~60', content: 'Tolak unofficial payments; lambat tapi benar; "kolot" = integritas' },
+      { section: 'P1 — Hook', words: '~30', content: '2023 Batu: sub-contractor, main contractor blamed saya' },
+      { section: 'P2 — Action', words: '~50', content: 'Tunjukkan bukti; confront dengan jelas; hold ground' },
+      { section: 'P3 — Result', words: '~40', content: 'Jadi main contractor; deliver on time; masih collaborate' },
+      { section: 'P4 — Pattern', words: '~90', content: 'Estro Hutama (3-5/tahun) + Diginergy (shield team + CEO + client)' },
+      { section: 'P5 — Principle', words: '~20', content: '"Act like every project is yours"' },
     ],
-    contentId: `"Kepemimpinan tidak didefinisikan oleh berapa banyak orang yang Anda pimpin, tetapi bagaimana Anda membimbing tim Anda untuk melakukan hal yang benar — dengan cara yang benar — dan bertekad untuk mempertahankan hal tersebut guna menjaga martabat seluruh tim."
+    contentId: `Pada tahun 2023, saya ditunjuk sebagai sub-contractor untuk membangun aplikasi manajemen di unit pengujian kendaraan pemerintah di Kota Batu, Jawa Timur. Main contractor — perusahaan yang memegang perjanjian utama dengan klien — bertanggung jawab mengirimkan keseluruhan sistem. Cakupan saya adalah dua fitur spesifik. Dua bulan ke dalam proyek, main contractor memberitahu klien bahwa saya berjanji meng-deliver delapan fitur. Saya tiba-tiba menghadapi klien yang percaya saya telah melanggar janji, dan kontraktor yang mengalihkan kesalahan kepada saya.
 
-Sejak 2014, saya menjalankan bisnis automasi khusus dan pengembangan perangkat lunak. Pada 2017, saya menerima komisi dari Dishub (Dinas Perhubungan) Kota Tangerang untuk memperbarui mesin pengujian kendaraan yang sudah usang di Unit Pengujian Kendaraan Bermotor (UPT PKB) mereka. Sistem tersebut, yang dibuat pada tahun 2012, mengandalkan empat mesin terpisah — pengujian rem, sideslip, beban poros, dan speedometer — masing-masing dioperasikan secara manual oleh teknisi yang berbeda.
+Saya tidak panik. Saya tunjukkan perjanjian asli kita — cakupan tepat, fitur tepat. Lalu saya konfrontasi main contractor, bukan dengan kemarahan, tapi dengan kejelasan: "Kita sepakat dua. Saya akan deliver dua. Kalau Anda mau lebih, kita negosiasi ulang." Saya tegaskan saya tidak akan menerima kesalahan untuk janji yang tidak pernah saya buat.
 
-Saya mengusulkan kepada KAUBT (Kepala Unit Pelayanan Terpadu) sebuah sistem semi-robotik yang menggabungkan keempat mesin tersebut menjadi satu perangkat kontrol terpadu. Tujuannya ganda: mengurangi jumlah operator dari empat menjadi satu, dan memotong waktu pengujian dari tiga hingga lima menit per kendaraan menjadi kurang dari dua menit. Setelah merancang dan mengimplementasikan sistem automasi tersebut, hasilnya melampaui ekspektasi: dari 150 kendaraan yang diproses setiap hari, satu jalur tersebut menghemat sekitar 1,5 jam per hari. Tahun berikutnya, KAUBT meminta jalur kedua, sehingga total penghematan harian menjadi tiga jam dan menghilangkan enam posisi operator. Dengan upah minimum Tangerang sekitar lima juta rupiah, ini berarti hampir 300 juta rupiah hemat per tahun. Sistem ini masih beroperasi hingga hari ini — sembilan tahun kemudian — dan telah menginspirasi unit UPT lain dan vendor di seluruh Dishub untuk menerapkan konsep yang sama.
+Hasilnya mengejutkan semua orang. Main contractor, menyadari saya telah memegang pendirian secara profesional, menawarkan saya peran main contractor tahun berikutnya. Saya terima — dan meng-deliver proyek tepat waktu, sesuai cakupan, dan dengan nol bug kritis. Lebih penting lagi, saya tidak pernah berbicara negatif tentang main contractor kepada klien. Hari ini, kami masih berkolaborasi secara rutin. Dia menghubungi saya untuk saran proyek lain, dan saya melakukan hal yang sama. Hubungan itu dibangun bukan atas kenyamanan, tapi kepercayaan yang diperoleh melalui konflik yang ditangani dengan integritas.
 
-Memimpin di lingkungan kontrak pemerintah Indonesia sering melibatkan tekanan untuk menyertakan pembayaran tidak resmi dalam harga proyek. Saya memilih jalan yang berbeda: saya menolak. Memasukkan biaya tersebut berarti mengurangi kualitas sistem untuk menutupi margin. Keputusan ini memperlambat ekspansi saya — saya tidak dapat menembus pasar secepat kompetitor yang mematuhi. Tetapi ketika saya mendapatkan klien, mereka adalah mitra yang memiliki visi yang sama: memberikan solusi terbaik dalam anggaran, tanpa kompromi. Dipanggil "kolot" menjadi lencana integritas. Itulah kepemimpinan yang akan saya bawa ke dunia akademik: melakukan hal yang benar, dengan cara yang benar, meskipun lebih lambat.`,
+Ini bukan kejadian terisolasi. Di Estro Hutama, perusahaan saya sendiri, saya telah meng-deliver tiga hingga lima proyek khusus setiap tahun sejak 2014 — masing-masing diperlakukan seolah-olah itu bisnis saya sendiri. Di Diginergy, di mana saya menjabat sebagai manajer proyek untuk klien Jerman, saya telah belajar melindungi tim saya dari tekanan eksternal: "Salahkan saya, bukan mereka." Saya juga mempraktikkan apa yang saya sebut "confrontasi cantik" — menolak ekspektasi yang tidak realistis dari manajemen atau klien tanpa membuat siapa pun merasa kalah. CEO saya sekarang menghubungi saya sebagai mitra brainstorming sebelum pitch besar. Salah satu klien dari Diginergy telah menjadi pendukung pribadi proyek sampingan saya — chatbot AI yang meniru 80 persen respons manusia — dan telah berkomitmen mengimplementasikannya di tiga bisnisnya.
+
+Prinsip kepemimpinan saya sederhana: perlakukan setiap proyek seperti milik Anda sendiri.`,
   },
   {
     id: 2,
     title: 'Networking',
-    subtitle: 'Dishub KAUBT Relationship — Trust Without Compromise',
+    subtitle: 'From Batu Conflict to Industry-Wide Trust Network',
     wordLimit: '100–300 words',
-    wordCount: '~250',
+    wordCount: '~270',
     target: {
       question: 'Tell us about a professional relationship/network you have built and maintained.',
       whatTheyTest: 'Evidence of building, maintaining, and benefiting from professional relationships — not just "being collaborative."',
@@ -85,61 +90,62 @@ Memimpin di lingkungan kontrak pemerintah Indonesia sering melibatkan tekanan un
       ],
       scoring: 'Name specific people/organizations you connected. Describe what the network produced. Reference Chevening alumni initiatives.',
     },
-    content: `[DRAFT — aligned with Dishub theme]
+    content: `[DRAFT — aligned with Essay 1: Batu 2022/2023 + Diginergy]
 
-My most meaningful professional relationship began in 2017 when I proposed a semi-robotic vehicle testing system to the KAUBT (Head of Integrated Service Unit) at Dishub Tangerang. He was skeptical — I was a young entrepreneur proposing to modernize a system that had worked manually for five years. But I did something unusual: I shared my technical reasoning openly, explaining exactly how the automation would work, what could go wrong, and how we would test it together. No sales pitch, no inflated promises — just transparency.
+The most important professional relationship I have built started with a conflict. In 2023, the main contractor on a Batu government project tried to shift blame onto me for promises I never made. I held my ground professionally — showed the evidence, refused to accept false responsibility, and proposed a fair renegotiation. The result was not a victory over him. It was a partnership. He offered me the main contractor role the following year, and today we collaborate regularly. He still contacts me for advice on other projects, and I do the same.
 
-That honesty became the foundation. When the first line exceeded expectations — reducing operators from four to one and cutting testing time by over 60% — he trusted me with a second line the following year. More importantly, he began referring my approach to colleagues at other UPT units across Dishub. Within three years, four different regional Dishub offices had contacted me about similar projects, all through his recommendations.
+That relationship taught me the principle I apply everywhere: build trust through integrity, not convenience. I do not speak negatively about partners to clients. I do not take their work when opportunities arise. Instead, I share knowledge freely — automation insights, regulatory updates, project lessons learned. This reciprocity has grown my network organically. I now know nearly every major vendor operating in Dishub units across Indonesia. These are not contacts in a CRM. They are partners who trust me because I have never compromised them.
 
-I maintain this relationship with a simple discipline: every six months, I send him a brief technical update — not a sales pitch, but a useful insight about automation trends or a case study from another client. He does the same, sharing regulatory changes that might affect my work. It is reciprocity built on value, not obligation.
+At Diginergy, I apply the same principle with international clients. I maintain a personal knowledge log for each German client — tracking their technical preferences, communication style, and business milestones. When relevant industry articles or introductions emerge, I share them without being asked. One client has become a private supporter of my AI chatbot side project, committing to implement it across three of his businesses — a relationship that began with a simple technical recommendation I sent unsolicited.
 
-This is exactly how I will approach the Chevening network. During my year in the UK, I plan to connect with Indonesian Chevening alumni who work in government and manufacturing — relationships I can activate when I return as a dosen. On returning to Surabaya, I will sustain these connections by sharing teaching resources and co-organizing workshops that bridge industry and academia. The KAUBT taught me that the strongest networks are built on trust, not transactions — and that is the principle I will bring to Chevening.`,
+This is how I will approach the Chevening network. During my year in the UK, I plan to connect with Indonesian alumni working in government and manufacturing — relationships I can activate when I return as a dosen. On returning to Surabaya, I will sustain these connections by sharing teaching resources and co-organizing workshops that bridge industry and academia.`,
     structure: [
-      { section: 'Formation', words: '~50', content: '2017 Dishub KAUBT; skeptical at first; transparency built trust' },
-      { section: 'Contribution', words: '~45', content: 'Shared technical reasoning openly; no inflated promises; exceeded expectations' },
-      { section: 'Results', words: '~40', content: 'Second line; 4 regional offices contacted; referrals through trust' },
-      { section: 'Maintenance', words: '~35', content: 'Bi-technical updates; reciprocity on value, not obligation' },
-      { section: 'Chevening', words: '~50', content: 'Connect with Indonesian alumni; sustain via teaching resources + workshops' },
+      { section: 'Formation', words: '~55', content: 'Batu 2023: conflict with main contractor → held ground → partnership' },
+      { section: 'Principle', words: '~40', content: 'Trust through integrity; no negative talk; no taking their work' },
+      { section: 'Industry Network', words: '~40', content: 'Know nearly every major vendor in Dishub across Indonesia' },
+      { section: 'Diginergy', words: '~50', content: 'Personal knowledge log; unsolicited value; client supports side project' },
+      { section: 'Chevening', words: '~45', content: 'Connect with alumni; teaching resources + workshops' },
     ],
     strengths: [
-      'Direct continuation of Essay 1 (same Dishub story)',
-      'Specific relationship (KAUBT) with clear formation',
-      'Give-before-get shown through transparency, not claims',
-      'Referral network as evidence of trust',
+      'Direct continuation of Essay 1 (Batu conflict → partnership)',
+      'Industry-wide network (all major Dishub vendors)',
+      'Give-before-get shown through unsolicited value',
+      'International client relationship (Diginergy)',
       'Concrete Chevening activation plan',
     ],
     todos: [
-      'Verify KAUBT name if possible (add personal touch)',
-      'Add specific example of "technical update" shared',
+      'Decide whether to name main contractor',
+      'Add specific example of "technical recommendation" shared',
       'Research Indonesian Chevening alumni initiatives → name one',
     ],
     whySuperior: [
-      { aspect: 'Trust built on transparency', detail: 'Buka alasan teknis secara terbuka tanpa sales pitch' },
-      { aspect: 'Referral network', detail: '4 UPT lain hubungi karena rekomendasi KAUBT' },
-      { aspect: 'Reciprocity shown', detail: 'Technical update 6-bulan sekali, bukan sekadar保持 kontak' },
-      { aspect: 'Benang merah', detail: 'Lanjutan Essay 1 — Dishub story yang sama' },
+      { aspect: 'Conflict → Trust', detail: 'Relationship formed through conflict, not convenience' },
+      { aspect: 'Industry-wide network', detail: 'Know major vendor Dishub se-Indonesia' },
+      { aspect: 'Give-before-get', detail: 'Unsolicited value → client supports side project' },
+      { aspect: 'Cross-border', detail: 'Indonesia + Germany (Diginergy) = global network' },
+      { aspect: 'Benang merah', detail: 'Lanjutan Essay 1 — Batu conflict + Diginergy pattern' },
     ],
     kerangka: [
-      { section: 'P1 — Formation', words: '~50', content: '2017 Dishub KAUBT; skeptis di awal; transparency membangun trust' },
-      { section: 'P2 — Contribution', words: '~45', content: 'Share technical reasoning; no inflated promises; exceeded expectations' },
-      { section: 'P3 — Results', words: '~40', content: 'Line kedua; 4 regional offices; referrals through trust' },
-      { section: 'P4 — Maintenance', words: '~35', content: 'Technical update 6-bulan sekali; reciprocity on value' },
-      { section: 'P5 — Chevening', words: '~50', content: 'Connect with alumni; teaching resources + workshops' },
+      { section: 'P1 — Formation', words: '~55', content: 'Batu 2023: conflict → held ground → partnership' },
+      { section: 'P2 — Principle', words: '~40', content: 'Trust through integrity; no negative talk' },
+      { section: 'P3 — Industry Network', words: '~40', content: 'All major Dishub vendors se-Indonesia' },
+      { section: 'P4 — Diginergy', words: '~50', content: 'Knowledge log; unsolicited value; client support' },
+      { section: 'P5 — Chevening', words: '~45', content: 'Alumni connection; workshops' },
     ],
-    contentId: `"Hubungan profesional paling bermakna saya dimulai pada tahun 2017 ketika saya mengusulkan sistem pengujian kendaraan semi-robotik kepada KAUBT (Kepala Unit Pelayanan Terpadu) di Dishub Tangerang. Dia skeptis — saya adalah pengusaha muda yang mengusulkan untuk memodernisasi sistem yang telah berjalan manual selama lima tahun. Tetapi saya melakukan sesuatu yang tidak biasa: saya membagikan alasan teknis saya secara terbuka, menjelaskan bagaimana automasi akan bekerja, apa yang bisa salah, dan bagaimana kita akan mengujinya bersama. Tidak ada sales pitch, tidak ada janji berlebih — hanya transparansi.
+    contentId: `Hubungan profesional paling penting yang saya bangun dimulai dari sebuah konflik. Pada tahun 2023, main contractor pada proyek pemerintah di Batu mencoba mengalihkan kesalahan kepada saya untuk janji yang tidak pernah saya buat. Saya memegang pendirian secara profesional — menunjukkan bukti, menolak menerima tanggung jawab palsu, dan mengusulkan negosiasi ulang yang adil. Hasilnya bukan kemenangan atas dia. Itu adalah kemitraan. Dia menawarkan saya peran main contractor tahun berikutnya, dan hari ini kami berkolaborasi secara rutin. Dia masih menghubungi saya untuk saran proyek lain, dan saya melakukan hal yang sama.
 
-Kejujuran tersebut menjadi fondasi. Ketika jalur pertama melampaui ekspektasi — mengurangi operator dari empat menjadi satu dan memotong waktu pengujian lebih dari 60% — dia mempercayakan saya dengan jalur kedua tahun berikutnya. Lebih penting lagi, dia mulai merekomendasikan pendekatan saya kepada kolega di unit UPT lain di seluruh Dishub. Dalam tiga tahun, empat kantor Dishub regional telah menghubungi saya tentang proyek serupa, semuanya melalui rekomendasinya.
+Hubungan itu mengajarkan saya prinsip yang saya terapkan di mana-mana: bangun kepercayaan melalui integritas, bukan kenyamanan. Saya tidak berbicara negatif tentang mitra kepada klien. Saya tidak mengambil pekerjaan mereka ketika ada peluang. Sebaliknya, saya berbagi pengetahuan secara bebas — wawasan automasi, pembaruan regulasi, pelajaran proyek. Reciprocitas ini telah menumbuhkan jaringan saya secara organik. Saya sekarang mengenal hampir semua vendor utama yang beroperasi di unit Dishub di seluruh Indonesia. Ini bukan kontak di CRM. Mereka adalah mitra yang mempercayai saya karena saya tidak pernah mengorbankan mereka.
 
-Saya mempertahankan hubungan ini dengan disiplin sederhana: setiap enam bulan, saya mengirimkan pembaruan teknis singkat — bukan sales pitch, tetapi wawasan berguna tentang tren automasi atau studi kasus dari klien lain. Dia melakukan hal yang sama, membagikan perubahan regulasi yang mungkin memengaruhi pekerjaan saya. Ini adalah reciprocitas yang dibangun di atas nilai, bukan kewajiban.
+Di Diginergy, saya menerapkan prinsip yang sama dengan klien internasional. Saya memelihara log pengetahuan pribadi untuk setiap klien Jerman — melacak preferensi teknis, gaya komunikasi, dan tonggak bisnis mereka. Ketika artikel industri atau pengenalan yang relevan muncul, saya membagikannya tanpa diminta. Salah satu klien telah menjadi pendukung pribadi proyek sampingan chatbot AI saya, berkomitmen mengimplementasikannya di tiga bisnisnya — hubungan yang dimulai dengan rekomendasi teknis sederhana yang saya kirimkan tanpa diminta.
 
-Inilah pendekatan yang akan saya ambil terhadap jaringan Chevening. Selama tahun di Inggris, saya berencana untuk terhubung dengan alumni Chevening Indonesia yang bekerja di pemerintahan dan manufaktur — hubungan yang dapat saya aktifkan ketika saya kembali sebagai dosen. Kembali ke Surabaya, saya akan mempertahankan hubungan ini dengan berbagi sumber daya mengajar dan mengorganisir workshop yang menjembatani industri dan akademik. KAUBT mengajarkan saya bahwa jaringan terkuat dibangun di atas kepercayaan, bukan transaksi — dan itulah prinsip yang akan saya bawa ke Chevening.`,
+Inilah pendekatan yang akan saya ambil terhadap jaringan Chevening. Selama tahun di Inggris, saya berencana untuk terhubung dengan alumni Indonesia yang bekerja di pemerintahan dan manufaktur — hubungan yang dapat saya aktifkan ketika saya kembali sebagai dosen. Kembali ke Surabaya, saya akan mempertahankan hubungan ini dengan berbagi sumber daya mengajar dan mengorganisir workshop yang menjembatani industri dan akademik.`,
   },
   {
     id: 3,
     title: 'Course Choice',
-    subtitle: 'Glasgow MSc Mechatronics — Closing Indonesia\'s Automation Gap',
+    subtitle: 'Glasgow MSc Mechatronics — Formalizing Self-Taught Expertise',
     wordLimit: '100–300 words',
-    wordCount: '~260',
+    wordCount: '~270',
     target: {
       question: 'Explain your first choice of course and university only.',
       whatTheyTest: 'How your chosen course connects to UK priority areas and your career goals.',
@@ -151,26 +157,26 @@ Inilah pendekatan yang akan saya ambil terhadap jaringan Chevening. Selama tahun
       ],
       scoring: 'Name specific professors, modules, research. Explain why you cannot get this training at home. UK priority areas: Growth & Prosperity, Climate Resilience, Security & Stability, Inclusive Societies.',
     },
-    content: `[DRAFT — aligned with Dishub theme]
+    content: `[DRAFT — aligned with Essay 1: Batu 2022/2023 + Diginergy]
 
 UK Priority Area: Promoting Growth and Prosperity
 
-In 2017, I automated a vehicle testing system at Dishub Tangerang — consolidating four manual machines into one semi-robotic device. The project succeeded, but it revealed a deeper problem: Indonesia lacks engineers who can design, programme, and maintain such systems. I could build it because I taught myself automation over a decade. Most engineering graduates cannot. My career goal is to become a dosen (lecturer) who closes this gap — and the MSc Mechatronics at the University of Glasgow is the precise catalyst.
+I have delivered custom automation projects for government agencies and manufacturers since 2014 — including a 2023 Batu government project where I took over as main contractor and delivered on time with zero critical bugs. But every one of these projects was built on self-taught knowledge: trial and error, online research, and late nights debugging code I did not fully understand structurally. I can build systems that work. I cannot yet explain WHY they work at the level required to teach others. That gap is why I need the MSc Mechatronics at the University of Glasgow.
 
-Glasgow's programme stands out for three reasons directly connected to my Dishub experience. First, its curriculum in control systems and robotics addresses the exact technical knowledge I运用 when designing the semi-robotic system — knowledge I currently acquired through trial and error, not formal training. Second, the School of Engineering's research in intelligent manufacturing aligns with Indonesia's Industry 4.0 push, where government units like Dishub desperately need automation expertise. Third, Glasgow's project-based learning means I will graduate with a portfolio of solved problems I can bring directly into Indonesian classrooms.
+Glasgow's programme addresses three specific gaps in my current expertise. First, its control systems module will formalize the automation logic I currently apply intuitively — knowledge I need if I am to teach engineering students who deserve structured understanding, not just practical shortcuts. Second, the robotics and embedded computing curriculum will deepen the technical foundation I use daily at Diginergy, where I manage cross-border projects for German clients. Third, Glasgow's project-based learning approach matches how I already work: solving real problems, not writing theoretical papers.
 
-On returning to Surabaya, I will integrate Glasgow's modules on control systems and embedded computing into my teaching at an engineering faculty, updating curricula that currently treat automation as an elective rather than a core competency. I will also establish a small automation laboratory — modelled on Glasgow's approach — where students work on real challenges from government agencies and local manufacturers. This directly contributes to the UK's growth-and-prosperity agenda by strengthening Indonesia's industrial workforce, one engineer at a time.`,
+On returning to Surabaya, I will integrate Glasgow's modules into my teaching at an engineering faculty, replacing outdated PLC-centric curricula with IoT and Industry 4.0 content drawn from my Dishub and Diginergy experience. I will also establish a small automation laboratory where students work on real challenges from government agencies — the same agencies I have served for a decade. This directly contributes to the UK's growth-and-prosperity agenda: strengthening Indonesia's industrial workforce by training engineers who can close the automation gap I have seen firsthand.`,
     structure: [
-      { section: 'Priority Area', words: '~40', content: 'Growth & Prosperity; Dishub revealed Indonesia automation gap' },
-      { section: 'Why This Course', words: '~60', content: 'Control systems + robotics = what I运用 at Dishub; project-based learning' },
-      { section: 'Why This University', words: '~50', content: 'Glasgow research in intelligent manufacturing; Industry 4.0 alignment' },
-      { section: 'Implementation', words: '~60', content: 'Curriculum integration; automation lab; students work on real government challenges' },
+      { section: 'Gap', words: '~50', content: 'Self-taught since 2014; can build but cannot teach structurally' },
+      { section: 'Why Glasgow', words: '~60', content: 'Control systems + robotics + project-based learning' },
+      { section: 'Why This University', words: '~40', content: 'Matches how I work; project-based, not theoretical' },
+      { section: 'Implementation', words: '~60', content: 'Curriculum integration; automation lab; real government challenges' },
     ],
     strengths: [
-      'Direct continuation of Essay 1 (Dishub → gap → Glasgow)',
-      'Specific modules referenced (control systems, robotics, embedded computing)',
-      'Why not available in Indonesia explained',
-      'Immediate application plan (curriculum + lab)',
+      'Honest about self-taught limitation → shows growth mindset',
+      'Specific modules referenced (control systems, robotics, embedded)',
+      'Connected to Essay 1 (Batu) and Diginergy experience',
+      'Immediate implementation plan (curriculum + lab)',
       'UK priority area clearly connected',
     ],
     todos: [
@@ -179,29 +185,30 @@ On returning to Surabaya, I will integrate Glasgow's modules on control systems 
       'Add why you cannot get this training at Indonesian universities',
     ],
     whySuperior: [
-      { aspect: 'Problem rooted in Essay 1', detail: 'Dishub project revealed Indonesia automation gap' },
-      { aspect: 'Direct connection', detail: 'Glasgow modules = what I运用 at Dishub (trial and error)' },
-      { aspect: 'UK priority area', detail: 'Growth & Prosperity — strengthen Indonesia industrial workforce' },
-      { aspect: 'Implementation plan', detail: 'Curriculum integration + automation lab for real challenges' },
+      { aspect: 'Honest gap', detail: 'Self-taught ≠ teachable — shows self-awareness' },
+      { aspect: 'Specific modules', detail: 'Control systems + robotics + embedded' },
+      { aspect: 'Connected to Essay 1', detail: 'Batu + Diginergy = need formal training' },
+      { aspect: 'Implementation', detail: 'Curriculum + lab + real challenges' },
+      { aspect: 'UK priority', detail: 'Growth & Prosperity — strengthen Indonesia workforce' },
     ],
     kerangka: [
-      { section: 'P1 — Priority Area', words: '~40', content: 'Growth & Prosperity; Dishub project revealed gap' },
-      { section: 'P2 — Why This Course', words: '~60', content: 'Control systems + robotics; trial and error vs formal training' },
-      { section: 'P3 — Why This University', words: '~50', content: 'Glasgow intelligent manufacturing; Industry 4.0; project-based' },
-      { section: 'P4 — Implementation', words: '~60', content: 'Curriculum integration; automation lab; real government challenges' },
+      { section: 'P1 — Gap', words: '~50', content: 'Self-taught since 2014; can build but cannot teach' },
+      { section: 'P2 — Why Glasgow', words: '~60', content: 'Control systems + robotics + embedded + project-based' },
+      { section: 'P3 — Why This University', words: '~40', content: 'Matches how I work' },
+      { section: 'P4 — Implementation', words: '~60', content: 'Curriculum + lab + real challenges' },
     ],
     contentId: `Area Prioritas UK: Mendorong Pertumbuhan dan Kemakmuran
 
-Pada tahun 2017, saya mengotomasi sistem pengujian kendaraan di Dishub Tangerang — menggabungkan empat mesin manual menjadi satu perangkat semi-robotik. Proyek tersebut berhasil, tetapi mengungkap masalah yang lebih dalam: Indonesia kekurangan insinyur yang dapat merancang, memprogram, dan memelihara sistem seperti itu. Saya bisa membangunnya karena saya mengajari diri sendiri automasi selama satu dekade. Sebagian besar lulusan teknik tidak bisa. Tujuan karir saya adalah menjadi dosen (pengajar) yang menutup kesenjangan ini — dan MSc Mechatronics di University of Glasgow adalah katalis yang tepat.
+Saya telah meng-deliver proyek automasi khusus untuk lembaga pemerintah dan produsen sejak 2014 — termasuk proyek pemerintah Batu 2023 di mana saya mengambil alih sebagai main contractor dan meng-deliver tepat waktu dengan nol bug kritis. Tetapi setiap proyek ini dibangun atas pengetahuan yang saya ajari sendiri: coba dan gagal, riset online, dan malam-malam larut debugging kode yang tidak saya pahami secara struktural. Saya bisa membangun sistem yang berfungsi. Saya belum bisa menjelaskan MENGAPA sistem itu berfungsi pada tingkat yang diperlukan untuk mengajarkan orang lain. Kesenjangan itulah mengapa saya membutuhkan MSc Mechatronics di University of Glasgow.
 
-Program Glasgow menonjol karena alasan yang terhubung langsung dengan pengalaman Dishub saya. Pertama, kurikulumnya dalam sistem kontrol dan robotika membahas pengetahuan teknis yang saya gunakan saat merancang sistem semi-robotik — pengetahuan yang saat ini saya peroleh melalui coba dan gagal, bukan pelatihan formal. Kedua, riset School of Engineering dalam manufaktur cerdas sejalan dengan dorongan Industry 4.0 Indonesia, di mana unit pemerintah seperti Dishub sangat membutuhkan keahlian automasi. Ketiga, pembelajaran berbasis proyek Glasgow berarti saya akan lulus dengan portofolio masalah yang sudah diselesaikan yang dapat saya bawa langsung ke ruang kelas Indonesia.
+Program Glasgow mengatasi tiga kesenjangan spesifik dalam keahlian saya saat ini. Pertama, modul sistem kontrolnya akan menormalisasi logika automasi yang saat ini saya terapkan secara intuitif — pengetahuan yang saya butuhkan jika saya akan mengajarkan mahasiswa teknik yang berhak mendapatkan pemahaman terstruktur, bukan hanya jalan pintas praktis. Kedua, kurikulum robotika dan komputasi tertanam akan memperdalam fondasi teknis yang saya gunakan sehari-hari di Diginergy, di mana saya mengelola proyek lintas batas untuk klien Jerman. Ketiga, pendekatan pembelajaran berbasis proyek Glasgow cocok dengan cara saya bekerja: memecahkan masalah nyata, bukan menulis makalah teoritis.
 
-Kembali ke Surabaya, saya akan mengintegrasikan modul Glasgow tentang sistem kontrol dan komputasi tertanam dalam pengajaran saya di fakultas teknik, memperbarui kurikulum yang saat ini memperlakukan automasi sebagai mata kuliah pilihan, bukan kompetensi inti. Saya juga akan mendirikan laboratorium automasi kecil — dimodelkan pada pendekatan Glasgow — di mana mahasiswa bekerja pada tantangan nyata dari lembaga pemerintah dan manufaktur lokal.`,
+Kembali ke Surabaya, saya akan mengintegrasikan modul Glasgow ke dalam pengajaran saya di fakultas teknik, menggantikan kurikulum PLC usang dengan konten IoT dan Industry 4.0 yang berasal dari pengalaman Dishub dan Diginergy saya. Saya juga akan mendirikan laboratorium automasi kecil di mana mahasiswa bekerja pada tantangan nyata dari lembaga pemerintah — lembaga yang sama yang telah saya layani selama satu dekade. Ini secara langsung berkontribusi pada agenda pertumbuhan dan kemakmuran UK: memperkuat tenaga kerja industri Indonesia dengan melatih insinyur yang dapat menutup kesenjangan automasi yang saya lihat secara langsung.`,
   },
   {
     id: 4,
     title: 'Career Plan',
-    subtitle: 'From Dishub Project to National Automation Curriculum Reform',
+    subtitle: 'From Batu Project to 200+ Engineers Nationwide',
     wordLimit: '100–300 words',
     wordCount: '~280',
     target: {
@@ -215,13 +222,13 @@ Kembali ke Surabaya, saya akan mengintegrasikan modul Glasgow tentang sistem kon
       ],
       scoring: 'Short/mid/long-term with measurable goals. Tie to UK strategic priorities (FCDO country profile). Credible gap between current position and stated ambition.',
     },
-    content: `[DRAFT — aligned with Dishub theme]
+    content: `[DRAFT — aligned with Essay 1: Batu 2022/2023 + Diginergy]
 
-Short-term (1–3 years): Upon returning from Glasgow, I will secure a lecturer position at an engineering faculty in East Java — ideally at Politeknik Elektronika Negeri Surabaya (PENS), my alma mater. My immediate objective is to redesign the mechatronics and automation curriculum, replacing outdated PLC-centric modules with IoT/Industry 4.0 content drawn directly from Glasgow's teaching. I will also continue my Dishub consulting practice, offering automation audits to government agencies — creating a feedback loop between classroom theory and public-sector reality.
+Short-term (1–3 years): Upon returning from Glasgow, I will secure a lecturer position at an engineering faculty in East Java — ideally at Politeknik Elektronika Negeri Surabaya (PENS), my alma mater. My immediate objective is to redesign the mechatronics and automation curriculum, replacing outdated PLC-centric modules with IoT/Industry 4.0 content drawn directly from Glasgow's teaching. I will also continue my consulting practice, offering automation audits to government agencies like Dishub — the same agencies I have served for a decade — creating a feedback loop between classroom theory and public-sector reality.
 
-Mid-term (5–10 years): I will scale the model I proven at Dishub Tangerang. I will establish an Industry-Academia Collaboration Hub connecting three or more universities with regional government units (Dishub, Disperindag, BPOM) and manufacturers. The hub will run joint projects, co-supervise student theses on real public-sector problems, and provide CPD courses for government engineers. My goal: 200+ engineers trained in automation within a decade — the same impact I made at Dishub, multiplied across institutions.
+Mid-term (5–10 years): I will scale the model I proven at Batu and Dishub Tangerang. I will establish an Industry-Academia Collaboration Hub connecting three or more universities with regional government units (Dishub, Disperindag, BPOM) and manufacturers. The hub will run joint projects, co-supervise student theses on real public-sector problems, and provide CPD courses for government engineers. My goal: 200+ engineers trained in automation within a decade — the same impact I made at Dishub, multiplied across institutions.
 
-Long-term (15+ years): I aim to lead a national initiative to standardise automation and mechatronics education across Indonesian polytechnics — drawing on UK pedagogical models and Chevening alumni networks to advocate for curriculum reform at the Ministry of Education level. The Dishub project showed me what one automated system can do. The long-term vision is to build a generation of engineers who can replicate that impact nationwide.
+Long-term (15+ years): I aim to lead a national initiative to standardise automation and mechatronics education across Indonesian polytechnics — drawing on UK pedagogical models and Chevening alumni networks to advocate for curriculum reform at the Ministry of Education level. The Batu project showed me what one automated system can do. The long-term vision is to build a generation of engineers who can replicate that impact nationwide.
 
 Barriers: Indonesia's academic culture rewards research publications over teaching innovation; government procurement favors low-price vendors over quality solutions. I will overcome these by publishing curriculum-reform case studies in international journals (turning innovation into research output) and by leveraging Chevening alumni for equipment donations and industry partnerships.
 
