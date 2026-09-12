@@ -17,6 +17,100 @@ const essays = [
       ],
       scoring: 'Evidence of influence, not just management. One strong specific example > three vague claims.',
     },
+    discussion: {
+      title: 'Diskusi Proposal Baru',
+      sections: [
+        {
+          heading: 'Masalah Essay Saat Ini',
+          content: `> Essay 1 terlalu "project management report" — teknis kuat tapi emosional tipis.  
+> Reference essays menunjukkan **SIAPA orangnya** SEBELUM **apa yang dilakukan**.
+
+| Aspek | Essay Sekarang | Reference Essays |
+|-------|----------------|------------------|
+| Opening | Konflik (Batu 2023) | Personal context (asal daerah) |
+| Emotional hook | Tidak ada | Kutipan orang tua/mentor |
+| Unique angle | Teknis (4→1 operator) | Moral courage |`,
+        },
+        {
+          heading: 'Tiga Cerita yang Tersedia',
+          content: `### 1. Dishub Automation (2017-sekarang)
+- **Apa:** Sistem pengujian kendaraan semi-robotik
+- **Hasil:** 4→1 operator, 60% lebih cepat, Rp 300 juta/tahun
+- **Status:** Masih aktif sampai sekarang
+- ⭐ Dampak lokal kuat | ⚠️ Terlalu teknis, 9 tahun lalu
+
+### 2. Diginergy (2022-sekarang)
+- **Apa:** IT Project Manager untuk perusahaan Jerman
+- **Hasil:** "Blame me, not them"; CEO brainstorming partner
+- **Status:** Aktif, internasional
+- ⭐ Kolaborasi internasional | ⚠️ Kurang "personal"
+
+### 3. Kickback Refusal (Berkali-kali)
+- **Apa:** Menolak "hiburan" untuk pejabat pemerintah
+- **Hasil:** Rugi kontrak, tapi menang klien sevisi
+- **Status:** Terjadi berkali-kali, masih relevan
+- ⭐ Moral courage, sangat unik | ⚠️ Sensitif, perlu framing hati-hati`,
+        },
+        {
+          heading: 'Rekomendasi: Kickback sebagai Main Story',
+          content: `**Mengapa kickback, bukan Dishub?**
+
+| Kriteria | Dishub | Kickback |
+|----------|--------|----------|
+| Emotional power | Medium (teknis) | **Very high (moral courage)** |
+| Uniqueness | Low (banyak engineer) | **Very high (tidak ada yang punya)** |
+| Recency | 2017 (9 tahun lalu) | **Berkali-kali (masih terjadi)** |
+
+**Kickback = "golden thread"** yang menghubungkan semua cerita:
+- Dishub: kamu lakukan dengan benar TANPA kickback
+- Diginergy: kamu lindungi tim TANPA kompromi
+- Integritas: fondasi dari semua keputusanmu`,
+        },
+        {
+          heading: 'Struktur Baru (300 kata)',
+          content: `| Paragraf | Fokus | Kata | Hubungan |
+|----------|-------|------|----------|
+| **P1** | Personal context: Surabaya, ayah, istri | ~50 | SIAPA kamu |
+| **P2** | Masalah: Budaya kickback di kontrak pemerintah | ~60 | APA yang kamu hadapi |
+| **P3** | Responmu: Menolak, rugi kontrak, menang klien sevisi | ~60 | BAGAIMANA kamu memimpin |
+| **P4** | Pola: Dishub + Diginergy sebagai bukti | ~60 | BUKTI bahwa cara kamu berhasil |
+| **P5** | Prinsip: "Kolot tapi konsisten" — integritas sebagai kepemimpinan | ~40 | PELAJARAN |`,
+        },
+        {
+          heading: 'Framing Kickback — Aman?',
+          content: `**YA, TAPI framing hati-hati:**
+
+| ❌ Jangan Bilang | ✅ Bilang Instead |
+|-----------------|-------------------|
+| "Pemerintah korup" | "Kontrak sering kali datang dengan aturan tak tertulis" |
+| "Saya menolak suap" | "Saya menolak karena harus mengorbankan kualitas kerja" |
+| "Saya lebih baik dari mereka" | "Saya memilih jalan yang lebih lambat tapi benar" |
+| Nada self-righteous | Nada humble, explanatory |
+
+**Kunci:** Tunjukkan COST (kehilangan kontrak) dan BENEFIT (menang klien sevisi).  
+Ini cerita tentang **pengorbanan**, bukan penghakiman.`,
+        },
+        {
+          heading: 'Pertanyaan untuk Diskusi dengan Istri',
+          content: `1. **Apakah istri nyaman jika kamu menyebut kickback di essay?**
+   - Jika ya: gunakan cerita ini sebagai main story
+   - Jika tidak: gunakan Diginergy sebagai main story
+
+2. **Apakah ada momen spesifik kickback yang bisa kamu ceritakan?**
+   - Contoh: pertemuan tertentu, telepon, keputusan
+   - Ini membuat cerita lebih hidup
+
+3. **Apa kata persis istri tentang pola kerjamu?**
+   - "Kamu tidak hanya menyelesaikan proyek..."
+   - Kata-kata asli lebih powerful dari parafrase
+
+4. **Mana yang lebih penting untuk Chevening?**
+   - Dampak lokal (Dishub)
+   - Kolaborasi internasional (Diginergy)
+   - Integritas moral (kickback)`,
+        },
+      ],
+    },
     content: `Growing up in Surabaya, I watched my father struggle with government bureaucracy — long queues, manual paperwork, systems that seemed designed to waste time. Years later, when I started my own automation company, I saw the same inefficiency from the other side: government agencies running vehicle testing with four operators and paper logs while private factories nearby had already moved to robotics. The gap between what was possible and what government actually delivered was not a technology problem. It was a leadership problem. Someone needed to care enough to act.
 
 In 2017, I proposed a semi-robotic vehicle testing system to Dishub Tangerang. The KAUBT — the head of the integrated service unit — was skeptical. I was a young entrepreneur with no government track record. But I did not pitch. I explained: here is the current process, here is what is wrong, here is how we can test it together. No inflated promises, just transparency. Within months, we reduced operators from four to one and cut testing time by over 60 percent. That single project became the model for everything that followed.
@@ -412,6 +506,45 @@ export default function CheveningEssays() {
                 </p>
               </div>
             </Collapsible>
+
+            {essay.discussion && (
+              <Collapsible title="Diskusi Proposal Baru" badge="REVIEW">
+                <div style={{
+                  background: '#0f172a',
+                  border: '1px solid #fbbf24',
+                  borderRadius: '8px',
+                  padding: '1rem',
+                  fontSize: '0.85rem',
+                }}>
+                  {essay.discussion.sections.map((section, i) => (
+                    <div key={i} style={{
+                      marginBottom: i < essay.discussion.sections.length - 1 ? '1.5rem' : 0,
+                      paddingBottom: i < essay.discussion.sections.length - 1 ? '1.5rem' : 0,
+                      borderBottom: i < essay.discussion.sections.length - 1 ? '1px solid #1e293b' : 'none',
+                    }}>
+                      <h4 style={{
+                        color: '#fbbf24',
+                        margin: '0 0 0.75rem',
+                        fontSize: '0.95rem',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '0.5rem',
+                      }}>
+                        <span style={{ fontSize: '0.8rem' }}>{i + 1}.</span>
+                        {section.heading}
+                      </h4>
+                      <div style={{
+                        color: '#e2e8f0',
+                        whiteSpace: 'pre-wrap',
+                        lineHeight: '1.6',
+                      }}>
+                        {section.content}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </Collapsible>
+            )}
 
             <Collapsible title="Read Essay" badge={`${essay.wordCount} words`}>
               <div style={{
