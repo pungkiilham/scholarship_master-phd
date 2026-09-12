@@ -22,92 +22,128 @@ const essays = [
       sections: [
         {
           heading: 'Masalah Essay Saat Ini',
-          content: `> Essay 1 terlalu "project management report" — teknis kuat tapi emosional tipis.  
-> Reference essays menunjukkan **SIAPA orangnya** SEBELUM **apa yang dilakukan**.
-
-| Aspek | Essay Sekarang | Reference Essays |
-|-------|----------------|------------------|
-| Opening | Konflik (Batu 2023) | Personal context (asal daerah) |
-| Emotional hook | Tidak ada | Kutipan orang tua/mentor |
-| Unique angle | Teknis (4→1 operator) | Moral courage |`,
+          type: 'comparison',
+          note: 'Essay 1 terlalu "project management report" — teknis kuat tapi emosional tipis. Reference essays menunjukkan SIAPA orangnya SEBELUM apa yang dilakukan.',
+          table: {
+            headers: ['Aspek', 'Essay Sekarang', 'Reference Essays'],
+            rows: [
+              ['Opening', 'Konflik (Batu 2023)', 'Personal context (asal daerah)'],
+              ['Emotional hook', 'Tidak ada', 'Kutipan orang tua/mentor'],
+              ['Unique angle', 'Teknis (4→1 operator)', 'Moral courage'],
+            ],
+          },
         },
         {
           heading: 'Tiga Cerita yang Tersedia',
-          content: `### 1. Dishub Automation (2017-sekarang)
-- **Apa:** Sistem pengujian kendaraan semi-robotik
-- **Hasil:** 4→1 operator, 60% lebih cepat, Rp 300 juta/tahun
-- **Status:** Masih aktif sampai sekarang
-- ⭐ Dampak lokal kuat | ⚠️ Terlalu teknis, 9 tahun lalu
-
-### 2. Diginergy (2022-sekarang)
-- **Apa:** IT Project Manager untuk perusahaan Jerman
-- **Hasil:** "Blame me, not them"; CEO brainstorming partner
-- **Status:** Aktif, internasional
-- ⭐ Kolaborasi internasional | ⚠️ Kurang "personal"
-
-### 3. Kickback Refusal (Berkali-kali)
-- **Apa:** Menolak "hiburan" untuk pejabat pemerintah
-- **Hasil:** Rugi kontrak, tapi menang klien sevisi
-- **Status:** Terjadi berkali-kali, masih relevan
-- ⭐ Moral courage, sangat unik | ⚠️ Sensitif, perlu framing hati-hati`,
+          type: 'cards',
+          cards: [
+            {
+              title: 'Dishub Automation (2017-sekarang)',
+              icon: '🔧',
+              color: '#4ade80',
+              rows: [
+                { label: 'Apa', value: 'Sistem pengujian kendaraan semi-robotik' },
+                { label: 'Hasil', value: '4→1 operator, 60% lebih cepat, Rp 300 juta/tahun' },
+                { label: 'Status', value: 'Masih aktif sampai sekarang' },
+              ],
+              pros: 'Dampak lokal kuat',
+              cons: 'Terlalu teknis, 9 tahun lalu',
+            },
+            {
+              title: 'Diginergy (2022-sekarang)',
+              icon: '🌍',
+              color: '#60a5fa',
+              rows: [
+                { label: 'Apa', value: 'IT Project Manager untuk perusahaan Jerman' },
+                { label: 'Hasil', value: '"Blame me, not them"; CEO brainstorming partner' },
+                { label: 'Status', value: 'Aktif, internasional' },
+              ],
+              pros: 'Kolaborasi internasional',
+              cons: 'Kurang "personal"',
+            },
+            {
+              title: 'Kickback Refusal (Berkali-kali)',
+              icon: '🛡️',
+              color: '#fbbf24',
+              rows: [
+                { label: 'Apa', value: 'Menolak "hiburan" untuk pejabat pemerintah' },
+                { label: 'Hasil', value: 'Rugi kontrak, tapi menang klien sevisi' },
+                { label: 'Status', value: 'Terjadi berkali-kali, masih relevan' },
+              ],
+              pros: 'Moral courage, sangat unik',
+              cons: 'Sensitif, perlu framing hati-hati',
+            },
+          ],
         },
         {
           heading: 'Rekomendasi: Kickback sebagai Main Story',
-          content: `**Mengapa kickback, bukan Dishub?**
-
-| Kriteria | Dishub | Kickback |
-|----------|--------|----------|
-| Emotional power | Medium (teknis) | **Very high (moral courage)** |
-| Uniqueness | Low (banyak engineer) | **Very high (tidak ada yang punya)** |
-| Recency | 2017 (9 tahun lalu) | **Berkali-kali (masih terjadi)** |
-
-**Kickback = "golden thread"** yang menghubungkan semua cerita:
-- Dishub: kamu lakukan dengan benar TANPA kickback
-- Diginergy: kamu lindungi tim TANPA kompromi
-- Integritas: fondasi dari semua keputusanmu`,
+          type: 'recommendation',
+          reason: 'Mengapa kickback, bukan Dishub?',
+          table: {
+            headers: ['Kriteria', 'Dishub', 'Kickback'],
+            rows: [
+              ['Emotional power', 'Medium (teknis)', 'Very high (moral courage)'],
+              ['Uniqueness', 'Low (banyak engineer)', 'Very high (tidak ada yang punya)'],
+              ['Recency', '2017 (9 tahun lalu)', 'Berkali-kali (masih terjadi)'],
+            ],
+          },
+          threads: [
+            { label: 'Dishub', text: 'kamu lakukan dengan benar TANPA kickback' },
+            { label: 'Diginergy', text: 'kamu lindungi tim TANPA kompromi' },
+            { label: 'Integritas', text: 'fondasi dari semua keputusanmu' },
+          ],
         },
         {
           heading: 'Struktur Baru (300 kata)',
-          content: `| Paragraf | Fokus | Kata | Hubungan |
-|----------|-------|------|----------|
-| **P1** | Personal context: Surabaya, ayah, istri | ~50 | SIAPA kamu |
-| **P2** | Masalah: Budaya kickback di kontrak pemerintah | ~60 | APA yang kamu hadapi |
-| **P3** | Responmu: Menolak, rugi kontrak, menang klien sevisi | ~60 | BAGAIMANA kamu memimpin |
-| **P4** | Pola: Dishub + Diginergy sebagai bukti | ~60 | BUKTI bahwa cara kamu berhasil |
-| **P5** | Prinsip: "Kolot tapi konsisten" — integritas sebagai kepemimpinan | ~40 | PELAJARAN |`,
+          type: 'structure',
+          table: {
+            headers: ['#', 'Fokus', 'Kata', 'Hubungan'],
+            rows: [
+              ['P1', 'Personal context: Surabaya, ayah, istri', '~50', 'SIAPA kamu'],
+              ['P2', 'Masalah: Budaya kickback di kontrak pemerintah', '~60', 'APA yang kamu hadapi'],
+              ['P3', 'Responmu: Menolak, rugi kontrak, menang klien sevisi', '~60', 'BAGAIMANA kamu memimpin'],
+              ['P4', 'Pola: Dishub + Diginergy sebagai bukti', '~60', 'BUKTI bahwa cara kamu berhasil'],
+              ['P5', 'Prinsip: "Kolot tapi konsisten"', '~40', 'PELAJARAN'],
+            ],
+          },
         },
         {
           heading: 'Framing Kickback — Aman?',
-          content: `**YA, TAPI framing hati-hati:**
-
-| ❌ Jangan Bilang | ✅ Bilang Instead |
-|-----------------|-------------------|
-| "Pemerintah korup" | "Kontrak sering kali datang dengan aturan tak tertulis" |
-| "Saya menolak suap" | "Saya menolak karena harus mengorbankan kualitas kerja" |
-| "Saya lebih baik dari mereka" | "Saya memilih jalan yang lebih lambat tapi benar" |
-| Nada self-righteous | Nada humble, explanatory |
-
-**Kunci:** Tunjukkan COST (kehilangan kontrak) dan BENEFIT (menang klien sevisi).  
-Ini cerita tentang **pengorbanan**, bukan penghakiman.`,
+          type: 'framing',
+          note: 'YA, TAPI framing hati-hati:',
+          table: {
+            headers: ['❌ Jangan Bilang', '✅ Bilang Instead'],
+            rows: [
+              ['"Pemerintah korup"', '"Kontrak sering kali datang dengan aturan tak tertulis"'],
+              ['"Saya menolak suap"', '"Saya menolak karena harus mengorbankan kualitas kerja"'],
+              ['"Saya lebih baik dari mereka"', '"Saya memilih jalan yang lebih lambat tapi benar"'],
+              ['Nada self-righteous', 'Nada humble, explanatory'],
+            ],
+          },
+          key: 'Tunjukkan COST (kehilangan kontrak) dan BENEFIT (menang klien sevisi). Ini cerita tentang pengorbanan, bukan penghakiman.',
         },
         {
           heading: 'Pertanyaan untuk Diskusi dengan Istri',
-          content: `1. **Apakah istri nyaman jika kamu menyebut kickback di essay?**
-   - Jika ya: gunakan cerita ini sebagai main story
-   - Jika tidak: gunakan Diginergy sebagai main story
-
-2. **Apakah ada momen spesifik kickback yang bisa kamu ceritakan?**
-   - Contoh: pertemuan tertentu, telepon, keputusan
-   - Ini membuat cerita lebih hidup
-
-3. **Apa kata persis istri tentang pola kerjamu?**
-   - "Kamu tidak hanya menyelesaikan proyek..."
-   - Kata-kata asli lebih powerful dari parafrase
-
-4. **Mana yang lebih penting untuk Chevening?**
-   - Dampak lokal (Dishub)
-   - Kolaborasi internasional (Diginergy)
-   - Integritas moral (kickback)`,
+          type: 'questions',
+          questions: [
+            {
+              q: 'Apakah istri nyaman jika kamu menyebut kickback di essay?',
+              yes: 'Gunakan cerita ini sebagai main story',
+              no: 'Gunakan Diginergy sebagai main story',
+            },
+            {
+              q: 'Apakah ada momen spesifik kickback yang bisa kamu ceritakan?',
+              detail: 'Contoh: pertemuan tertentu, telepon, keputusan. Ini membuat cerita lebih hidup.',
+            },
+            {
+              q: 'Apa kata persis istri tentang pola kerjamu?',
+              detail: '"Kamu tidak hanya menyelesaikan proyek..." — kata-kata asli lebih powerful dari parafrase.',
+            },
+            {
+              q: 'Mana yang lebih penting untuk Chevening?',
+              options: ['Dampak lokal (Dishub)', 'Kolaborasi internasional (Diginergy)', 'Integritas moral (kickback)'],
+            },
+          ],
         },
       ],
     },
@@ -533,13 +569,293 @@ export default function CheveningEssays() {
                         <span style={{ fontSize: '0.8rem' }}>{i + 1}.</span>
                         {section.heading}
                       </h4>
-                      <div style={{
-                        color: '#e2e8f0',
-                        whiteSpace: 'pre-wrap',
-                        lineHeight: '1.6',
-                      }}>
-                        {section.content}
-                      </div>
+
+                      {/* Note */}
+                      {section.note && (
+                        <p style={{ color: '#94a3b8', margin: '0 0 0.75rem', fontStyle: 'italic' }}>
+                          {section.note}
+                        </p>
+                      )}
+
+                      {/* Standard Table */}
+                      {section.type === 'comparison' && section.table && (
+                        <div style={{ overflowX: 'auto' }}>
+                          <table style={{
+                            width: '100%',
+                            borderCollapse: 'collapse',
+                            fontSize: '0.8rem',
+                          }}>
+                            <thead>
+                              <tr>
+                                {section.table.headers.map((h, j) => (
+                                  <th key={j} style={{
+                                    background: '#1e293b',
+                                    color: '#fbbf24',
+                                    padding: '0.5rem 0.75rem',
+                                    textAlign: 'left',
+                                    borderBottom: '2px solid #334155',
+                                  }}>{h}</th>
+                                ))}
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {section.table.rows.map((row, j) => (
+                                <tr key={j}>
+                                  {row.map((cell, k) => (
+                                    <td key={k} style={{
+                                      padding: '0.5rem 0.75rem',
+                                      borderBottom: '1px solid #1e293b',
+                                      color: k === 0 ? '#e2e8f0' : '#94a3b8',
+                                      fontWeight: k === 0 ? 600 : 400,
+                                    }}>{cell}</td>
+                                  ))}
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
+                      )}
+
+                      {/* Cards */}
+                      {section.type === 'cards' && section.cards && (
+                        <div style={{
+                          display: 'grid',
+                          gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
+                          gap: '0.75rem',
+                        }}>
+                          {section.cards.map((card, j) => (
+                            <div key={j} style={{
+                              background: '#1e293b',
+                              borderRadius: '8px',
+                              padding: '0.75rem',
+                              border: `1px solid ${card.color}40`,
+                            }}>
+                              <div style={{
+                                display: 'flex',
+                                alignItems: 'center',
+                                gap: '0.5rem',
+                                marginBottom: '0.5rem',
+                              }}>
+                                <span>{card.icon}</span>
+                                <span style={{ color: card.color, fontWeight: 600, fontSize: '0.85rem' }}>
+                                  {card.title}
+                                </span>
+                              </div>
+                              {card.rows.map((row, k) => (
+                                <div key={k} style={{ marginBottom: '0.25rem' }}>
+                                  <span style={{ color: '#64748b', fontSize: '0.75rem' }}>{row.label}: </span>
+                                  <span style={{ color: '#e2e8f0', fontSize: '0.8rem' }}>{row.value}</span>
+                                </div>
+                              ))}
+                              <div style={{
+                                marginTop: '0.5rem',
+                                paddingTop: '0.5rem',
+                                borderTop: '1px solid #334155',
+                                fontSize: '0.75rem',
+                              }}>
+                                <span style={{ color: '#4ade80' }}>✓ {card.pros}</span>
+                                <br />
+                                <span style={{ color: '#fbbf24' }}>⚠ {card.cons}</span>
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      )}
+
+                      {/* Recommendation */}
+                      {section.type === 'recommendation' && (
+                        <div>
+                          <p style={{ color: '#e2e8f0', margin: '0 0 0.5rem', fontWeight: 600 }}>
+                            {section.reason}
+                          </p>
+                          {section.table && (
+                            <div style={{ overflowX: 'auto', marginBottom: '0.75rem' }}>
+                              <table style={{
+                                width: '100%',
+                                borderCollapse: 'collapse',
+                                fontSize: '0.8rem',
+                              }}>
+                                <thead>
+                                  <tr>
+                                    {section.table.headers.map((h, j) => (
+                                      <th key={j} style={{
+                                        background: '#1e293b',
+                                        color: '#fbbf24',
+                                        padding: '0.5rem 0.75rem',
+                                        textAlign: 'left',
+                                        borderBottom: '2px solid #334155',
+                                      }}>{h}</th>
+                                    ))}
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  {section.table.rows.map((row, j) => (
+                                    <tr key={j}>
+                                      {row.map((cell, k) => (
+                                        <td key={k} style={{
+                                          padding: '0.5rem 0.75rem',
+                                          borderBottom: '1px solid #1e293b',
+                                          color: k === 0 ? '#e2e8f0' : '#94a3b8',
+                                          fontWeight: k === 0 ? 600 : 400,
+                                        }}>{cell}</td>
+                                      ))}
+                                    </tr>
+                                  ))}
+                                </tbody>
+                              </table>
+                            </div>
+                          )}
+                          <p style={{ color: '#4ade80', margin: '0 0 0.5rem', fontWeight: 600, fontSize: '0.8rem' }}>
+                            Kickback = "golden thread" yang menghubungkan semua cerita:
+                          </p>
+                          <ul style={{ margin: 0, paddingLeft: '1.25rem' }}>
+                            {section.threads.map((t, j) => (
+                              <li key={j} style={{ marginBottom: '0.25rem', color: '#94a3b8', fontSize: '0.8rem' }}>
+                                <span style={{ color: '#e2e8f0', fontWeight: 600 }}>{t.label}: </span>
+                                {t.text}
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+
+                      {/* Structure */}
+                      {section.type === 'structure' && section.table && (
+                        <div style={{ overflowX: 'auto' }}>
+                          <table style={{
+                            width: '100%',
+                            borderCollapse: 'collapse',
+                            fontSize: '0.8rem',
+                          }}>
+                            <thead>
+                              <tr>
+                                {section.table.headers.map((h, j) => (
+                                  <th key={j} style={{
+                                    background: '#1e293b',
+                                    color: '#fbbf24',
+                                    padding: '0.5rem 0.75rem',
+                                    textAlign: 'left',
+                                    borderBottom: '2px solid #334155',
+                                  }}>{h}</th>
+                                ))}
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {section.table.rows.map((row, j) => (
+                                <tr key={j}>
+                                  {row.map((cell, k) => (
+                                    <td key={k} style={{
+                                      padding: '0.5rem 0.75rem',
+                                      borderBottom: '1px solid #1e293b',
+                                      color: k === 0 ? '#fbbf24' : k === 3 ? '#4ade80' : '#e2e8f0',
+                                      fontWeight: k === 0 || k === 3 ? 600 : 400,
+                                    }}>{cell}</td>
+                                  ))}
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
+                      )}
+
+                      {/* Framing */}
+                      {section.type === 'framing' && (
+                        <div>
+                          {section.note && (
+                            <p style={{ color: '#4ade80', margin: '0 0 0.5rem', fontWeight: 600, fontSize: '0.8rem' }}>
+                              {section.note}
+                            </p>
+                          )}
+                          {section.table && (
+                            <div style={{ overflowX: 'auto', marginBottom: '0.75rem' }}>
+                              <table style={{
+                                width: '100%',
+                                borderCollapse: 'collapse',
+                                fontSize: '0.8rem',
+                              }}>
+                                <thead>
+                                  <tr>
+                                    {section.table.headers.map((h, j) => (
+                                      <th key={j} style={{
+                                        background: '#1e293b',
+                                        color: j === 0 ? '#ef4444' : '#4ade80',
+                                        padding: '0.5rem 0.75rem',
+                                        textAlign: 'left',
+                                        borderBottom: '2px solid #334155',
+                                      }}>{h}</th>
+                                    ))}
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  {section.table.rows.map((row, j) => (
+                                    <tr key={j}>
+                                      {row.map((cell, k) => (
+                                        <td key={k} style={{
+                                          padding: '0.5rem 0.75rem',
+                                          borderBottom: '1px solid #1e293b',
+                                          color: k === 0 ? '#fca5a5' : '#86efac',
+                                        }}>{cell}</td>
+                                      ))}
+                                    </tr>
+                                  ))}
+                                </tbody>
+                              </table>
+                            </div>
+                          )}
+                          {section.key && (
+                            <p style={{ color: '#fbbf24', margin: 0, fontSize: '0.8rem', fontStyle: 'italic' }}>
+                              Kunci: {section.key}
+                            </p>
+                          )}
+                        </div>
+                      )}
+
+                      {/* Questions */}
+                      {section.type === 'questions' && section.questions && (
+                        <div style={{
+                          display: 'flex',
+                          flexDirection: 'column',
+                          gap: '0.75rem',
+                        }}>
+                          {section.questions.map((q, j) => (
+                            <div key={j} style={{
+                              background: '#1e293b',
+                              borderRadius: '8px',
+                              padding: '0.75rem',
+                              borderLeft: '3px solid #fbbf24',
+                            }}>
+                              <p style={{ color: '#e2e8f0', margin: '0 0 0.5rem', fontWeight: 600, fontSize: '0.85rem' }}>
+                                {j + 1}. {q.q}
+                              </p>
+                              {q.yes && q.no && (
+                                <div style={{ fontSize: '0.8rem' }}>
+                                  <p style={{ color: '#4ade80', margin: '0 0 0.25rem' }}>→ Jika ya: {q.yes}</p>
+                                  <p style={{ color: '#fbbf24', margin: 0 }}>→ Jika tidak: {q.no}</p>
+                                </div>
+                              )}
+                              {q.detail && (
+                                <p style={{ color: '#94a3b8', margin: '0.5rem 0 0', fontSize: '0.8rem' }}>
+                                  {q.detail}
+                                </p>
+                              )}
+                              {q.options && (
+                                <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginTop: '0.5rem' }}>
+                                  {q.options.map((opt, k) => (
+                                    <span key={k} style={{
+                                      background: '#0f172a',
+                                      color: '#94a3b8',
+                                      padding: '0.25rem 0.5rem',
+                                      borderRadius: '4px',
+                                      fontSize: '0.75rem',
+                                      border: '1px solid #334155',
+                                    }}>{opt}</span>
+                                  ))}
+                                </div>
+                              )}
+                            </div>
+                          ))}
+                        </div>
+                      )}
                     </div>
                   ))}
                 </div>
